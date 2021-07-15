@@ -8,10 +8,11 @@ public class Interactable : MonoBehaviour
     Transform player;
     bool hasInteracted = false;
     public PlayerMove character;
+    public GameManage gamemanage;
 
     public virtual void Interact()
     {
-        Debug.Log("INTERACTING WITH " + transform.name);
+        gamemanage.Interacting();
     }
 
     void Update()
@@ -26,14 +27,14 @@ public class Interactable : MonoBehaviour
             }
             else
             {
-                Debug.Log("MOVE CLOSER");
+                gamemanage.TooFar();
                 hasInteracted = true;
                 character.RemoveFocus();
             }
         }
     }
 
-    public void OnFocused (Transform playerTransform)
+    public void OnFocused(Transform playerTransform)
     {
         isFocus = true;
         player = playerTransform;
