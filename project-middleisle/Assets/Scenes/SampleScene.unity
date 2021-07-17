@@ -248,7 +248,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &34307273
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1629,7 +1629,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '"Replace me with dialogue."'
+  m_Text: '"Click this box to advance the dialogue. Click outside to end."'
 --- !u!222 &2064917562
 CanvasRenderer:
   m_ObjectHideFlags: 0
