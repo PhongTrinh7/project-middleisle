@@ -13,6 +13,10 @@ public class Interactable : MonoBehaviour
     public virtual void Interact()
     {
         gamemanage.Interacting();
+
+        //I am assuming the default interaction with objects is a dialogue pop up.
+        //If that's not the case, place this method in an override on a child class.
+        gamemanage.StartDialogue();
     }
 
     void Update()
