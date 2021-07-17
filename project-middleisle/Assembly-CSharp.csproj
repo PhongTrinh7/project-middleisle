@@ -56,8 +56,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\IsoMove.cs" />
+     <Compile Include="Assets\Scripts\Curio.cs" />
      <Compile Include="Assets\Scripts\GameManagement\GameManage.cs" />
+     <Compile Include="Assets\Scripts\GameManagement\Inspector.cs" />
      <Compile Include="Assets\Scripts\GameManagement\Inventory.cs" />
+     <Compile Include="Assets\Scripts\GameManagement\InventorySlot.cs" />
+     <Compile Include="Assets\Scripts\GameManagement\InventoryUI.cs" />
+     <Compile Include="Assets\Scripts\GameManagement\WindowManage.cs" />
      <Compile Include="Assets\Scripts\Interactable.cs" />
      <Compile Include="Assets\Scripts\Item.cs" />
      <Compile Include="Assets\Scripts\ItemPickup.cs" />
