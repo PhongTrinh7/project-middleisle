@@ -16,7 +16,9 @@ public class Interactable : MonoBehaviour
 
         //I am assuming the default interaction with objects is a dialogue pop up.
         //If that's not the case, place this method in an override on a child class.
-        gamemanage.StartDialogue();
+        // gamemanage.StartDialogue();
+
+        // - I think pickups will actually be the default interaction (or perhaps just as many). I added the override in the child class "curio"  - Jack
     }
 
     void Update()
