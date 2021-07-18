@@ -7,8 +7,7 @@ public class GameManage : MonoBehaviour
 {
     //UI
     public Text notification;
-    public GameObject dialoguePopUp;
-    private bool inDialogue; //Potentially for future use.
+    public AlertBacking alertBacking;
 
     // Start is called before the first frame update
     void Start()
@@ -24,42 +23,30 @@ public class GameManage : MonoBehaviour
 
     public void Interacting()
     {
+        StopAllCoroutines();
         StartCoroutine(sendNotification("INTERACTING", 2));
     }
 
     public void TooFar()
     {
-        StartCoroutine(sendNotification("MOVE CLOSER", 2));
+        StopAllCoroutines();
+        StartCoroutine(sendNotification("\"I need to get closer.\"", 2));
     }
 
-    public void StartDialogue()
+    public void pickup(string itemName)
     {
-        inDialogue = true;
-        dialoguePopUp.SetActive(true);
-    }
-
-    public void AdvanceDialogue()
-    {
-        //TODO.
-        Debug.Log("Advance Dialogue");
-    }
-
-    public void EndDialogue()
-    {
-        inDialogue = false;
-        dialoguePopUp.SetActive(false);
-    }
-
-    public void pickup()
-    {
-        StartCoroutine(sendNotification("CHECK INVENTORY", 2));
+        StopAllCoroutines();
+        StartCoroutine(sendNotification("Picked up: " + itemName, 2));
     }
 
     IEnumerator sendNotification(string text, int time)
     {
+        alertBacking.gameObject.SetActive(true);
         notification.text = text;
+        alertBacking.Resize();
         yield return new WaitForSeconds(time);
         notification.text = "";
+        alertBacking.gameObject.SetActive(false);
 
     }
 }
