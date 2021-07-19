@@ -8,11 +8,12 @@ public class GameManage : MonoBehaviour
     //UI
     public Text notification;
     public AlertBacking alertBacking;
+    public static GameManage gamemanager;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        gamemanager = this;
     }
 
     // Update is called once per frame

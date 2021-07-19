@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4fa9566289e22e4a82d2dad48178112, type: 3}
   m_Name: Cylinder Key
   m_EditorClassIdentifier: 
-  name: Cyclinder Key
+  name: Cylinder Key
   icon: {fileID: 21300000, guid: 67b008b9c3e52d6429c14ad575fea9e7, type: 3}
   description: This is a Cylinder. It is the second Key.
   IsKey: 1

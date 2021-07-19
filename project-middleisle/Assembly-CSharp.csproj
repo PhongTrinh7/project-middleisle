@@ -58,23 +58,25 @@
      <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
      <Compile Include="Assets\IsoMove.cs" />
      <Compile Include="Assets\Scripts\AlertBacking.cs" />
-     <Compile Include="Assets\Scripts\Curio.cs" />
+     <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\Scripts\DialogueManager.cs" />
-     <Compile Include="Assets\Scripts\DoorCloser.cs" />
-     <Compile Include="Assets\Scripts\DoorController.cs" />
      <Compile Include="Assets\Scripts\GameManagement\GameManage.cs" />
      <Compile Include="Assets\Scripts\GameManagement\Inspector.cs" />
      <Compile Include="Assets\Scripts\GameManagement\Inventory.cs" />
      <Compile Include="Assets\Scripts\GameManagement\InventorySlot.cs" />
      <Compile Include="Assets\Scripts\GameManagement\InventoryUI.cs" />
      <Compile Include="Assets\Scripts\GameManagement\WindowManage.cs" />
-     <Compile Include="Assets\Scripts\Interactable.cs" />
-     <Compile Include="Assets\Scripts\Item.cs" />
-     <Compile Include="Assets\Scripts\ItemPickup.cs" />
-     <Compile Include="Assets\Scripts\KeyPickup.cs" />
+     <Compile Include="Assets\Scripts\Interactables\Curio.cs" />
+     <Compile Include="Assets\Scripts\Interactables\DoorCloser.cs" />
+     <Compile Include="Assets\Scripts\Interactables\DoorController.cs" />
+     <Compile Include="Assets\Scripts\Interactables\Interactable.cs" />
+     <Compile Include="Assets\Scripts\Interactables\Item.cs" />
+     <Compile Include="Assets\Scripts\Interactables\ItemPickup.cs" />
+     <Compile Include="Assets\Scripts\Interactables\KeyPickup.cs" />
      <Compile Include="Assets\Scripts\PlayerFollow.cs" />
      <Compile Include="Assets\Scripts\PlayerMove.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Sounds.cs" />
      <None Include="Assets\Allegorithmic\Plugins\EULA.txt" />
      <None Include="Assets\Allegorithmic\Plugins\engine_build_info.txt" />
  <Reference Include="UnityEngine">
@@ -620,6 +622,9 @@
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/USER/Documents/GitHub/project-middleisle/project-middleisle/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>C:/Users/USER/Documents/GitHub/project-middleisle/project-middleisle/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.ProGrids">
  <HintPath>C:/Users/USER/Documents/GitHub/project-middleisle/project-middleisle/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
  </Reference>
@@ -683,6 +688,9 @@
  <Reference Include="Autodesk.Fbx">
  <HintPath>C:/Users/USER/Documents/GitHub/project-middleisle/project-middleisle/Library/ScriptAssemblies/Autodesk.Fbx.dll</HintPath>
  </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>C:/Users/USER/Documents/GitHub/project-middleisle/project-middleisle/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VisualEffectGraph.Editor">
  <HintPath>C:/Users/USER/Documents/GitHub/project-middleisle/project-middleisle/Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll</HintPath>
  </Reference>
@@ -706,12 +714,6 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Users/USER/Documents/GitHub/project-middleisle/project-middleisle/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Cinemachine">
- <HintPath>C:/Users/USER/Documents/GitHub/project-middleisle/project-middleisle/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.cinemachine.editor">
- <HintPath>C:/Users/USER/Documents/GitHub/project-middleisle/project-middleisle/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

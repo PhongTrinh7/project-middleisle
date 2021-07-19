@@ -17,8 +17,11 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
     public InventoryUI inventory;
     public GameObject dialoguePopUp;
 
+    public static PlayerMove character;
+
     void Start()
     {
+        character = this;
         animator = GetComponent<Animator>();
         controller = GetComponent<CharacterController>();
     }
@@ -28,7 +31,7 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
     {
         if (EventSystem.current.IsPointerOverGameObject())
             return;
-
+        
         controller.Move(_direction * _speed * Time.deltaTime);
         if (_direction.magnitude > 0.01)
         {
@@ -36,7 +39,9 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
             transform.rotation = Quaternion.LookRotation(_direction);
         }
         else
+        {
             animator.SetBool("IsWalking", false);
+        }
 
         mouseVector = Mouse.current.position.ReadValue();
     }
@@ -135,5 +140,10 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
             focus.OnDefocused();
         }
         focus = null;
+    }
+
+    private void Step()
+    {
+        AudioManager.Audio.Play("FootStep");
     }
 }
