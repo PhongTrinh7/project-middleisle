@@ -1,16 +1,21 @@
 ﻿using UnityEngine;
 
-public class ItemPickup : Interactable
+public class KeyPickup : Interactable
 {
     public Item item;
+    public DoorController door;
 
     public override void Interact()
     {
-        ItemPickUp();
+        KeyPickUp();
     }
 
-    void ItemPickUp ()
+    void KeyPickUp()
     {
+        if (item.IsKey = true)
+        {
+            door.unlocked = true;
+        }
         Debug.Log("Picked Up " + item.name);
         gamemanage.pickup(item.name);
         bool wasPickedUp = Inventory.instance.Add(item);

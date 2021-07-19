@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4fa9566289e22e4a82d2dad48178112, type: 3}
-  m_Name: Sphere
+  m_Name: Cylinder Key
   m_EditorClassIdentifier: 
-  name: Sphere
-  icon: {fileID: 21300000, guid: 4b3d3ba952dd7a24cb206bbd36ef896e, type: 3}
-  description: This is a Sphere.
-  IsKey: 0
+  name: Cyclinder Key
+  icon: {fileID: 21300000, guid: 67b008b9c3e52d6429c14ad575fea9e7, type: 3}
+  description: This is a Cylinder. It is the second Key.
+  IsKey: 1

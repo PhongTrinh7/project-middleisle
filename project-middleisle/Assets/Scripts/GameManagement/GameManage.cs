@@ -33,6 +33,12 @@ public class GameManage : MonoBehaviour
         StartCoroutine(sendNotification("\"I need to get closer.\"", 2));
     }
 
+    public void Locked()
+    {
+        StopAllCoroutines();
+        StartCoroutine(sendNotification("\"It won't open.\"", 2));
+    }
+
     public void pickup(string itemName)
     {
         StopAllCoroutines();

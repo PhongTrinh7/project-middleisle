@@ -60,6 +60,8 @@
      <Compile Include="Assets\Scripts\AlertBacking.cs" />
      <Compile Include="Assets\Scripts\Curio.cs" />
      <Compile Include="Assets\Scripts\DialogueManager.cs" />
+     <Compile Include="Assets\Scripts\DoorCloser.cs" />
+     <Compile Include="Assets\Scripts\DoorController.cs" />
      <Compile Include="Assets\Scripts\GameManagement\GameManage.cs" />
      <Compile Include="Assets\Scripts\GameManagement\Inspector.cs" />
      <Compile Include="Assets\Scripts\GameManagement\Inventory.cs" />
@@ -69,6 +71,7 @@
      <Compile Include="Assets\Scripts\Interactable.cs" />
      <Compile Include="Assets\Scripts\Item.cs" />
      <Compile Include="Assets\Scripts\ItemPickup.cs" />
+     <Compile Include="Assets\Scripts\KeyPickup.cs" />
      <Compile Include="Assets\Scripts\PlayerFollow.cs" />
      <Compile Include="Assets\Scripts\PlayerMove.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
@@ -703,6 +706,12 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Users/USER/Documents/GitHub/project-middleisle/project-middleisle/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>C:/Users/USER/Documents/GitHub/project-middleisle/project-middleisle/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>C:/Users/USER/Documents/GitHub/project-middleisle/project-middleisle/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
