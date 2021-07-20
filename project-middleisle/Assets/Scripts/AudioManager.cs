@@ -18,16 +18,18 @@ public class AudioManager : MonoBehaviour
         {
             s.source = gameObject.AddComponent<AudioSource>();
             s.source.clip = s.clip;
+            s.source.volume = s.volume;
             s.source.loop = s.loop;
+            s.source.pitch = s.pitch;
         }
     }
 
     void Start()
     {
-        AudioManager.Audio.Play("FootStep");
+
     }
 
-    public void Play (string name)
+    public void Play(string name)
     {
         Sound s = Array.Find(sounds, sound => sound.name == name);
         if (s == null)
@@ -47,5 +49,11 @@ public class AudioManager : MonoBehaviour
             return;
         }
         s.source.Stop();
+    }
+
+    public void Walking()
+    {
+        Sound s = sounds[UnityEngine.Random.Range(0, 5)];
+        s.source.Play();
     }
 }

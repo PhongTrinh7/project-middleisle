@@ -12,6 +12,7 @@ public class DialogueManager : MonoBehaviour
     private Queue<string> dialogue;
     public float dialogueDelay = 0.5f;
     public float textScrollDelay = 0.1f;
+    public bool dialogueskip = false;
 
     private void Awake()
     {
@@ -48,8 +49,12 @@ public class DialogueManager : MonoBehaviour
         foreach(char c in line)
         {
             dialogueText.text += c;
+            AudioManager.Audio.Play("Lissevoicefast");
             // Use this if you'd like to modify the text scroll rate, otherwise it will scroll 1 character per frame.
-            //yield return new WaitForSecondsRealtime(textScrollDelay);
+            if(dialogueskip == false)
+            {
+                yield return new WaitForSecondsRealtime(0.02f);
+            }
             yield return null;
         }
     }

@@ -1020,7 +1020,7 @@ PrefabInstance:
         type: 3}
       propertyPath: character
       value: 
-      objectReference: {fileID: 8947348805309976036}
+      objectReference: {fileID: 0}
     - target: {fileID: 4561621552491482544, guid: a0efb75820ace13418f2b08904a4481a,
         type: 3}
       propertyPath: gamemanage
@@ -3755,6 +3755,107 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1064729870}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &586173744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59b6606ef2548734bb6d11b9d160bc7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  rotation:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 360
+  skyIntensityMode:
+    m_OverrideState: 0
+    m_Value: 0
+  exposure:
+    m_OverrideState: 0
+    m_Value: 10
+  multiplier:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+  upperHemisphereLuxValue:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+  upperHemisphereLuxColor:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0, z: 0}
+  desiredLuxValue:
+    m_OverrideState: 0
+    m_Value: 20000
+  updateMode:
+    m_OverrideState: 0
+    m_Value: 0
+  updatePeriod:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+  includeSunInBaking:
+    m_OverrideState: 0
+    m_Value: 0
+  hdriSky:
+    m_OverrideState: 0
+    m_Value: {fileID: 8900000, guid: 8253d41e6e8b11a4cbe77a4f8f82934d, type: 3}
+  enableBackplate:
+    m_OverrideState: 0
+    m_Value: 0
+  backplateType:
+    m_OverrideState: 0
+    m_Value: 0
+  groundLevel:
+    m_OverrideState: 0
+    m_Value: 0
+  scale:
+    m_OverrideState: 0
+    m_Value: {x: 32, y: 32}
+  projectionDistance:
+    m_OverrideState: 0
+    m_Value: 16
+    min: 0.0000001
+  plateRotation:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 360
+  plateTexRotation:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 360
+  plateTexOffset:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}
+  blendAmount:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 100
+  shadowTint:
+    m_OverrideState: 0
+    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  pointLightShadow:
+    m_OverrideState: 0
+    m_Value: 0
+  dirLightShadow:
+    m_OverrideState: 0
+    m_Value: 0
+  rectLightShadow:
+    m_OverrideState: 0
+    m_Value: 0
 --- !u!4 &586552716 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 08b4c725481c02142bc3979311b00e90,
@@ -6246,7 +6347,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   volumeAnchorOverride: {fileID: 0}
-  antialiasing: 0
+  antialiasing: 3
   SMAAQuality: 2
   dithering: 0
   stopNaNs: 0
@@ -11682,9 +11783,89 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: FootStep
-    clip: {fileID: 8300000, guid: 4a47c8627e4d1c44f86407e91875e139, type: 3}
+  - name: FootStep1
+    clip: {fileID: 8300000, guid: 32d1091d1c889c540b0d995c6a9bcff4, type: 3}
+    volume: 0.549
     loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: FootStep2
+    clip: {fileID: 8300000, guid: d8eee52afeaa97d45a97c1fb59e13f24, type: 3}
+    volume: 0.51
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: FootStep3
+    clip: {fileID: 8300000, guid: 38182d9b3c4a2cc47945c76cebc58958, type: 3}
+    volume: 0.498
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: FootStep4
+    clip: {fileID: 8300000, guid: 63d5f133091b197409d48c875ba70847, type: 3}
+    volume: 0.507
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: FootStep5
+    clip: {fileID: 8300000, guid: 0f9bcd4ff17c9a2478e57f4b15f4efc0, type: 3}
+    volume: 0.524
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: Test Audio
+    clip: {fileID: 8300000, guid: bbbed1dbabc847341ba7526a986e7183, type: 3}
+    volume: 0.524
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: Doorclose
+    clip: {fileID: 8300000, guid: 3483f5f463d28144cbc555836504c96a, type: 3}
+    volume: 0.524
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: Doorlocked
+    clip: {fileID: 8300000, guid: 61be44ec4ad713c4abd3c2cad8d7a2b4, type: 3}
+    volume: 0.524
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: Dooropen
+    clip: {fileID: 8300000, guid: 16805ab43192ac748a4708e8c8e8176e, type: 3}
+    volume: 0.524
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: Pickup
+    clip: {fileID: 8300000, guid: 0ab3482e5eda8f849ac65229e8028b3f, type: 3}
+    volume: 0.524
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: OpenInventory
+    clip: {fileID: 8300000, guid: 173e2f20a585cf346b5ddfd654228166, type: 3}
+    volume: 0.524
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: Click
+    clip: {fileID: 8300000, guid: 2e9a0d93f26484a498c48132a535c2d1, type: 3}
+    volume: 0.524
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: Lissevoice
+    clip: {fileID: 8300000, guid: d3e67695b558ed645bfa334f322b7efc, type: 3}
+    volume: 0.328
+    loop: 0
+    pitch: 0.56
+    source: {fileID: 0}
+  - name: Lissevoicefast
+    clip: {fileID: 8300000, guid: 40e50dbbdd4f5cb4f8bfd8b82bb503e7, type: 3}
+    volume: 0.328
+    loop: 0
+    pitch: 1.12
     source: {fileID: 0}
 --- !u!4 &1636899695
 Transform:
@@ -11731,7 +11912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Profile: {fileID: 11400000, guid: 95580709f217ddd4da28f9b67ce1178a, type: 2}
   m_StaticLightingSkyUniqueID: 1
-  m_SkySettings: {fileID: 1987790565}
+  m_SkySettings: {fileID: 586173744}
   m_SkySettingsFromProfile: {fileID: 7488742677745068149, guid: 95580709f217ddd4da28f9b67ce1178a,
     type: 2}
 --- !u!4 &1644035647
@@ -12852,6 +13033,7 @@ MonoBehaviour:
   dialogueText: {fileID: 2064917561}
   dialogueDelay: 1
   textScrollDelay: 0.1
+  dialogueskip: 0
 --- !u!4 &1892209493 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4922272387448978, guid: 2b49cf6b0e2134c4a81f3474c005ca8a,
@@ -13362,107 +13544,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2027809405}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1987790565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59b6606ef2548734bb6d11b9d160bc7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  active: 1
-  m_AdvancedMode: 0
-  rotation:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-    max: 360
-  skyIntensityMode:
-    m_OverrideState: 0
-    m_Value: 0
-  exposure:
-    m_OverrideState: 0
-    m_Value: 10
-  multiplier:
-    m_OverrideState: 0
-    m_Value: 1
-    min: 0
-  upperHemisphereLuxValue:
-    m_OverrideState: 0
-    m_Value: 1
-    min: 0
-  upperHemisphereLuxColor:
-    m_OverrideState: 0
-    m_Value: {x: 0, y: 0, z: 0}
-  desiredLuxValue:
-    m_OverrideState: 0
-    m_Value: 20000
-  updateMode:
-    m_OverrideState: 0
-    m_Value: 0
-  updatePeriod:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-  includeSunInBaking:
-    m_OverrideState: 0
-    m_Value: 0
-  hdriSky:
-    m_OverrideState: 0
-    m_Value: {fileID: 8900000, guid: 8253d41e6e8b11a4cbe77a4f8f82934d, type: 3}
-  enableBackplate:
-    m_OverrideState: 0
-    m_Value: 0
-  backplateType:
-    m_OverrideState: 0
-    m_Value: 0
-  groundLevel:
-    m_OverrideState: 0
-    m_Value: 0
-  scale:
-    m_OverrideState: 0
-    m_Value: {x: 32, y: 32}
-  projectionDistance:
-    m_OverrideState: 0
-    m_Value: 16
-    min: 0.0000001
-  plateRotation:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-    max: 360
-  plateTexRotation:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-    max: 360
-  plateTexOffset:
-    m_OverrideState: 0
-    m_Value: {x: 0, y: 0}
-  blendAmount:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-    max: 100
-  shadowTint:
-    m_OverrideState: 0
-    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    hdr: 0
-    showAlpha: 1
-    showEyeDropper: 1
-  pointLightShadow:
-    m_OverrideState: 0
-    m_Value: 0
-  dirLightShadow:
-    m_OverrideState: 0
-    m_Value: 0
-  rectLightShadow:
-    m_OverrideState: 0
-    m_Value: 0
 --- !u!1001 &2002303185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15899,7 +15980,7 @@ PrefabInstance:
         type: 3}
       propertyPath: character
       value: 
-      objectReference: {fileID: 8947348805309976036}
+      objectReference: {fileID: 0}
     - target: {fileID: 4561621552491482544, guid: a0efb75820ace13418f2b08904a4481a,
         type: 3}
       propertyPath: gamemanage
@@ -16883,6 +16964,36 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: cac3455c-38fc-4792-8cf2-30136d591e87
     m_ActionName: Player/SprintFinish[/Keyboard/leftShift]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8947348805309976036}
+        m_MethodName: OnSkip
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 598112c7-69e9-4556-901e-8d92e768d771
+    m_ActionName: Player/Skip[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8947348805309976036}
+        m_MethodName: OnSkipFinish
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: a3b31f01-35e9-4ee4-8f04-075d2778007b
+    m_ActionName: Player/SkipFinish[/Keyboard/space]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -17169,7 +17280,7 @@ MonoBehaviour:
   animator: {fileID: 2414107715665775907}
   controller: {fileID: 8136376719360865732}
   _direction: {x: 0, y: 0, z: 0}
-  _speed: 2.5
+  _speed: 2
   _sprintSpeed: 5
   mouseVector: {x: 0, y: 0}
   mainCamera: {fileID: 1030213310}

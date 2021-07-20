@@ -26,8 +26,13 @@ public class Inspector : MonoBehaviour
     {
         if (oldItem == item)
         {
+            AudioManager.Audio.Play("Click");
             inspector.SetActive(!inspector.activeSelf);
             Debug.Log("Toggling Inspector");
+        }
+        else
+        {
+            AudioManager.Audio.Play("Click");
         }
     }
 }

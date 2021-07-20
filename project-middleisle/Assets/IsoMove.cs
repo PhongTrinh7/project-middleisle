@@ -57,6 +57,22 @@ public class @IsoMove : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Skip"",
+                    ""type"": ""Button"",
+                    ""id"": ""598112c7-69e9-4556-901e-8d92e768d771"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""SkipFinish"",
+                    ""type"": ""Button"",
+                    ""id"": ""a3b31f01-35e9-4ee4-8f04-075d2778007b"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -202,6 +218,28 @@ public class @IsoMove : IInputActionCollection, IDisposable
                     ""action"": ""SprintFinish"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""490852f7-20c7-4441-8efa-a8eb0ff84022"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": ""Press"",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Skip"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""738ce061-9541-4c9d-a14e-ef0d52058bf5"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": ""Press(behavior=1)"",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""SkipFinish"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -276,6 +314,8 @@ public class @IsoMove : IInputActionCollection, IDisposable
         m_Player_Inventory = m_Player.FindAction("Inventory", throwIfNotFound: true);
         m_Player_Sprint = m_Player.FindAction("Sprint", throwIfNotFound: true);
         m_Player_SprintFinish = m_Player.FindAction("SprintFinish", throwIfNotFound: true);
+        m_Player_Skip = m_Player.FindAction("Skip", throwIfNotFound: true);
+        m_Player_SkipFinish = m_Player.FindAction("SkipFinish", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -330,6 +370,8 @@ public class @IsoMove : IInputActionCollection, IDisposable
     private readonly InputAction m_Player_Inventory;
     private readonly InputAction m_Player_Sprint;
     private readonly InputAction m_Player_SprintFinish;
+    private readonly InputAction m_Player_Skip;
+    private readonly InputAction m_Player_SkipFinish;
     public struct PlayerActions
     {
         private @IsoMove m_Wrapper;
@@ -339,6 +381,8 @@ public class @IsoMove : IInputActionCollection, IDisposable
         public InputAction @Inventory => m_Wrapper.m_Player_Inventory;
         public InputAction @Sprint => m_Wrapper.m_Player_Sprint;
         public InputAction @SprintFinish => m_Wrapper.m_Player_SprintFinish;
+        public InputAction @Skip => m_Wrapper.m_Player_Skip;
+        public InputAction @SkipFinish => m_Wrapper.m_Player_SkipFinish;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -363,6 +407,12 @@ public class @IsoMove : IInputActionCollection, IDisposable
                 @SprintFinish.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSprintFinish;
                 @SprintFinish.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSprintFinish;
                 @SprintFinish.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSprintFinish;
+                @Skip.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSkip;
+                @Skip.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSkip;
+                @Skip.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSkip;
+                @SkipFinish.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSkipFinish;
+                @SkipFinish.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSkipFinish;
+                @SkipFinish.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSkipFinish;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -382,6 +432,12 @@ public class @IsoMove : IInputActionCollection, IDisposable
                 @SprintFinish.started += instance.OnSprintFinish;
                 @SprintFinish.performed += instance.OnSprintFinish;
                 @SprintFinish.canceled += instance.OnSprintFinish;
+                @Skip.started += instance.OnSkip;
+                @Skip.performed += instance.OnSkip;
+                @Skip.canceled += instance.OnSkip;
+                @SkipFinish.started += instance.OnSkipFinish;
+                @SkipFinish.performed += instance.OnSkipFinish;
+                @SkipFinish.canceled += instance.OnSkipFinish;
             }
         }
     }
@@ -438,5 +494,7 @@ public class @IsoMove : IInputActionCollection, IDisposable
         void OnInventory(InputAction.CallbackContext context);
         void OnSprint(InputAction.CallbackContext context);
         void OnSprintFinish(InputAction.CallbackContext context);
+        void OnSkip(InputAction.CallbackContext context);
+        void OnSkipFinish(InputAction.CallbackContext context);
     }
 }

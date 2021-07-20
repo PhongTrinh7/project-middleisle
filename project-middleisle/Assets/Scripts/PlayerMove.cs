@@ -82,6 +82,7 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
             if (context.performed)
             {
                 inventory.OpenInventory();
+                AudioManager.Audio.Play("OpenInventory");
             }
         }
     }
@@ -98,6 +99,20 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
         if (context.performed)
         {
             animator.SetBool("IsRunning", false);
+        }
+
+    }
+
+    public void OnSkip(InputAction.CallbackContext context)
+    {
+        DialogueManager.Instance.dialogueskip = true;
+    }
+
+    public void OnSkipFinish(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            DialogueManager.Instance.dialogueskip = false;
         }
 
     }
@@ -144,6 +159,6 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
 
     private void Step()
     {
-        AudioManager.Audio.Play("FootStep");
+        AudioManager.Audio.Walking();
     }
 }
