@@ -26,7 +26,8 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
         controller = GetComponent<CharacterController>();
     }
 
-    // Update is called once per frame
+    #region Movement
+
     void Update()
     {
         if (EventSystem.current.IsPointerOverGameObject())
@@ -54,6 +55,7 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
         Vector2 readVector = context.ReadValue<Vector2>();
         Vector3 toConvert = new Vector3(readVector.x, 0, readVector.y);
         _direction = IsoVectorConvert(toConvert);
+        // Debug.LogError("walking");
     }
 
     private Vector3 IsoVectorConvert(Vector3 vector)
@@ -64,16 +66,24 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
         return result;
     }
 
-    public void OnSelect(InputAction.CallbackContext context)
+    public void OnSprint(InputAction.CallbackContext context)
     {
-        if (EventSystem.current.IsPointerOverGameObject())
-            return;
+        _speed = _speed + _sprintSpeed;
+        animator.SetBool("IsRunning", true);
+        // Debug.LogError("running");
+    }
 
+    public void OnSprintFinish(InputAction.CallbackContext context)
+    {
+        _speed = _speed - _sprintSpeed;
         if (context.performed)
         {
-            DetectObject();
+            animator.SetBool("IsRunning", false);
         }
+
     }
+
+    #endregion
 
     public void OnInventory(InputAction.CallbackContext context)
     {
@@ -85,22 +95,6 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
                 AudioManager.Audio.Play("OpenInventory");
             }
         }
-    }
-
-    public void OnSprint(InputAction.CallbackContext context)
-    {
-        _speed = _speed + _sprintSpeed;
-        animator.SetBool("IsRunning", true);
-    }
-
-    public void OnSprintFinish(InputAction.CallbackContext context)
-    {
-        _speed = _speed - _sprintSpeed;
-        if (context.performed)
-        {
-            animator.SetBool("IsRunning", false);
-        }
-
     }
 
     public void OnSkip(InputAction.CallbackContext context)
@@ -115,6 +109,19 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
             DialogueManager.Instance.dialogueskip = false;
         }
 
+    }
+
+    #region Interaction
+
+    public void OnSelect(InputAction.CallbackContext context)
+    {
+        if (EventSystem.current.IsPointerOverGameObject())
+            return;
+
+        if (context.performed)
+        {
+            DetectObject();
+        }
     }
 
     private void DetectObject()
@@ -156,6 +163,8 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
         }
         focus = null;
     }
+
+    #endregion
 
     private void Step()
     {
