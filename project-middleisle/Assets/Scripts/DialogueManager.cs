@@ -9,6 +9,8 @@ public class DialogueManager : MonoBehaviour
     public GameObject dialoguePopUp;
     public Text dialogueText;
     private bool inDialogue; //Potentially for future use.
+    private bool textScrolling;
+    public Button advanceDialogueButton;
     private Queue<string> dialogue;
     public float dialogueDelay = 0.5f;
     public float textScrollDelay = 0.1f;
@@ -24,6 +26,7 @@ public class DialogueManager : MonoBehaviour
         inDialogue = true;
         dialoguePopUp.SetActive(true);
         this.dialogue = dialogue;
+        advanceDialogueButton.interactable = false;
 
         // This is to delay the text scrolling before pop up animation finishes.
         yield return new WaitForSecondsRealtime(dialogueDelay);
@@ -45,18 +48,25 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator ScrollText(string line)
     {
+        advanceDialogueButton.interactable = false;
         dialogueText.text = "";
+
         foreach(char c in line)
         {
             dialogueText.text += c;
             AudioManager.Audio.Play("Lissevoicefast");
             // Use this if you'd like to modify the text scroll rate, otherwise it will scroll 1 character per frame.
-            if(dialogueskip == false)
+            if (dialogueskip == false)
             {
                 yield return new WaitForSecondsRealtime(0.02f);
             }
-            yield return null;
+            else
+            {
+                yield return null;
+            }
         }
+
+        advanceDialogueButton.interactable = true;
     }
 
     public void EndDialogue()
