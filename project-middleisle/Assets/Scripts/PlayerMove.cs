@@ -99,7 +99,12 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
 
     public void OnSkip(InputAction.CallbackContext context)
     {
-        DialogueManager.Instance.dialogueskip = true;
+        if (context.performed)
+        {
+            DialogueManager.Instance.dialogueskip = true;
+            if (DialogueManager.Instance.advanceDialoguekey == true)
+                DialogueManager.Instance.AdvanceDialogue();
+        }
     }
 
     public void OnSkipFinish(InputAction.CallbackContext context)
@@ -134,6 +139,10 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
             if (interactable != null)
             {
                 SetFocus(interactable);
+            }
+            else
+            {
+                RemoveFocus();
             }
         }
         else

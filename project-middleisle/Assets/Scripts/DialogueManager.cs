@@ -15,6 +15,7 @@ public class DialogueManager : MonoBehaviour
     public float dialogueDelay = 0.5f;
     public float textScrollDelay = 0.1f;
     public bool dialogueskip = false;
+    public bool advanceDialoguekey = false;
 
     private void Awake()
     {
@@ -27,6 +28,7 @@ public class DialogueManager : MonoBehaviour
         dialoguePopUp.SetActive(true);
         this.dialogue = dialogue;
         advanceDialogueButton.interactable = false;
+        advanceDialoguekey = false;
 
         // This is to delay the text scrolling before pop up animation finishes.
         yield return new WaitForSecondsRealtime(dialogueDelay);
@@ -49,6 +51,7 @@ public class DialogueManager : MonoBehaviour
     IEnumerator ScrollText(string line)
     {
         advanceDialogueButton.interactable = false;
+        advanceDialoguekey = false;
         dialogueText.text = "";
 
         foreach(char c in line)
@@ -58,7 +61,7 @@ public class DialogueManager : MonoBehaviour
             // Use this if you'd like to modify the text scroll rate, otherwise it will scroll 1 character per frame.
             if (dialogueskip == false)
             {
-                yield return new WaitForSecondsRealtime(0.02f);
+                yield return new WaitForSecondsRealtime(0.04f);
             }
             else
             {
@@ -67,6 +70,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         advanceDialogueButton.interactable = true;
+        advanceDialoguekey = true;
     }
 
     public void EndDialogue()

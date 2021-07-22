@@ -13,7 +13,7 @@ public class KeyPickup : Interactable
     void KeyPickUp()
     {
         AudioManager.Audio.Play("Pickup");
-        if (item.IsKey = true)
+        if (item.IsKey == true)
         {
             door.unlocked = true;
         }
