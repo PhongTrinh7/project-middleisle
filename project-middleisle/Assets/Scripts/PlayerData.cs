@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.EventSystems;
 
+[System.Serializable]
 public class PlayerData 
 {
     public float[] position;

@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>4.10.2.0</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>4.10.3.0</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2019.4.11f1</UnityVersion>
@@ -86,6 +86,7 @@
     <Compile Include="Assets\Scripts\PlayerFollow.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\SaveSystem.cs" />
     <Compile Include="Assets\Scripts\Sounds.cs" />
     <None Include="Assets\Allegorithmic\Plugins\EULA.txt" />
     <None Include="Assets\Allegorithmic\Plugins\engine_build_info.txt" />
@@ -635,10 +636,6 @@
       <Project>{019E8E38-817E-53AF-295A-6CCB13A6461F}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Cinemachine.csproj">
-      <Project>{BB696383-3AA0-1D5C-3F73-E75BCCDFFE70}</Project>
-      <Name>Cinemachine</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.ProGrids.csproj">
       <Project>{C3AA1B9B-19DD-6712-C4CD-9AA6EA47F473}</Project>
       <Name>Unity.ProGrids</Name>
@@ -727,10 +724,6 @@
       <Project>{C3507142-09E2-77E7-B941-7040ACA0E094}</Project>
       <Name>Substance.EditorHelper</Name>
     </ProjectReference>
-    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
-      <Project>{27879931-6159-A086-1C29-75E60164F901}</Project>
-      <Name>com.unity.cinemachine.editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VisualEffectGraph.Editor.csproj">
       <Project>{401DD49E-4E3B-AA0A-E4CF-9DA8CD39B8B9}</Project>
       <Name>Unity.VisualEffectGraph.Editor</Name>
@@ -766,6 +759,14 @@
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{27AC238A-0FCE-1F3D-A9EB-76B389F7297B}</Project>
       <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{BB696383-3AA0-1D5C-3F73-E75BCCDFFE70}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{27879931-6159-A086-1C29-75E60164F901}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
