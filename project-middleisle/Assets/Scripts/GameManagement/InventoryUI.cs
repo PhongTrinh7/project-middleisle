@@ -41,5 +41,6 @@ public class InventoryUI : MonoBehaviour
     {
         inventoryUI.SetActive(!inventoryUI.activeSelf);
         Debug.Log("Toggling Inventory");
+        PlayerMove.character._direction = Vector3.zero;
     }
 }

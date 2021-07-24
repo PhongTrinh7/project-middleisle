@@ -65,6 +65,7 @@
      <Compile Include="Assets\Scripts\GameManagement\Inventory.cs" />
      <Compile Include="Assets\Scripts\GameManagement\InventorySlot.cs" />
      <Compile Include="Assets\Scripts\GameManagement\InventoryUI.cs" />
+     <Compile Include="Assets\Scripts\GameManagement\Pause.cs" />
      <Compile Include="Assets\Scripts\GameManagement\SettingsMenu.cs" />
      <Compile Include="Assets\Scripts\GameManagement\TestButtons.cs" />
      <Compile Include="Assets\Scripts\GameManagement\WindowManage.cs" />
