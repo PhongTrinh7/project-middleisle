@@ -9,6 +9,7 @@ public class AudioManager : MonoBehaviour
     public Sound[] sounds;
 
     public static AudioManager Audio;
+    public AudioMixerGroup AudioMixer;
 
     void Awake()
     {
@@ -21,6 +22,7 @@ public class AudioManager : MonoBehaviour
             s.source.volume = s.volume;
             s.source.loop = s.loop;
             s.source.pitch = s.pitch;
+            s.source.outputAudioMixerGroup = AudioMixer;
         }
     }
 
