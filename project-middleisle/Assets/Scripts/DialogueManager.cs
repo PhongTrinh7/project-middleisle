@@ -30,6 +30,7 @@ public class DialogueManager : MonoBehaviour
         advanceDialogueButton.interactable = false;
         advanceDialoguekey = false;
         PlayerMove.character._direction = Vector3.zero;
+        
 
         // This is to delay the text scrolling before pop up animation finishes.
         yield return new WaitForSecondsRealtime(dialogueDelay);
@@ -81,5 +82,6 @@ public class DialogueManager : MonoBehaviour
         inDialogue = false;
         dialoguePopUp.SetActive(false);
         
+
     }
 }
