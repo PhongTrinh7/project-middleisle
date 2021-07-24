@@ -242,6 +242,33 @@ public class @IsoMove : IInputActionCollection, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""GameManager"",
+            ""id"": ""944e7012-3af8-4025-a7f7-c5631a7e94fe"",
+            ""actions"": [
+                {
+                    ""name"": ""AnyKey"",
+                    ""type"": ""Value"",
+                    ""id"": ""8e87427d-0143-4002-9d52-4e15ea7582a9"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """"
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""172fc73d-693f-4fb0-866d-f9263303b8e6"",
+                    ""path"": ""<Keyboard>/anyKey"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""AnyKey"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": [
@@ -316,6 +343,9 @@ public class @IsoMove : IInputActionCollection, IDisposable
         m_Player_SprintFinish = m_Player.FindAction("SprintFinish", throwIfNotFound: true);
         m_Player_Skip = m_Player.FindAction("Skip", throwIfNotFound: true);
         m_Player_SkipFinish = m_Player.FindAction("SkipFinish", throwIfNotFound: true);
+        // GameManager
+        m_GameManager = asset.FindActionMap("GameManager", throwIfNotFound: true);
+        m_GameManager_AnyKey = m_GameManager.FindAction("AnyKey", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -442,6 +472,39 @@ public class @IsoMove : IInputActionCollection, IDisposable
         }
     }
     public PlayerActions @Player => new PlayerActions(this);
+
+    // GameManager
+    private readonly InputActionMap m_GameManager;
+    private IGameManagerActions m_GameManagerActionsCallbackInterface;
+    private readonly InputAction m_GameManager_AnyKey;
+    public struct GameManagerActions
+    {
+        private @IsoMove m_Wrapper;
+        public GameManagerActions(@IsoMove wrapper) { m_Wrapper = wrapper; }
+        public InputAction @AnyKey => m_Wrapper.m_GameManager_AnyKey;
+        public InputActionMap Get() { return m_Wrapper.m_GameManager; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(GameManagerActions set) { return set.Get(); }
+        public void SetCallbacks(IGameManagerActions instance)
+        {
+            if (m_Wrapper.m_GameManagerActionsCallbackInterface != null)
+            {
+                @AnyKey.started -= m_Wrapper.m_GameManagerActionsCallbackInterface.OnAnyKey;
+                @AnyKey.performed -= m_Wrapper.m_GameManagerActionsCallbackInterface.OnAnyKey;
+                @AnyKey.canceled -= m_Wrapper.m_GameManagerActionsCallbackInterface.OnAnyKey;
+            }
+            m_Wrapper.m_GameManagerActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @AnyKey.started += instance.OnAnyKey;
+                @AnyKey.performed += instance.OnAnyKey;
+                @AnyKey.canceled += instance.OnAnyKey;
+            }
+        }
+    }
+    public GameManagerActions @GameManager => new GameManagerActions(this);
     private int m_KeyboardMouseSchemeIndex = -1;
     public InputControlScheme KeyboardMouseScheme
     {
@@ -496,5 +559,9 @@ public class @IsoMove : IInputActionCollection, IDisposable
         void OnSprintFinish(InputAction.CallbackContext context);
         void OnSkip(InputAction.CallbackContext context);
         void OnSkipFinish(InputAction.CallbackContext context);
+    }
+    public interface IGameManagerActions
+    {
+        void OnAnyKey(InputAction.CallbackContext context);
     }
 }

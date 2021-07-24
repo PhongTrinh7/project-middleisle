@@ -6,7 +6,9 @@ public class Interactable : MonoBehaviour
     public Transform interactionTransform;
     bool isFocus = false;
     Transform player;
-    bool hasInteracted = false;
+
+    public float InteractCoolDown = 0f;
+    public float CoolDownTime = 1f;
 
     public virtual void Interact()
     {
@@ -21,20 +23,26 @@ public class Interactable : MonoBehaviour
 
     void Update()
     {
-        if (isFocus && !hasInteracted)
+        if(InteractCoolDown >= 0f)
+        {
+            InteractCoolDown -= Time.deltaTime;
+        }
+
+        if (isFocus && InteractCoolDown <= 0f)
         {
             float distance = Vector3.Distance(player.position, interactionTransform.position);
             if (distance <= radius)
             {
                 Interact();
-                hasInteracted = true;
+                InteractCoolDown = CoolDownTime;
             }
             else
             {
                 GameManage.gamemanager.TooFar();
-                hasInteracted = true;
+                InteractCoolDown = CoolDownTime;
                 PlayerMove.character.RemoveFocus();
             }
+            isFocus = false;
         }
     }
 
@@ -48,7 +56,7 @@ public class Interactable : MonoBehaviour
     {
         isFocus = false;
         player = null;
-        hasInteracted = false;
+        InteractCoolDown = 0f;
     }
 
     void OnDrawGizmosSelected()

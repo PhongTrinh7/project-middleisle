@@ -36,7 +36,7 @@ AnimatorStateTransition:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 
+  m_Name: 1
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: IsWalking
@@ -218,7 +218,7 @@ AnimatorStateTransition:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 
+  m_Name: 4
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: IsRunning
@@ -265,7 +265,7 @@ AnimatorStateTransition:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 
+  m_Name: 6
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: IsWalking
@@ -444,7 +444,7 @@ AnimatorStateTransition:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 
+  m_Name: 7
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: IsWalking
@@ -526,7 +526,7 @@ AnimatorStateTransition:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 
+  m_Name: 8
   m_Conditions:
   - m_ConditionMode: 2
     m_ConditionEvent: IsWalking
@@ -576,7 +576,7 @@ AnimatorStateTransition:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 
+  m_Name: 3
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: IsWalking
@@ -604,7 +604,7 @@ AnimatorStateTransition:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 
+  m_Name: 2
   m_Conditions:
   - m_ConditionMode: 2
     m_ConditionEvent: IsWalking
@@ -683,7 +683,7 @@ AnimatorStateTransition:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 
+  m_Name: 5
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: IsWalking
