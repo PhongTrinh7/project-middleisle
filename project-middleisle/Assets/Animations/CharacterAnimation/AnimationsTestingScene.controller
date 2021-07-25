@@ -177,7 +177,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 1657602633327794031, guid: 8269a9f8cf495034c817722ac21f309f,
+  m_Motion: {fileID: 1827226128182048838, guid: fcab519e55433794788192a4d4be8f61,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -334,7 +334,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: StarterAssetsThirdPerson
+  m_Name: AnimationsTestingScene
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: IsWalking
@@ -601,7 +601,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -3100369314251171874, guid: 12e52e465ed793a4d801955e9f964a82,
+  m_Motion: {fileID: 1827226128182048838, guid: f39e7b92f51fe57488074941a5416b10,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -758,7 +758,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 6564411413370888346, guid: 16114d403eabb53438de032c6f0d1deb,
+  m_Motion: {fileID: 1827226128182048838, guid: 4bc99fb4cc522c741ad1dafef0bd2085,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 

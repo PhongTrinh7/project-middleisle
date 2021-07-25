@@ -1,0 +1,3989 @@
+fileFormatVersion: 2
+guid: 02914705e04147244895e522629fce74
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Head' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Max__MainC
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max__lHipJ
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max__rHipJ
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max__lKneeJ
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max__rKneeJ
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max__lAnkleJ
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max__rAnkleJ
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max__SpineTopJ
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max__lClavicleJ
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max__rClavicleJ
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max__lShoulderJ
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max__rShoulderJ
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max__lElbowJ
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max__rElbowJ
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max__lWristJProxy
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max__rWristJProxy
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Max__rBallJ
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Max_Rig_Test1(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_
+      parentName: Max_Rig_Test1(Clone)
+      position: {x: 5.3290704e-17, y: 0.12856315, z: 0.01}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Max__MainC
+      parentName: Max_
+      position: {x: -5.3290705e-15, y: -12.856316, z: -1}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__curveNodesG
+      parentName: Max__MainC
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowCurveCG
+      parentName: Max__curveNodesG
+      position: {x: -6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: -0.009836475, y: 0.16656654, z: 0.24244647, w: 0.9557084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowCurveC
+      parentName: Max__lElbowCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowCurveJ
+      parentName: Max__curveNodesG
+      position: {x: -6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: -0.009836475, y: 0.16656654, z: 0.24244647, w: 0.9557084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowCurveLctr
+      parentName: Max__curveNodesG
+      position: {x: -6.607307, y: 20.68654, z: -0.1369437}
+      rotation: {x: -0.03328758, y: 0.10701598, z: 0.29514426, w: 0.9488569}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowTopCurveLctr
+      parentName: Max__curveNodesG
+      position: {x: -6.6573553, y: 20.66775, z: -0.80381435}
+      rotation: {x: -0.0072435928, y: -0.03599001, z: 0.19717708, w: 0.9796803}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lHipCurveJ
+      parentName: Max__curveNodesG
+      position: {x: -1.4265324, y: 14.361959, z: -0.3199338}
+      rotation: {x: 0.5111943, y: 0.485639, z: 0.44681224, w: 0.55063057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lHipCurveLctr
+      parentName: Max__curveNodesG
+      position: {x: -1.430816, y: 14.366353, z: 0.52501214}
+      rotation: {x: 0.5477067, y: 0.44881618, z: 0.4841726, w: 0.5139633}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeCurveCG
+      parentName: Max__curveNodesG
+      position: {x: -2.1680777, y: 8.680456, z: 0.12834528}
+      rotation: {x: 0.5111943, y: 0.48563898, z: 0.44681227, w: 0.5506305}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeCurveC
+      parentName: Max__lKneeCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeCurveJ
+      parentName: Max__curveNodesG
+      position: {x: -2.1680777, y: 8.680456, z: 0.12834528}
+      rotation: {x: 0.5111943, y: 0.48563898, z: 0.44681227, w: 0.5506305}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeCurveLctr
+      parentName: Max__curveNodesG
+      position: {x: -3.038002, y: 8.753241, z: -0.3461771}
+      rotation: {x: 0.4279739, y: 0.42797402, z: 0.56288385, w: 0.562884}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeTopCurveLctr
+      parentName: Max__curveNodesG
+      position: {x: -1.4265324, y: 8.6147585, z: -0.3199338}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerArmBtmClstrG
+      parentName: Max__curveNodesG
+      position: {x: -9.282268, y: 18.84418, z: 0.6051487}
+      rotation: {x: -0.03328758, y: 0.10701598, z: 0.29514426, w: 0.9488569}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__lLowerArmBtmClstr
+      parentName: Max__lLowerArmBtmClstrG
+      position: {x: 0.277644, y: 0, z: -9.992007e-16}
+      rotation: {x: 0.009836475, y: -0.16656654, z: -0.24244647, w: 0.9557084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerArmBtmGuideClstrG
+      parentName: Max__curveNodesG
+      position: {x: -9.282268, y: 18.84418, z: 0.6051487}
+      rotation: {x: -0.03328758, y: 0.10701598, z: 0.29514426, w: 0.9488569}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__lLowerArmBtmGuideClstr
+      parentName: Max__lLowerArmBtmGuideClstrG
+      position: {x: 0.555288, y: 3.5527137e-15, z: -9.436896e-16}
+      rotation: {x: 0.009836475, y: -0.16656654, z: -0.24244647, w: 0.9557084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerArmCurveJ1
+      parentName: Max__curveNodesG
+      position: {x: -7.2156725, y: 19.994093, z: -0.20241538}
+      rotation: {x: -0.021361867, y: 0.16363044, z: 0.24443768, w: 0.9555203}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerArmCurveJ2
+      parentName: Max__curveNodesG
+      position: {x: -7.9046807, y: 19.610708, z: 0.06682856}
+      rotation: {x: -0.03288415, y: 0.16067056, z: 0.24639332, w: 0.95519316}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerArmCurveJ3
+      parentName: Max__curveNodesG
+      position: {x: -8.593689, y: 19.227325, z: 0.3360725}
+      rotation: {x: -0.044401653, y: 0.15768732, z: 0.24831316, w: 0.9547271}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerArmTopClstrG
+      parentName: Max__curveNodesG
+      position: {x: -6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: -0.009836475, y: 0.16656654, z: 0.24244647, w: 0.9557084}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__lLowerArmTopClstr
+      parentName: Max__lLowerArmTopClstrG
+      position: {x: -0.277644, y: 0, z: -1.3322676e-15}
+      rotation: {x: 0.009836475, y: -0.16656654, z: -0.24244647, w: 0.9557084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerArmTopGuideClstrG
+      parentName: Max__curveNodesG
+      position: {x: -6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: -0.009836475, y: 0.16656654, z: 0.24244647, w: 0.9557084}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__lLowerArmTopGuideClstr
+      parentName: Max__lLowerArmTopGuideClstrG
+      position: {x: -0.555288, y: -3.5527137e-15, z: -6.661338e-16}
+      rotation: {x: 0.009836475, y: -0.16656654, z: -0.24244647, w: 0.9557084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerLegBtmClstrG
+      parentName: Max__curveNodesG
+      position: {x: -3.0380023, y: 1.971368, z: -0.346176}
+      rotation: {x: 0.42797393, y: 0.427974, z: 0.56288385, w: 0.562884}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__lLowerLegBtmClstr
+      parentName: Max__lLowerLegBtmClstrG
+      position: {x: 0.5651561, y: -1.4432899e-15, z: -2.220446e-15}
+      rotation: {x: -0.4186711, y: -0.3421343, z: -0.5767093, w: 0.61242557}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerLegBtmGuideClstrG
+      parentName: Max__curveNodesG
+      position: {x: -3.0380023, y: 1.971368, z: -0.346176}
+      rotation: {x: 0.42797393, y: 0.427974, z: 0.56288385, w: 0.562884}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__lLowerLegBtmGuideClstr
+      parentName: Max__lLowerLegBtmGuideClstrG
+      position: {x: 1.1303122, y: -1.8873791e-15, z: -1.7763568e-15}
+      rotation: {x: -0.4186711, y: -0.3421343, z: -0.5767093, w: 0.61242557}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerLegCurveJ1
+      parentName: Max__curveNodesG
+      position: {x: -2.3854911, y: 7.003707, z: 0.009751931}
+      rotation: {x: 0.5283378, y: 0.43013972, z: 0.5008431, w: 0.5338494}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerLegCurveJ2
+      parentName: Max__curveNodesG
+      position: {x: -2.60304, y: 5.325912, z: -0.10891536}
+      rotation: {x: 0.51037246, y: 0.41332105, z: 0.5148104, w: 0.5510499}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerLegCurveJ3
+      parentName: Max__curveNodesG
+      position: {x: -2.820589, y: 3.6481173, z: -0.22758265}
+      rotation: {x: 0.4918475, y: 0.39604914, z: 0.5282131, w: 0.5676461}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerLegTopClstrG
+      parentName: Max__curveNodesG
+      position: {x: -2.1680777, y: 8.680456, z: 0.12834528}
+      rotation: {x: 0.5111943, y: 0.48563898, z: 0.44681227, w: 0.5506305}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__lLowerLegTopClstr
+      parentName: Max__lLowerLegTopClstrG
+      position: {x: -0.5651561, y: -8.881784e-15, z: 4.440892e-16}
+      rotation: {x: -0.4186711, y: -0.3421343, z: -0.5767093, w: 0.61242557}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerLegTopGuideClstrG
+      parentName: Max__curveNodesG
+      position: {x: -2.1680777, y: 8.680456, z: 0.12834528}
+      rotation: {x: 0.5111943, y: 0.48563898, z: 0.44681227, w: 0.5506305}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__lLowerLegTopGuideClstr
+      parentName: Max__lLowerLegTopGuideClstrG
+      position: {x: -1.1303122, y: -7.993606e-15, z: 8.881784e-16}
+      rotation: {x: -0.4186711, y: -0.3421343, z: -0.5767093, w: 0.61242557}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lShoulderCurveJ
+      parentName: Max__curveNodesG
+      position: {x: -3.3993518, y: 22.038267, z: -0.5641157}
+      rotation: {x: 0.0035760058, y: 0.0143635515, z: 0.24156277, w: 0.9702723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lShoulderCurveLctr
+      parentName: Max__curveNodesG
+      position: {x: -3.597498, y: 22.00735, z: -1.6162903}
+      rotation: {x: -0.009836475, y: 0.16656654, z: 0.24244647, w: 0.9557084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperArmBtmClstrG
+      parentName: Max__curveNodesG
+      position: {x: -6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: -0.009836475, y: 0.16656654, z: 0.24244647, w: 0.9557084}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__lUpperArmBtmClstr
+      parentName: Max__lUpperArmBtmClstrG
+      position: {x: 0.29522073, y: -3.5527137e-15, z: -3.6415315e-14}
+      rotation: {x: -0.0035760058, y: -0.0143635515, z: -0.24156277, w: 0.9702723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperArmBtmGuideClstrG
+      parentName: Max__curveNodesG
+      position: {x: -6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: -0.009836475, y: 0.16656654, z: 0.24244647, w: 0.9557084}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__lUpperArmBtmGuideClstr
+      parentName: Max__lUpperArmBtmGuideClstrG
+      position: {x: 0.59044147, y: 7.1054274e-15, z: -3.663736e-14}
+      rotation: {x: -0.0035760058, y: -0.0143635515, z: -0.24156277, w: 0.9702723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperArmCurveJ1
+      parentName: Max__curveNodesG
+      position: {x: -4.1810436, y: 21.623138, z: -0.54096687}
+      rotation: {x: 0.0035760058, y: 0.0143635515, z: 0.24156277, w: 0.9702723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperArmCurveJ2
+      parentName: Max__curveNodesG
+      position: {x: -4.9632225, y: 21.207752, z: -0.5178036}
+      rotation: {x: 0.0035760058, y: 0.0143635515, z: 0.24156277, w: 0.9702723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperArmCurveJ3
+      parentName: Max__curveNodesG
+      position: {x: -5.745402, y: 20.792366, z: -0.49464038}
+      rotation: {x: 0.0035760058, y: 0.0143635515, z: 0.24156277, w: 0.9702723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperArmTopClstrG
+      parentName: Max__curveNodesG
+      position: {x: -3.3993518, y: 22.038267, z: -0.5641157}
+      rotation: {x: 0.04003047, y: -0.0264351, z: 0.19868383, w: 0.9788889}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__lUpperArmTopClstr
+      parentName: Max__lUpperArmTopClstrG
+      position: {x: -0.29522073, y: -1.0658141e-14, z: -3.4527936e-14}
+      rotation: {x: -0.0035760058, y: -0.0143635515, z: -0.24156277, w: 0.9702723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperArmTopGuideClstrG
+      parentName: Max__curveNodesG
+      position: {x: -3.3993518, y: 22.038267, z: -0.5641157}
+      rotation: {x: 0.04003047, y: -0.0264351, z: 0.19868383, w: 0.9788889}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__lUpperArmTopGuideClstr
+      parentName: Max__lUpperArmTopGuideClstrG
+      position: {x: -0.59044147, y: -1.7763568e-14, z: -3.4083847e-14}
+      rotation: {x: -0.0035760058, y: -0.0143635515, z: -0.24156277, w: 0.9702723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperLegBtmClstrG
+      parentName: Max__curveNodesG
+      position: {x: -2.1680777, y: 8.680456, z: 0.12834528}
+      rotation: {x: 0.5111943, y: 0.48563898, z: 0.44681227, w: 0.5506305}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__lUpperLegBtmClstr
+      parentName: Max__lUpperLegBtmClstrG
+      position: {x: 0.47893348, y: -1.15463195e-14, z: 4.440892e-16}
+      rotation: {x: -0.39221042, y: -0.37217245, z: -0.5298177, w: 0.6534155}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperLegBtmGuideClstrG
+      parentName: Max__curveNodesG
+      position: {x: -2.1680777, y: 8.680456, z: 0.12834528}
+      rotation: {x: 0.5111943, y: 0.48563898, z: 0.44681227, w: 0.5506305}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__lUpperLegBtmGuideClstr
+      parentName: Max__lUpperLegBtmGuideClstrG
+      position: {x: 0.95786697, y: -1.3322676e-14, z: 1.3322676e-15}
+      rotation: {x: -0.39221042, y: -0.37217245, z: -0.5298177, w: 0.6534155}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperLegCurveJ1
+      parentName: Max__curveNodesG
+      position: {x: -1.611861, y: 12.942026, z: -0.20789896}
+      rotation: {x: 0.5111943, y: 0.485639, z: 0.44681224, w: 0.55063057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperLegCurveJ2
+      parentName: Max__curveNodesG
+      position: {x: -1.7973051, y: 11.521208, z: -0.09579426}
+      rotation: {x: 0.5111943, y: 0.485639, z: 0.44681224, w: 0.55063057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperLegCurveJ3
+      parentName: Max__curveNodesG
+      position: {x: -1.9827492, y: 10.1003895, z: 0.016310435}
+      rotation: {x: 0.5111943, y: 0.485639, z: 0.44681224, w: 0.55063057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperLegTopClstrG
+      parentName: Max__curveNodesG
+      position: {x: -1.4265324, y: 14.361959, z: -0.3199338}
+      rotation: {x: 0.49848044, y: 0.49848044, z: 0.501515, w: 0.501515}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__lUpperLegTopClstr
+      parentName: Max__lUpperLegTopClstrG
+      position: {x: -0.47893348, y: -7.5495166e-15, z: -4.440892e-16}
+      rotation: {x: -0.39221042, y: -0.37217245, z: -0.5298177, w: 0.6534155}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperLegTopGuideClstrG
+      parentName: Max__curveNodesG
+      position: {x: -1.4265324, y: 14.361959, z: -0.3199338}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__lUpperLegTopGuideClstr
+      parentName: Max__lUpperLegTopGuideClstrG
+      position: {x: -0.95786697, y: -7.5495166e-15, z: 8.881784e-16}
+      rotation: {x: -0.39221042, y: -0.37217245, z: -0.5298177, w: 0.6534155}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowCurveCG
+      parentName: Max__curveNodesG
+      position: {x: 6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: 0.9557084, y: -0.24244647, z: 0.16656654, w: 0.009836475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowCurveC
+      parentName: Max__rElbowCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowCurveJ
+      parentName: Max__curveNodesG
+      position: {x: 6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: 0.9557084, y: -0.24244647, z: 0.16656654, w: 0.009836475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowCurveLctr
+      parentName: Max__curveNodesG
+      position: {x: 6.607307, y: 20.68654, z: -0.1369437}
+      rotation: {x: 0.9488569, y: -0.29514426, z: 0.10701598, w: 0.03328758}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowTopCurveLctr
+      parentName: Max__curveNodesG
+      position: {x: 0.14134842, y: 23.408785, z: -0.32441702}
+      rotation: {x: 0.9796803, y: -0.19717708, z: -0.03599001, w: 0.0072435928}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rHipCurveJ
+      parentName: Max__curveNodesG
+      position: {x: 1.4265324, y: 14.361959, z: -0.3199338}
+      rotation: {x: -0.4854293, y: -0.5109745, z: 0.5508655, w: 0.44700205}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rHipCurveLctr
+      parentName: Max__curveNodesG
+      position: {x: 1.4315338, y: 14.3664465, z: 0.5250077}
+      rotation: {x: -0.5141846, y: 0.48437995, z: -0.44862407, w: 0.547473}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeCurveCG
+      parentName: Max__curveNodesG
+      position: {x: 2.168469, y: 8.680507, z: 0.12834287}
+      rotation: {x: -0.5508654, y: 0.44700205, z: -0.48542926, w: 0.51097447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeCurveC
+      parentName: Max__rKneeCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeCurveJ
+      parentName: Max__curveNodesG
+      position: {x: 2.168469, y: 8.680507, z: 0.12834287}
+      rotation: {x: -0.5508654, y: 0.44700205, z: -0.48542926, w: 0.51097447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeCurveLctr
+      parentName: Max__curveNodesG
+      position: {x: 3.0380018, y: 8.753241, z: -0.34617716}
+      rotation: {x: 0.562884, y: -0.56288385, z: 0.427974, w: -0.4279739}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeTopCurveLctr
+      parentName: Max__curveNodesG
+      position: {x: 1.4265324, y: 20.109161, z: -0.3199338}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerArmBtmClstrG
+      parentName: Max__curveNodesG
+      position: {x: 9.282268, y: 18.84418, z: 0.6051487}
+      rotation: {x: 0.9488569, y: -0.29514426, z: 0.10701598, w: 0.03328758}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__rLowerArmBtmClstr
+      parentName: Max__rLowerArmBtmClstrG
+      position: {x: -0.277644, y: -2.842171e-14, z: -1.0547119e-15}
+      rotation: {x: 0.9557084, y: -0.24244647, z: 0.16656654, w: -0.009836475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerArmBtmGuideClstrG
+      parentName: Max__curveNodesG
+      position: {x: 9.282268, y: 18.84418, z: 0.6051487}
+      rotation: {x: 0.9488569, y: -0.29514426, z: 0.10701598, w: 0.03328758}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__rLowerArmBtmGuideClstr
+      parentName: Max__rLowerArmBtmGuideClstrG
+      position: {x: -0.555288, y: -1.0658141e-14, z: 2.4980018e-15}
+      rotation: {x: 0.9557084, y: -0.24244647, z: 0.16656654, w: -0.009836475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerArmCurveJ1
+      parentName: Max__curveNodesG
+      position: {x: 7.2156725, y: 19.994093, z: -0.20241538}
+      rotation: {x: 0.9555203, y: -0.24443768, z: 0.16363044, w: 0.021361867}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerArmCurveJ2
+      parentName: Max__curveNodesG
+      position: {x: 7.9046807, y: 19.610708, z: 0.06682856}
+      rotation: {x: 0.95519316, y: -0.24639332, z: 0.16067056, w: 0.03288415}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerArmCurveJ3
+      parentName: Max__curveNodesG
+      position: {x: 8.593689, y: 19.227325, z: 0.3360725}
+      rotation: {x: 0.9547271, y: -0.24831316, z: 0.15768732, w: 0.044401653}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerArmTopClstrG
+      parentName: Max__curveNodesG
+      position: {x: 6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: 0.9557084, y: -0.24244647, z: 0.16656654, w: 0.009836475}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__rLowerArmTopClstr
+      parentName: Max__rLowerArmTopClstrG
+      position: {x: 0.277644, y: 3.5527137e-15, z: 6.1617378e-15}
+      rotation: {x: 0.9557084, y: -0.24244647, z: 0.16656654, w: -0.009836475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerArmTopGuideClstrG
+      parentName: Max__curveNodesG
+      position: {x: 6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: 0.9557084, y: -0.24244647, z: 0.16656654, w: 0.009836475}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__rLowerArmTopGuideClstr
+      parentName: Max__rLowerArmTopGuideClstrG
+      position: {x: 0.555288, y: 7.1054274e-15, z: 5.9952043e-15}
+      rotation: {x: 0.9557084, y: -0.24244647, z: 0.16656654, w: -0.009836475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerLegBtmClstrG
+      parentName: Max__curveNodesG
+      position: {x: 3.0380023, y: 1.971368, z: -0.346176}
+      rotation: {x: 0.562884, y: -0.56288385, z: 0.427974, w: -0.42797393}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__rLowerLegBtmClstr
+      parentName: Max__rLowerLegBtmClstrG
+      position: {x: -0.5651561, y: -1.3322676e-15, z: 1.7763568e-15}
+      rotation: {x: 0.61242557, y: -0.5767093, z: 0.3421343, w: 0.4186711}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerLegBtmGuideClstrG
+      parentName: Max__curveNodesG
+      position: {x: 3.0380023, y: 1.971368, z: -0.346176}
+      rotation: {x: 0.562884, y: -0.56288385, z: 0.427974, w: -0.42797393}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__rLowerLegBtmGuideClstr
+      parentName: Max__rLowerLegBtmGuideClstrG
+      position: {x: -1.1303122, y: -1.7763568e-15, z: 4.440892e-16}
+      rotation: {x: 0.61242557, y: -0.5767093, z: 0.3421343, w: 0.4186711}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerLegCurveJ1
+      parentName: Max__curveNodesG
+      position: {x: 2.3857844, y: 7.003745, z: 0.00975012}
+      rotation: {x: -0.5340047, y: 0.5009968, z: -0.4299942, w: 0.5281536}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerLegCurveJ2
+      parentName: Max__curveNodesG
+      position: {x: 2.6032355, y: 5.3259373, z: -0.108916566}
+      rotation: {x: -0.5511439, y: 0.5149146, z: -0.41322613, w: 0.5102427}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerLegCurveJ3
+      parentName: Max__curveNodesG
+      position: {x: 2.8206866, y: 3.64813, z: -0.22758326}
+      rotation: {x: 0.5676826, y: -0.5282713, z: 0.3960079, w: -0.491776}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerLegTopClstrG
+      parentName: Max__curveNodesG
+      position: {x: 2.168469, y: 8.680507, z: 0.12834287}
+      rotation: {x: -0.5508654, y: 0.44700205, z: -0.48542926, w: 0.51097447}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__rLowerLegTopClstr
+      parentName: Max__rLowerLegTopClstrG
+      position: {x: 0.5651561, y: -8.881784e-15, z: -2.220446e-15}
+      rotation: {x: 0.61242557, y: -0.5767093, z: 0.3421343, w: 0.4186711}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerLegTopGuideClstrG
+      parentName: Max__curveNodesG
+      position: {x: 2.168469, y: 8.680507, z: 0.12834287}
+      rotation: {x: -0.5508654, y: 0.44700205, z: -0.48542926, w: 0.51097447}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__rLowerLegTopGuideClstr
+      parentName: Max__rLowerLegTopGuideClstrG
+      position: {x: 1.1303122, y: -8.881784e-15, z: -1.7763568e-15}
+      rotation: {x: 0.61242557, y: -0.5767093, z: 0.3421343, w: 0.4186711}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rShoulderCurveJ
+      parentName: Max__curveNodesG
+      position: {x: 3.3993518, y: 22.038267, z: -0.5641157}
+      rotation: {x: -0.0143635515, y: -0.0035760058, z: 0.9702723, w: 0.24156277}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rShoulderCurveLctr
+      parentName: Max__curveNodesG
+      position: {x: 3.597498, y: 22.00735, z: -1.6162903}
+      rotation: {x: 0.9557084, y: -0.24244647, z: 0.16656654, w: 0.009836475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperArmBtmClstrG
+      parentName: Max__curveNodesG
+      position: {x: 6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: 0.9557084, y: -0.24244647, z: 0.16656654, w: 0.009836475}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__rUpperArmBtmClstr
+      parentName: Max__rUpperArmBtmClstrG
+      position: {x: -0.29522073, y: -6.3948846e-14, z: 3.330669e-15}
+      rotation: {x: 0.9702723, y: -0.24156277, z: 0.0143635515, w: 0.0035760058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperArmBtmGuideClstrG
+      parentName: Max__curveNodesG
+      position: {x: 6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: 0.9557084, y: -0.24244647, z: 0.16656654, w: 0.009836475}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__rUpperArmBtmGuideClstr
+      parentName: Max__rUpperArmBtmGuideClstrG
+      position: {x: -0.59044147, y: -5.3290705e-14, z: 3.996803e-15}
+      rotation: {x: 0.9702723, y: -0.24156277, z: 0.0143635515, w: 0.0035760058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperArmCurveJ1
+      parentName: Max__curveNodesG
+      position: {x: 4.1810436, y: 21.623138, z: -0.54096687}
+      rotation: {x: 0.9702723, y: -0.24156277, z: 0.0143635515, w: -0.0035760058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperArmCurveJ2
+      parentName: Max__curveNodesG
+      position: {x: 4.9632225, y: 21.207752, z: -0.5178036}
+      rotation: {x: 0.9702723, y: -0.24156277, z: 0.0143635515, w: -0.0035760058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperArmCurveJ3
+      parentName: Max__curveNodesG
+      position: {x: 5.745402, y: 20.792366, z: -0.49464038}
+      rotation: {x: 0.9702723, y: -0.24156277, z: 0.0143635515, w: -0.0035760058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperArmTopClstrG
+      parentName: Max__curveNodesG
+      position: {x: 3.3993518, y: 22.038267, z: -0.5641157}
+      rotation: {x: 0.9788889, y: -0.19868383, z: -0.0264351, w: -0.04003047}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__rUpperArmTopClstr
+      parentName: Max__rUpperArmTopClstrG
+      position: {x: 0.29522073, y: -2.4868996e-14, z: -2.4424907e-15}
+      rotation: {x: 0.9702723, y: -0.24156277, z: 0.0143635515, w: 0.0035760058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperArmTopGuideClstrG
+      parentName: Max__curveNodesG
+      position: {x: 3.3993518, y: 22.038267, z: -0.5641157}
+      rotation: {x: 1.3279914e-18, y: 0.034531172, z: -0.1974378, w: 0.97970706}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__rUpperArmTopGuideClstr
+      parentName: Max__rUpperArmTopGuideClstrG
+      position: {x: 0.59044147, y: -2.842171e-14, z: -2.3314684e-15}
+      rotation: {x: 0.9702723, y: -0.24156277, z: 0.0143635515, w: 0.0035760058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperLegBtmClstrG
+      parentName: Max__curveNodesG
+      position: {x: 2.168469, y: 8.680507, z: 0.12834287}
+      rotation: {x: -0.5508654, y: 0.44700205, z: -0.48542926, w: 0.51097447}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__rUpperLegBtmClstr
+      parentName: Max__rUpperLegBtmClstrG
+      position: {x: -0.47893348, y: -7.993606e-15, z: -1.3322676e-15}
+      rotation: {x: 0.6534155, y: -0.5298177, z: 0.37217245, w: 0.39221045}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperLegBtmGuideClstrG
+      parentName: Max__curveNodesG
+      position: {x: 2.168469, y: 8.680507, z: 0.12834287}
+      rotation: {x: -0.5508654, y: 0.44700205, z: -0.48542926, w: 0.51097447}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__rUpperLegBtmGuideClstr
+      parentName: Max__rUpperLegBtmGuideClstrG
+      position: {x: -0.95786697, y: -6.217249e-15, z: -3.5527137e-15}
+      rotation: {x: 0.6534155, y: -0.5298177, z: 0.37217245, w: 0.39221045}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperLegCurveJ1
+      parentName: Max__curveNodesG
+      position: {x: 1.6119587, y: 12.9420395, z: -0.20789956}
+      rotation: {x: -0.5508655, y: 0.44700202, z: -0.4854293, w: 0.51097447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperLegCurveJ2
+      parentName: Max__curveNodesG
+      position: {x: 1.7975006, y: 11.521234, z: -0.09579547}
+      rotation: {x: -0.5508655, y: 0.44700202, z: -0.4854293, w: 0.51097447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperLegCurveJ3
+      parentName: Max__curveNodesG
+      position: {x: 1.9830426, y: 10.100428, z: 0.016308626}
+      rotation: {x: -0.5508655, y: 0.44700202, z: -0.4854293, w: 0.51097447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperLegTopClstrG
+      parentName: Max__curveNodesG
+      position: {x: 1.4265324, y: 14.361959, z: -0.3199338}
+      rotation: {x: -0.5017267, y: 0.5017267, z: -0.49826735, w: 0.49826735}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__rUpperLegTopClstr
+      parentName: Max__rUpperLegTopClstrG
+      position: {x: 0.47893348, y: -3.996803e-15, z: 3.5527137e-15}
+      rotation: {x: 0.6534155, y: -0.5298177, z: 0.37217245, w: 0.39221045}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperLegTopGuideClstrG
+      parentName: Max__curveNodesG
+      position: {x: 1.4265324, y: 14.361959, z: -0.3199338}
+      rotation: {x: 0, y: -5.4638505e-17, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Max__rUpperLegTopGuideClstr
+      parentName: Max__rUpperLegTopGuideClstrG
+      position: {x: 0.95786697, y: -3.996803e-15, z: 1.7763568e-15}
+      rotation: {x: 0.6534155, y: -0.5298177, z: 0.37217245, w: 0.39221045}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__ExtraNodes
+      parentName: Max__MainC
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__extraCurveNodesG
+      parentName: Max__ExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lAnkleAimLctr
+      parentName: Max__extraCurveNodesG
+      position: {x: -2.1680777, y: 8.680456, z: 0.12834528}
+      rotation: {x: 0.5457238, y: 0.4464867, z: 0.48632666, w: 0.5160635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lAnkleTwistLctr
+      parentName: Max__lAnkleAimLctr
+      position: {x: -6.781873, y: 0.0000005379764, z: -0.0000002412743}
+      rotation: {x: -0.12950245, y: 0.06858553, z: -0.025732618, w: 0.98886955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowTwist25Lctr
+      parentName: Max__extraCurveNodesG
+      position: {x: -6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: -0.009836475, y: 0.16656654, z: 0.24244647, w: 0.9557084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowTwist50Lctr
+      parentName: Max__extraCurveNodesG
+      position: {x: -6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: -0.009836475, y: 0.16656654, z: 0.24244647, w: 0.9557084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowTwist75Lctr
+      parentName: Max__extraCurveNodesG
+      position: {x: -6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: -0.009836475, y: 0.16656654, z: 0.24244647, w: 0.9557084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowTwistLctr
+      parentName: Max__extraCurveNodesG
+      position: {x: -6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: -0.009836475, y: 0.16656654, z: 0.24244647, w: 0.9557084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeTwist25Lctr
+      parentName: Max__extraCurveNodesG
+      position: {x: -2.1680777, y: 8.680456, z: 0.12834528}
+      rotation: {x: 0.5373647, y: 0.45651284, z: 0.47668976, w: 0.52497816}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeTwist50Lctr
+      parentName: Max__extraCurveNodesG
+      position: {x: -2.1680777, y: 8.680456, z: 0.12834528}
+      rotation: {x: 0.5288215, y: 0.46638247, z: 0.46688944, w: 0.5337128}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeTwist75Lctr
+      parentName: Max__extraCurveNodesG
+      position: {x: -2.1680777, y: 8.680456, z: 0.12834528}
+      rotation: {x: 0.5200971, y: 0.47609234, z: 0.4569292, w: 0.54226464}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeTwistLctr
+      parentName: Max__extraCurveNodesG
+      position: {x: -2.1680777, y: 8.680456, z: 0.12834528}
+      rotation: {x: 0.5457238, y: 0.4464867, z: 0.48632666, w: 0.5160635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerArmCurve
+      parentName: Max__extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerArmCurve1CG
+      parentName: Max__extraCurveNodesG
+      position: {x: -7.2156725, y: 19.994093, z: -0.20241538}
+      rotation: {x: -0.021361867, y: 0.16363044, z: 0.24443768, w: 0.9555203}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerArmCurve1C
+      parentName: Max__lLowerArmCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerArmCurve2CG
+      parentName: Max__extraCurveNodesG
+      position: {x: -7.9046807, y: 19.610708, z: 0.06682856}
+      rotation: {x: -0.03288415, y: 0.16067056, z: 0.24639332, w: 0.95519316}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerArmCurve2C
+      parentName: Max__lLowerArmCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerArmCurve3CG
+      parentName: Max__extraCurveNodesG
+      position: {x: -8.593689, y: 19.227325, z: 0.3360725}
+      rotation: {x: -0.044401653, y: 0.15768732, z: 0.24831316, w: 0.9547271}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerArmCurve3C
+      parentName: Max__lLowerArmCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerArmCurveCG
+      parentName: Max__extraCurveNodesG
+      position: {x: -7.9046807, y: 19.610708, z: 0.06682856}
+      rotation: {x: -0.03288415, y: 0.16067056, z: 0.24639332, w: 0.95519316}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerArmCurveC
+      parentName: Max__lLowerArmCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerArmCurveGuide
+      parentName: Max__extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerArmMidClstr
+      parentName: Max__extraCurveNodesG
+      position: {x: -7.9046807, y: 19.610708, z: 0.06682856}
+      rotation: {x: -0.03288415, y: 0.16067056, z: 0.24639332, w: 0.95519316}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerLegCurve
+      parentName: Max__extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerLegCurve1CG
+      parentName: Max__extraCurveNodesG
+      position: {x: -2.3854911, y: 7.003707, z: 0.009751931}
+      rotation: {x: 0.5283378, y: 0.43013972, z: 0.5008431, w: 0.5338494}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerLegCurve1C
+      parentName: Max__lLowerLegCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerLegCurve2CG
+      parentName: Max__extraCurveNodesG
+      position: {x: -2.60304, y: 5.325912, z: -0.10891536}
+      rotation: {x: 0.51037246, y: 0.41332105, z: 0.5148104, w: 0.5510499}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerLegCurve2C
+      parentName: Max__lLowerLegCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerLegCurve3CG
+      parentName: Max__extraCurveNodesG
+      position: {x: -2.820589, y: 3.6481173, z: -0.22758265}
+      rotation: {x: 0.4918475, y: 0.39604914, z: 0.5282131, w: 0.5676461}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerLegCurve3C
+      parentName: Max__lLowerLegCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerLegCurveCG
+      parentName: Max__extraCurveNodesG
+      position: {x: -2.60304, y: 5.325912, z: -0.10891536}
+      rotation: {x: 0.51037246, y: 0.41332105, z: 0.5148104, w: 0.5510499}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerLegCurveC
+      parentName: Max__lLowerLegCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerLegCurveGuide
+      parentName: Max__extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLowerLegMidClstr
+      parentName: Max__extraCurveNodesG
+      position: {x: -2.60304, y: 5.325912, z: -0.10891536}
+      rotation: {x: 0.51037246, y: 0.41332105, z: 0.5148104, w: 0.5510499}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperArmCurve
+      parentName: Max__extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperArmCurve1CG
+      parentName: Max__extraCurveNodesG
+      position: {x: -4.1810436, y: 21.623138, z: -0.54096687}
+      rotation: {x: 0.0035760058, y: 0.0143635515, z: 0.24156277, w: 0.9702723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperArmCurve1C
+      parentName: Max__lUpperArmCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperArmCurve2CG
+      parentName: Max__extraCurveNodesG
+      position: {x: -4.9632225, y: 21.207752, z: -0.5178036}
+      rotation: {x: 0.0035760058, y: 0.0143635515, z: 0.24156277, w: 0.9702723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperArmCurve2C
+      parentName: Max__lUpperArmCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperArmCurve3CG
+      parentName: Max__extraCurveNodesG
+      position: {x: -5.745402, y: 20.792366, z: -0.49464038}
+      rotation: {x: 0.0035760058, y: 0.0143635515, z: 0.24156277, w: 0.9702723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperArmCurve3C
+      parentName: Max__lUpperArmCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperArmCurveCG
+      parentName: Max__extraCurveNodesG
+      position: {x: -4.9632225, y: 21.207752, z: -0.5178036}
+      rotation: {x: 0.0035760058, y: 0.0143635515, z: 0.24156277, w: 0.9702723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperArmCurveC
+      parentName: Max__lUpperArmCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperArmCurveGuide
+      parentName: Max__extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperArmMidClstr
+      parentName: Max__extraCurveNodesG
+      position: {x: -4.9632225, y: 21.207752, z: -0.5178036}
+      rotation: {x: 0.0035760058, y: 0.0143635515, z: 0.24156277, w: 0.9702723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperLegCurve
+      parentName: Max__extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperLegCurve1CG
+      parentName: Max__extraCurveNodesG
+      position: {x: -1.611861, y: 12.942026, z: -0.20789896}
+      rotation: {x: 0.5111943, y: 0.485639, z: 0.44681224, w: 0.55063057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperLegCurve1C
+      parentName: Max__lUpperLegCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperLegCurve2CG
+      parentName: Max__extraCurveNodesG
+      position: {x: -1.7973051, y: 11.521208, z: -0.09579426}
+      rotation: {x: 0.5111943, y: 0.485639, z: 0.44681224, w: 0.55063057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperLegCurve2C
+      parentName: Max__lUpperLegCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperLegCurve3CG
+      parentName: Max__extraCurveNodesG
+      position: {x: -1.9827492, y: 10.1003895, z: 0.016310435}
+      rotation: {x: 0.5111943, y: 0.485639, z: 0.44681224, w: 0.55063057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperLegCurve3C
+      parentName: Max__lUpperLegCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperLegCurveCG
+      parentName: Max__extraCurveNodesG
+      position: {x: -1.7973051, y: 11.521208, z: -0.09579426}
+      rotation: {x: 0.5111943, y: 0.485639, z: 0.44681224, w: 0.55063057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperLegCurveC
+      parentName: Max__lUpperLegCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperLegCurveGuide
+      parentName: Max__extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lUpperLegMidClstr
+      parentName: Max__extraCurveNodesG
+      position: {x: -1.7973051, y: 11.521208, z: -0.09579426}
+      rotation: {x: 0.5111943, y: 0.485639, z: 0.44681224, w: 0.55063057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lWristAimLctr
+      parentName: Max__extraCurveNodesG
+      position: {x: -6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: -0.009836475, y: 0.16656654, z: 0.24244647, w: 0.9557084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lWristTwistLctr
+      parentName: Max__lWristAimLctr
+      position: {x: -3.331728, y: 0, z: -1.110223e-15}
+      rotation: {x: -0.04569532, y: -0.050604448, z: 0.047532897, w: 0.9965399}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rAnkleAimLctr
+      parentName: Max__extraCurveNodesG
+      position: {x: 2.168469, y: 8.680507, z: 0.12834287}
+      rotation: {x: -0.5162837, y: 0.48653328, z: -0.44629383, w: 0.5454891}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rAnkleTwistLctr
+      parentName: Max__rAnkleAimLctr
+      position: {x: 6.781873, y: -0.0000005381824, z: 0.00000024081464}
+      rotation: {x: -0.1290791, y: 0.068567775, z: -0.025707074, w: 0.9889268}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rForearmTwistLctrG
+      parentName: Max__extraCurveNodesG
+      position: {x: 6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: 0.9557084, y: -0.24244647, z: 0.16656654, w: 0.009836475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowTwist25Lctr
+      parentName: Max__rForearmTwistLctrG
+      position: {x: -8.881784e-16, y: 0, z: -1.110223e-16}
+      rotation: {x: 2.0654051e-17, y: 2.0369448e-17, z: -1.3335687e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowTwist50Lctr
+      parentName: Max__rForearmTwistLctrG
+      position: {x: -8.881784e-16, y: 0, z: -1.110223e-16}
+      rotation: {x: 1.3769368e-17, y: 1.3579632e-17, z: -8.890458e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowTwist75Lctr
+      parentName: Max__rForearmTwistLctrG
+      position: {x: -8.881784e-16, y: 0, z: -1.110223e-16}
+      rotation: {x: 6.884684e-18, y: 6.789816e-18, z: -4.445229e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowTwistLctr
+      parentName: Max__rForearmTwistLctrG
+      position: {x: -8.881784e-16, y: 0, z: -1.110223e-16}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rWristAimLctr
+      parentName: Max__rForearmTwistLctrG
+      position: {x: -8.881784e-16, y: 0, z: -1.110223e-16}
+      rotation: {x: 2.7538735e-17, y: 2.7159264e-17, z: -1.7780916e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rWristTwistLctr
+      parentName: Max__rWristAimLctr
+      position: {x: 3.331728, y: 1.0658141e-14, z: 1.7763568e-15}
+      rotation: {x: -0.04569532, y: -0.050604448, z: 0.047532897, w: 0.9965399}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeTwist25Lctr
+      parentName: Max__extraCurveNodesG
+      position: {x: 2.168469, y: 8.680507, z: 0.12834287}
+      rotation: {x: -0.5252021, y: 0.47689226, z: -0.4563156, w: 0.53713363}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeTwist50Lctr
+      parentName: Max__extraCurveNodesG
+      position: {x: 2.168469, y: 8.680507, z: 0.12834287}
+      rotation: {x: -0.53394055, y: 0.4670878, z: -0.46618107, w: 0.5285941}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeTwist75Lctr
+      parentName: Max__extraCurveNodesG
+      position: {x: 2.168469, y: 8.680507, z: 0.12834287}
+      rotation: {x: -0.54249597, y: 0.45712328, z: -0.47588673, w: 0.51987344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeTwistLctr
+      parentName: Max__extraCurveNodesG
+      position: {x: 2.168469, y: 8.680507, z: 0.12834287}
+      rotation: {x: 0.44629383, y: 0.5454891, z: -0.5162837, w: -0.48653328}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerArmCurve
+      parentName: Max__extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerArmCurve1CG
+      parentName: Max__extraCurveNodesG
+      position: {x: 7.2156725, y: 19.994093, z: -0.20241538}
+      rotation: {x: 0.9555203, y: -0.24443768, z: 0.16363044, w: 0.021361867}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerArmCurve1C
+      parentName: Max__rLowerArmCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerArmCurve2CG
+      parentName: Max__extraCurveNodesG
+      position: {x: 7.9046807, y: 19.610708, z: 0.06682856}
+      rotation: {x: 0.95519316, y: -0.24639332, z: 0.16067056, w: 0.03288415}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerArmCurve2C
+      parentName: Max__rLowerArmCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerArmCurve3CG
+      parentName: Max__extraCurveNodesG
+      position: {x: 8.593689, y: 19.227325, z: 0.3360725}
+      rotation: {x: 0.9547271, y: -0.24831316, z: 0.15768732, w: 0.044401653}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerArmCurve3C
+      parentName: Max__rLowerArmCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerArmCurveCG
+      parentName: Max__extraCurveNodesG
+      position: {x: 7.9046807, y: 19.610708, z: 0.06682856}
+      rotation: {x: 0.95519316, y: -0.24639332, z: 0.16067056, w: 0.03288415}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerArmCurveC
+      parentName: Max__rLowerArmCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerArmCurveGuide
+      parentName: Max__extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerArmMidClstr
+      parentName: Max__extraCurveNodesG
+      position: {x: 7.9046807, y: 19.610708, z: 0.06682856}
+      rotation: {x: 0.95519316, y: -0.24639332, z: 0.16067056, w: 0.03288415}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerLegCurve
+      parentName: Max__extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerLegCurve1CG
+      parentName: Max__extraCurveNodesG
+      position: {x: 2.3857844, y: 7.003745, z: 0.00975012}
+      rotation: {x: -0.5340047, y: 0.5009968, z: -0.4299942, w: 0.5281536}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerLegCurve1C
+      parentName: Max__rLowerLegCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerLegCurve2CG
+      parentName: Max__extraCurveNodesG
+      position: {x: 2.6032355, y: 5.3259373, z: -0.108916566}
+      rotation: {x: -0.5511439, y: 0.5149146, z: -0.41322613, w: 0.5102427}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerLegCurve2C
+      parentName: Max__rLowerLegCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerLegCurve3CG
+      parentName: Max__extraCurveNodesG
+      position: {x: 2.8206866, y: 3.64813, z: -0.22758326}
+      rotation: {x: 0.5676826, y: -0.5282713, z: 0.3960079, w: -0.491776}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerLegCurve3C
+      parentName: Max__rLowerLegCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerLegCurveCG
+      parentName: Max__extraCurveNodesG
+      position: {x: 2.6032355, y: 5.3259373, z: -0.108916566}
+      rotation: {x: -0.5511439, y: 0.5149146, z: -0.41322613, w: 0.5102427}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerLegCurveC
+      parentName: Max__rLowerLegCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerLegCurveGuide
+      parentName: Max__extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLowerLegMidClstr
+      parentName: Max__extraCurveNodesG
+      position: {x: 2.6032355, y: 5.3259373, z: -0.108916566}
+      rotation: {x: -0.5511439, y: 0.5149146, z: -0.41322613, w: 0.5102427}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperArmCurve
+      parentName: Max__extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperArmCurve1CG
+      parentName: Max__extraCurveNodesG
+      position: {x: 4.1810436, y: 21.623138, z: -0.54096687}
+      rotation: {x: 0.9702723, y: -0.24156277, z: 0.0143635515, w: -0.0035760058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperArmCurve1C
+      parentName: Max__rUpperArmCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperArmCurve2CG
+      parentName: Max__extraCurveNodesG
+      position: {x: 4.9632225, y: 21.207752, z: -0.5178036}
+      rotation: {x: 0.9702723, y: -0.24156277, z: 0.0143635515, w: -0.0035760058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperArmCurve2C
+      parentName: Max__rUpperArmCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperArmCurve3CG
+      parentName: Max__extraCurveNodesG
+      position: {x: 5.745402, y: 20.792366, z: -0.49464038}
+      rotation: {x: 0.9702723, y: -0.24156277, z: 0.0143635515, w: -0.0035760058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperArmCurve3C
+      parentName: Max__rUpperArmCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperArmCurveCG
+      parentName: Max__extraCurveNodesG
+      position: {x: 4.9632225, y: 21.207752, z: -0.5178036}
+      rotation: {x: 0.9702723, y: -0.24156277, z: 0.0143635515, w: -0.0035760058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperArmCurveC
+      parentName: Max__rUpperArmCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperArmCurveGuide
+      parentName: Max__extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperArmMidClstr
+      parentName: Max__extraCurveNodesG
+      position: {x: 4.9632225, y: 21.207752, z: -0.5178036}
+      rotation: {x: 0.9702723, y: -0.24156277, z: 0.0143635515, w: -0.0035760058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperLegCurve
+      parentName: Max__extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperLegCurve1CG
+      parentName: Max__extraCurveNodesG
+      position: {x: 1.6119587, y: 12.9420395, z: -0.20789956}
+      rotation: {x: -0.5508655, y: 0.44700202, z: -0.4854293, w: 0.51097447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperLegCurve1C
+      parentName: Max__rUpperLegCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperLegCurve2CG
+      parentName: Max__extraCurveNodesG
+      position: {x: 1.7975006, y: 11.521234, z: -0.09579547}
+      rotation: {x: -0.5508655, y: 0.44700202, z: -0.4854293, w: 0.51097447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperLegCurve2C
+      parentName: Max__rUpperLegCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperLegCurve3CG
+      parentName: Max__extraCurveNodesG
+      position: {x: 1.9830426, y: 10.100428, z: 0.016308626}
+      rotation: {x: -0.5508655, y: 0.44700202, z: -0.4854293, w: 0.51097447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperLegCurve3C
+      parentName: Max__rUpperLegCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperLegCurveCG
+      parentName: Max__extraCurveNodesG
+      position: {x: 1.7975006, y: 11.521234, z: -0.09579547}
+      rotation: {x: -0.5508655, y: 0.44700202, z: -0.4854293, w: 0.51097447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperLegCurveC
+      parentName: Max__rUpperLegCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperLegCurveGuide
+      parentName: Max__extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rUpperLegMidClstr
+      parentName: Max__extraCurveNodesG
+      position: {x: 1.7975006, y: 11.521234, z: -0.09579547}
+      rotation: {x: -0.5508655, y: 0.44700202, z: -0.4854293, w: 0.51097447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck01CurveLctrG
+      parentName: Max__ExtraNodes
+      position: {x: 1.2325952e-32, y: 23.479017, z: -0.33708945}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck01CurveLctr
+      parentName: Max__Neck01CurveLctrG
+      position: {x: -2.3876485e-16, y: -2.4144953e-10, z: -1.956002e-11}
+      rotation: {x: 0.0404044, y: -0, z: -0, w: 0.9991834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck02CurveLctrG
+      parentName: Max__ExtraNodes
+      position: {x: -0, y: 23.919594, z: -0.3013995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck02CurveLctr
+      parentName: Max__Neck02CurveLctrG
+      position: {x: -1.8553284e-16, y: 7.1054274e-15, z: -1.3877788e-15}
+      rotation: {x: 0.0404044, y: -0, z: -0, w: 0.9991834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck03CurveLctrG
+      parentName: Max__ExtraNodes
+      position: {x: 6.162976e-33, y: 24.36017, z: -0.26570955}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck03CurveLctr
+      parentName: Max__Neck03CurveLctrG
+      position: {x: -1.3230082e-16, y: 2.4145663e-10, z: 1.9558466e-11}
+      rotation: {x: 0.0404044, y: -0, z: -0, w: 0.9991834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck_hairSystemFollicles
+      parentName: Max__ExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck01F
+      parentName: Max__Neck_hairSystemFollicles
+      position: {x: -1.1275703e-16, y: 23.478933, z: -0.33628622}
+      rotation: {x: 0.036418524, y: 0, z: -0, w: 0.99933666}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck02F
+      parentName: Max__Neck_hairSystemFollicles
+      position: {x: -1.0928758e-16, y: 23.91959, z: -0.30257946}
+      rotation: {x: 0.038822036, y: 0, z: -0, w: 0.9992461}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck03F
+      parentName: Max__Neck_hairSystemFollicles
+      position: {x: -7.2858386e-17, y: 24.360245, z: -0.26896894}
+      rotation: {x: 0.036527835, y: 0, z: -0, w: 0.99933267}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck_ribbonBlend
+      parentName: Max__ExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck_ribbonBlend_lClusterG
+      parentName: Max__ExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck_ribbonBlend_lCluster
+      parentName: Max__Neck_ribbonBlend_lClusterG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck_ribbonBlend_rClusterG
+      parentName: Max__ExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck_ribbonBlend_rCluster
+      parentName: Max__Neck_ribbonBlend_rClusterG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckLengthCX
+      parentName: Max__ExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckSplineBtm
+      parentName: Max__ExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckSplineTop
+      parentName: Max__ExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine01CurveLctrG
+      parentName: Max__ExtraNodes
+      position: {x: -0, y: 17.131079, z: -0.3331452}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine01CurveLctr
+      parentName: Max__Spine01CurveLctrG
+      position: {x: -0, y: -8.2843243e-10, z: 5.558165e-12}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine02CurveLctrG
+      parentName: Max__ExtraNodes
+      position: {x: -0, y: 19.100199, z: -0.3463566}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine02CurveLctr
+      parentName: Max__Spine02CurveLctrG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine03CurveLctrG
+      parentName: Max__ExtraNodes
+      position: {x: 1.2325952e-32, y: 21.069319, z: -0.359568}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine03CurveLctr
+      parentName: Max__Spine03CurveLctrG
+      position: {x: -1.09313036e-16, y: 8.2843954e-10, z: -5.5587757e-12}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine_hairSystemFollicles
+      parentName: Max__ExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine01F
+      parentName: Max__Spine_hairSystemFollicles
+      position: {x: 2.5673907e-16, y: 17.131096, z: -0.3280352}
+      rotation: {x: -0.0031428558, y: 2.819007e-17, z: 8.8597764e-20, w: 0.99999505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine02F
+      parentName: Max__Spine_hairSystemFollicles
+      position: {x: 2.4980018e-16, y: 19.100218, z: -0.34109995}
+      rotation: {x: -0.0032914216, y: 0, z: -0, w: 0.9999946}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine03F
+      parentName: Max__Spine_hairSystemFollicles
+      position: {x: 2.4980018e-16, y: 21.06934, z: -0.35373607}
+      rotation: {x: -0.0032525219, y: 0, z: -0, w: 0.99999475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine_ribbonBlend
+      parentName: Max__ExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine_ribbonBlend_lClusterG
+      parentName: Max__ExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine_ribbonBlend_lCluster
+      parentName: Max__Spine_ribbonBlend_lClusterG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine_ribbonBlend_rClusterG
+      parentName: Max__ExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine_ribbonBlend_rCluster
+      parentName: Max__Spine_ribbonBlend_rClusterG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineLengthCX
+      parentName: Max__ExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineSplineBtm
+      parentName: Max__ExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineSplineTop
+      parentName: Max__ExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__EyeAimCG
+      parentName: Max__MainC
+      position: {x: 1.110223e-16, y: 26.000278, z: 4.735178}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__EyeLidsFollowLctr
+      parentName: Max__MainC
+      position: {x: 1.110223e-16, y: 26.000278, z: 4.735178}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__HeadC_OrientLctr
+      parentName: Max__MainC
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__HeadCG2
+      parentName: Max__MainC
+      position: {x: -7.9068785e-17, y: 24.800747, z: -0.23001958}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__HeadCG
+      parentName: Max__HeadCG2
+      position: {x: 1.2325952e-32, y: 0, z: -8.326673e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__HeadC
+      parentName: Max__HeadCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckLengthCXlstr03G
+      parentName: Max__HeadC
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckLengthCXlstr03
+      parentName: Max__NeckLengthCXlstr03G
+      position: {x: -1.520915e-17, y: -0.12587915, z: -0.010197131}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckTopTX_Lctr
+      parentName: Max__HeadC
+      position: {x: -1.0646405e-16, y: -0.88115406, z: -0.071379915}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckMidIKCG2_TopLctrG
+      parentName: Max__HeadCG
+      position: {x: -0, y: 0, z: 2.220446e-16}
+      rotation: {x: 0.0404044, y: -0, z: -0, w: 0.9991834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckMidIKCG2_TopLctr
+      parentName: Max__NeckMidIKCG2_TopLctrG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__HeadFKCG
+      parentName: Max__MainC
+      position: {x: -7.9068785e-17, y: 24.800747, z: -0.23001958}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__HeadFKC
+      parentName: Max__HeadFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__HeadJ
+      parentName: Max__MainC
+      position: {x: -7.9068785e-17, y: 24.800747, z: -0.23001958}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__HeadTipJ
+      parentName: Max__HeadJ
+      position: {x: -2.7359452, y: 1.4807858e-15, z: 6.075019e-16}
+      rotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__JawCG
+      parentName: Max__MainC
+      position: {x: -7.9068785e-17, y: 24.800747, z: -0.23001958}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lAnkleFKCG
+      parentName: Max__MainC
+      position: {x: -3.0380025, y: 1.9713678, z: -0.34617546}
+      rotation: {x: 0.42797396, y: 0.42797396, z: 0.5628839, w: 0.5628839}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lAnkleFKC
+      parentName: Max__lAnkleFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lAnkleFKtoIKLctrG
+      parentName: Max__MainC
+      position: {x: -3.0380023, y: 1.971368, z: -0.346176}
+      rotation: {x: 2.2204463e-16, y: -0.13778646, z: 8.3266733e-17, w: 0.990462}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lAnkleFKtoIKLctr
+      parentName: Max__lAnkleFKtoIKLctrG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 1.3877788e-17, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lAnkleIKtoFKLctrG
+      parentName: Max__MainC
+      position: {x: -3.0380025, y: 1.9713678, z: -0.34617546}
+      rotation: {x: 0, y: -0.1698198, z: -0, w: 0.9854751}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lAnkleIKtoFKLctr
+      parentName: Max__lAnkleIKtoFKLctrG
+      position: {x: -4.440892e-16, y: -2.220446e-16, z: -2.220446e-16}
+      rotation: {x: 1.3877788e-16, y: 2.7755576e-17, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lAnkleJFKG2
+      parentName: Max__MainC
+      position: {x: -2.3550603, y: 8.704863, z: 0.08677499}
+      rotation: {x: -2.220446e-16, y: 3.8857806e-16, z: 2.4980018e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lAnkleJFKG1
+      parentName: Max__lAnkleJFKG2
+      position: {x: -0.68294215, y: -6.7334943, z: -0.43295047}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lAnkleJFK
+      parentName: Max__lAnkleJFKG1
+      position: {x: -0, y: -2.220446e-16, z: -2.220446e-16}
+      rotation: {x: 0.24327698, y: 0.507491, z: 0.35731545, w: 0.74538237}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lBallJFK
+      parentName: Max__lAnkleJFK
+      position: {x: -2.5287075, y: 2.220446e-15, z: 0}
+      rotation: {x: 0.018575743, y: 0.038750157, z: -0.4318715, w: 0.90091085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lToeJFK
+      parentName: Max__lBallJFK
+      position: {x: -2.0718577, y: 9.440659e-16, z: 1.110223e-16}
+      rotation: {x: 0, y: -0.59778965, z: -0, w: 0.801653}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lArmIKFKG
+      parentName: Max__MainC
+      position: {x: -0.7986939, y: 23.132263, z: -0.37277943}
+      rotation: {x: -0.0072435928, y: -0.03599001, z: 0.19717708, w: 0.9796803}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lShoulderJFK
+      parentName: Max__lArmIKFKG
+      position: {x: -2.8278723, y: 7.1054274e-15, z: 1.6653345e-16}
+      rotation: {x: 0.02205761, y: 0.046536908, z: 0.045314174, w: 0.9976444}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lShoulderJIK
+      parentName: Max__lArmIKFKG
+      position: {x: -2.8278723, y: 1.4210855e-14, z: 3.330669e-16}
+      rotation: {x: 0.022047184, y: 0.04654025, z: 0.045261744, w: 0.99764687}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowJIK
+      parentName: Max__lShoulderJIK
+      position: {x: -3.5426488, y: 7.1054274e-15, z: 7.771561e-16}
+      rotation: {x: 0.02380873, y: 0.15112808, z: 0.0037466655, w: 0.98822033}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lWristJIK
+      parentName: Max__lElbowJIK
+      position: {x: -3.331728, y: -7.1054274e-15, z: 1.7763568e-15}
+      rotation: {x: -0.045695312, y: -0.050604448, z: 0.047532897, w: 0.9965399}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lArmIKHandle
+      parentName: Max__MainC
+      position: {x: -9.282268, y: 18.84418, z: 0.6051487}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lArmLengthOriginLctr
+      parentName: Max__MainC
+      position: {x: -3.3993518, y: 22.038267, z: -0.5641157}
+      rotation: {x: -5.3882024e-18, y: 0.08907528, z: 0.24332753, w: 0.9658454}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lArmLengthEndLctr
+      parentName: Max__lArmLengthOriginLctr
+      position: {x: -6.795445, y: -3.5527137e-15, z: -2.4980018e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lArmSwitchCG
+      parentName: Max__MainC
+      position: {x: -9.282268, y: 18.84418, z: 0.6051487}
+      rotation: {x: -0.03328758, y: 0.10701598, z: 0.29514426, w: 0.9488569}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lArmSwitchC
+      parentName: Max__lArmSwitchCG
+      position: {x: 4.440892e-16, y: -7.1054274e-15, z: -1.5712861}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lArmUpLctrG
+      parentName: Max__MainC
+      position: {x: -7.7980156, y: 20.189985, z: -7.377399}
+      rotation: {x: -0.009836475, y: 0.16656654, z: 0.24244647, w: 0.9557084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lArmUpLctr
+      parentName: Max__lArmUpLctrG
+      position: {x: -0, y: 3.5527137e-15, z: 1.7763568e-15}
+      rotation: {x: 0, y: -4.1718067e-17, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lBallFKCG
+      parentName: Max__MainC
+      position: {x: -3.6184855, y: 5.551115e-16, z: 1.1272935}
+      rotation: {x: 9.367507e-17, y: 0.59778965, z: 1.6523241e-16, w: 0.801653}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lBallFKC
+      parentName: Max__lBallFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.5661343, y: 1.5661343, z: 1.5661343}
+    - name: Max__lClavicleCG2
+      parentName: Max__MainC
+      position: {x: -2.1862607e-16, y: 23.038439, z: -0.37277943}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lClavicleCG
+      parentName: Max__lClavicleCG2
+      position: {x: -0.7986939, y: 0.093822375, z: 0.000629482}
+      rotation: {x: -0.003957126, y: -0.036651257, z: 0.19705524, w: 0.9796991}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lClavicleC
+      parentName: Max__lClavicleCG
+      position: {x: -0, y: 3.5527137e-15, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowFKCG
+      parentName: Max__MainC
+      position: {x: -6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: -0.009836475, y: 0.16656654, z: 0.24244647, w: 0.9557084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowFKC
+      parentName: Max__lElbowFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowIKC_TargetLctr
+      parentName: Max__MainC
+      position: {x: -6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowIKCG
+      parentName: Max__MainC
+      position: {x: -6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: 0.009139462, y: 0.09137382, z: 0.24247375, w: 0.96580213}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowIKC
+      parentName: Max__lElbowIKCG
+      position: {x: -8.881784e-16, y: 0, z: -7.0243764}
+      rotation: {x: -0.0000000014144521, y: 9.804745e-15, z: -0.24232258, w: 0.9701958}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowIKAimConnectorLctr
+      parentName: Max__lElbowIKC
+      position: {x: 1.7763568e-15, y: 7.1054274e-15, z: 0}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowIKTargetConnectorLctr
+      parentName: Max__lElbowIKAimConnectorLctr
+      position: {x: -8.881784e-15, y: -1.4210855e-14, z: -7.0243764}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowIKConnectorCX
+      parentName: Max__lElbowIKC
+      position: {x: 8.881784e-16, y: 3.5527137e-15, z: 0}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: -7.0243764}
+    - name: Max__lElbowIKtoFKAimLctr
+      parentName: Max__lElbowIKCG
+      position: {x: -1.7763568e-15, y: -3.5527137e-15, z: -7.0243764}
+      rotation: {x: 3.442342e-18, y: 2.0823458e-17, z: 6.505213e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowJFKG2
+      parentName: Max__MainC
+      position: {x: -6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: -9.454243e-16, y: 3.1441863e-17, z: -1.7368919e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowJFKG1
+      parentName: Max__lElbowJFKG2
+      position: {x: 1.7763568e-15, y: -3.5527137e-15, z: -3.330669e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowJFK
+      parentName: Max__lElbowJFKG1
+      position: {x: 8.881784e-16, y: -3.5527137e-15, z: 5.551115e-17}
+      rotation: {x: -0.009836475, y: 0.16656654, z: 0.24244647, w: 0.9557084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lFootIKCG
+      parentName: Max__MainC
+      position: {x: -3.0380025, y: 0, z: -0.34617546}
+      rotation: {x: 0, y: -0.1698198, z: -0, w: 0.9854751}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lFootIKC
+      parentName: Max__lFootIKCG
+      position: {x: -0, y: 1.9713678, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lHipFKCG
+      parentName: Max__MainC
+      position: {x: -1.4265324, y: 14.361959, z: -0.3199338}
+      rotation: {x: 0.39221042, y: 0.37217245, z: 0.5298177, w: 0.6534155}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lHipFKC
+      parentName: Max__lHipFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lHipFKtoIKOrientLctr
+      parentName: Max__lHipFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.20906818, y: 0.016799178, z: 1.0475236e-12, w: 0.9777568}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lHipIKLockLctr
+      parentName: Max__MainC
+      position: {x: -1.4265324, y: 14.361959, z: -0.3199338}
+      rotation: {x: -7.554265e-17, y: 0.5520713, z: 0.39400426, w: 0.7348319}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeIKLockLctr
+      parentName: Max__lHipIKLockLctr
+      position: {x: -9.144098, y: 1.7763568e-15, z: -4.440892e-15}
+      rotation: {x: -4.3356265e-17, y: -0.5075501, z: 0.5766884, w: 0.64017457}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lAnkleIKLockLctr
+      parentName: Max__lKneeIKLockLctr
+      position: {x: -10.322661, y: 3.1086245e-15, z: -8.881784e-16}
+      rotation: {x: 0.103152975, y: 0.25509167, z: 0.10255743, w: 0.95591307}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeFKCG
+      parentName: Max__MainC
+      position: {x: -2.3550603, y: 8.704863, z: 0.08677499}
+      rotation: {x: 0.4211158, y: 0.34478962, z: 0.5749535, w: 0.6109092}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeFKC
+      parentName: Max__lKneeFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.5661343, z: 1.5661343}
+    - name: Max__lKneeIKC_TargetLctr
+      parentName: Max__MainC
+      position: {x: -2.3550603, y: 8.704863, z: 0.08677472}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeIKCG
+      parentName: Max__MainC
+      position: {x: -2.3550603, y: 8.704863, z: 0.08677499}
+      rotation: {x: -0.012708632, y: -0.21213531, z: -0.06336657, w: 0.97510093}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeIKC
+      parentName: Max__lKneeIKCG
+      position: {x: 3.047635, y: 0.39933312, z: 6.3163996}
+      rotation: {x: -0.013254206, y: 0.22412138, z: 0.069341734, w: 0.97200084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeIKAimConnectorLctr
+      parentName: Max__lKneeIKC
+      position: {x: -1.3322676e-15, y: 3.5527137e-15, z: 0}
+      rotation: {x: -0.001918613, y: -0.013303242, z: 5.0826573e-21, w: 0.9999097}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeIKTargetConnectorLctr
+      parentName: Max__lKneeIKAimConnectorLctr
+      position: {x: 8.881784e-15, y: -1.7763568e-15, z: -6.981588}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeIKConnectorCX
+      parentName: Max__lKneeIKC
+      position: {x: -4.440892e-16, y: 1.7763568e-15, z: 0}
+      rotation: {x: -0.001918613, y: -0.013303242, z: 5.0826573e-21, w: 0.9999097}
+      scale: {x: 1, y: 1, z: -6.981588}
+    - name: Max__lKneeIKtoFKAimLctr
+      parentName: Max__lKneeIKCG
+      position: {x: 1.3322676e-15, y: -3.5527137e-15, z: 7.0094714}
+      rotation: {x: -3.8857806e-16, y: 2.7755576e-17, z: 1.5265567e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeJFKG2
+      parentName: Max__MainC
+      position: {x: -1.4265324, y: 14.361959, z: -0.3199338}
+      rotation: {x: 2.7755576e-17, y: -1.110223e-16, z: -5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeJFKG1
+      parentName: Max__lKneeJFKG2
+      position: {x: -0.928528, y: -5.6570973, z: 0.40670878}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeJFK
+      parentName: Max__lKneeJFKG1
+      position: {x: -0, y: -1.7763568e-15, z: -1.110223e-16}
+      rotation: {x: 0.41867107, y: 0.3421343, z: 0.5767093, w: 0.61242557}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLegIKFKG
+      parentName: Max__MainC
+      position: {x: -0, y: 15.16196, z: -0.3199338}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lHipJFK
+      parentName: Max__lLegIKFKG
+      position: {x: -1.4265324, y: -0.8, z: -1.6653345e-16}
+      rotation: {x: 0.39221042, y: 0.37217245, z: 0.5298177, w: 0.6534155}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lHipJIK
+      parentName: Max__lLegIKFKG
+      position: {x: -1.4265324, y: -0.8, z: 0}
+      rotation: {x: 0.5111943, y: 0.485639, z: 0.44681224, w: 0.55063057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeJIK
+      parentName: Max__lHipJIK
+      position: {x: -5.7472014, y: 0, z: 4.440892e-16}
+      rotation: {x: 8.1486196e-14, y: -1.0983534e-12, z: 0.07398609, w: 0.9972593}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lAnkleJIK
+      parentName: Max__lKneeJIK
+      position: {x: -6.781873, y: 6.661338e-16, z: 0}
+      rotation: {x: -0.19395672, y: 0.005777709, z: -0.34643188, w: 0.91778666}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lBallJIK
+      parentName: Max__lAnkleJIK
+      position: {x: -2.5287075, y: 5.2041704e-16, z: -6.661338e-16}
+      rotation: {x: 0.018575732, y: 0.03875016, z: -0.4318715, w: 0.90091085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lToeJIK
+      parentName: Max__lBallJIK
+      position: {x: -2.0718577, y: 9.440659e-16, z: 1.110223e-16}
+      rotation: {x: 0, y: -0.59778965, z: -0, w: 0.801653}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLegLengthOriginLctr
+      parentName: Max__MainC
+      position: {x: -1.4265324, y: 14.361959, z: -0.3199338}
+      rotation: {x: -0.016248109, y: -3.6944996e-18, z: 0.9977771, w: 0.064628415}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLegLengthEndLctr
+      parentName: Max__lLegLengthOriginLctr
+      position: {x: 7.5495166e-15, y: 12.49497, z: 1.3877788e-16}
+      rotation: {x: -0.016248109, y: 5.433088e-18, z: 0.9977771, w: -0.064628415}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLegSwitchCG
+      parentName: Max__MainC
+      position: {x: -3.0380023, y: 1.971368, z: -0.346176}
+      rotation: {x: -0.00000008498694, y: -0.115552604, z: -0.00000001965277, w: 0.9933014}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLegSwitchC
+      parentName: Max__lLegSwitchCG
+      position: {x: -0, y: -2.220446e-16, z: -1.725212}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lPalmCG
+      parentName: Max__MainC
+      position: {x: -9.821714, y: 18.51136, z: 0.8600741}
+      rotation: {x: -0.03328758, y: 0.10701598, z: 0.29514426, w: 0.9488569}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lPalmC
+      parentName: Max__lPalmCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lFinger1J1CG
+      parentName: Max__lPalmC
+      position: {x: -1.1351281, y: 7.1054274e-15, z: 0.017580412}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lFinger1J1CRotG
+      parentName: Max__lFinger1J1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lFinger1J1C
+      parentName: Max__lFinger1J1CRotG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lFinger1J2CG
+      parentName: Max__lPalmC
+      position: {x: -1.6605164, y: -7.888609e-31, z: 0.017580412}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lFinger1J2CRotG
+      parentName: Max__lFinger1J2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lFinger1J2C
+      parentName: Max__lFinger1J2CRotG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lFinger1J3CG
+      parentName: Max__lPalmC
+      position: {x: -2.151638, y: 2.1316282e-14, z: 0.017580412}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lFinger1J3CRotG
+      parentName: Max__lFinger1J3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lFinger1J3C
+      parentName: Max__lFinger1J3CRotG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lShoulderFKCG2
+      parentName: Max__MainC
+      position: {x: -3.3993518, y: 22.038267, z: -0.5641157}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lShoulderFKCG
+      parentName: Max__lShoulderFKCG2
+      position: {x: -3.1086245e-15, y: 7.1054274e-15, z: 2.220446e-16}
+      rotation: {x: 0.0035760058, y: 0.0143635515, z: 0.24156277, w: 0.9702723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lShoulderFKC
+      parentName: Max__lShoulderFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lShoulderFKtoIKOrientLctr
+      parentName: Max__lShoulderFKCG
+      position: {x: 8.881784e-16, y: 7.1054274e-15, z: 2.220446e-16}
+      rotation: {x: -0.000007864408, y: 0.0000025336192, z: -0.000052978623, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lShoulderIKLockLctr
+      parentName: Max__MainC
+      position: {x: -3.3993518, y: 22.038267, z: -0.5641157}
+      rotation: {x: -4.7618667e-17, y: -0.4684417, z: 0.12707706, w: 0.87430763}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowIKLockLctr
+      parentName: Max__lShoulderIKLockLctr
+      position: {x: -8.317765, y: 0, z: 1.3322676e-15}
+      rotation: {x: 7.2089465e-17, y: 0.8662853, z: 0.28449482, w: 0.4106244}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lWristIKLockLctr
+      parentName: Max__lElbowIKLockLctr
+      position: {x: -8.230144, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lToeIKCG
+      parentName: Max__MainC
+      position: {x: -4.5011306, y: 0.97577333, z: 3.814751}
+      rotation: {x: 0, y: -0.1698198, z: -0, w: 0.9854751}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lToeIKC
+      parentName: Max__lToeIKCG
+      position: {x: 0.03987227, y: -0.97577333, z: -0.7588192}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lBallSwivel
+      parentName: Max__lToeIKC
+      position: {x: -0.10764518, y: 1.0918953e-14, z: -2.0690594}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lFootInTilt
+      parentName: Max__lBallSwivel
+      position: {x: 0.7970407, y: -4.440892e-16, z: 0.015858842}
+      rotation: {x: 0, y: -0.009947102, z: -0, w: 0.9999505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lFootOutTilt
+      parentName: Max__lFootInTilt
+      position: {x: -1.6693491, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lFootHeelPivot
+      parentName: Max__lFootOutTilt
+      position: {x: 0.8944761, y: 0, z: -2.7270637}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lFootBallPivot
+      parentName: Max__lFootHeelPivot
+      position: {x: -0.022325465, y: 4.440892e-16, z: 2.7270637}
+      rotation: {x: 0, y: 0.03592917, z: -0, w: 0.99935436}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lBallIKHandle
+      parentName: Max__lFootBallPivot
+      position: {x: 1.1766983e-15, y: 5.050314e-16, z: -2.0462834e-15}
+      rotation: {x: 0.29224423, y: 0.6096397, z: 0.3185143, w: 0.6644407}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeTargetLockLctr
+      parentName: Max__lFootBallPivot
+      position: {x: 0.1359843, y: 1.9713678, z: -1.57784}
+      rotation: {x: 0, y: 0.14415321, z: -0, w: 0.9895554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLegIKHandle
+      parentName: Max__lFootBallPivot
+      position: {x: 0.1359843, y: 1.9713678, z: -1.57784}
+      rotation: {x: 0, y: 0.14415321, z: -0, w: 0.9895554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lFootToePivot
+      parentName: Max__lFootHeelPivot
+      position: {x: -0.022325465, y: 4.440892e-16, z: 2.7270637}
+      rotation: {x: 0, y: 0.03592917, z: -0, w: 0.99935436}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lToeIKHandle
+      parentName: Max__lFootToePivot
+      position: {x: -4.440892e-16, y: -1.1238726e-14, z: 2.0718577}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lWristFKCG
+      parentName: Max__MainC
+      position: {x: -9.282268, y: 18.84418, z: 0.6051487}
+      rotation: {x: -0.03328758, y: 0.10701598, z: 0.29514426, w: 0.9488569}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lWristFKC
+      parentName: Max__lWristFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lWristFKtoIKLctr
+      parentName: Max__lWristFKCG
+      position: {x: -2.6645353e-15, y: -7.1054274e-15, z: 2.220446e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lWristIKCG
+      parentName: Max__MainC
+      position: {x: -9.282268, y: 18.84418, z: 0.6051487}
+      rotation: {x: -0.03328758, y: 0.10701598, z: 0.29514426, w: 0.9488569}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lWristIKC
+      parentName: Max__lWristIKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lWristIKtoFKLctr
+      parentName: Max__lWristIKCG
+      position: {x: 7.1054274e-15, y: -7.1054274e-15, z: 4.440892e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lWristJFKG2
+      parentName: Max__MainC
+      position: {x: -9.282268, y: 18.84418, z: 0.6051487}
+      rotation: {x: -4.1633363e-17, y: -8.630249e-17, z: -4.161168e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lWristJFKG1
+      parentName: Max__lWristJFKG2
+      position: {x: 7.1054274e-15, y: -3.5527137e-15, z: 6.661338e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lWristJFK
+      parentName: Max__lWristJFKG1
+      position: {x: -0, y: 0, z: 2.220446e-16}
+      rotation: {x: -0.03328758, y: 0.10701598, z: 0.29514426, w: 0.9488569}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lWristJG2
+      parentName: Max__MainC
+      position: {x: -6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: -0.03328758, y: 0.10701598, z: 0.29514426, w: 0.9488569}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lWristJG1
+      parentName: Max__lWristJG2
+      position: {x: -3.2996087, y: 0.30022895, z: 0.35050696}
+      rotation: {x: 1.3877788e-17, y: 3.0184188e-16, z: -5.464379e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lThumbJ1CG
+      parentName: Max__lWristJG1
+      position: {x: -0.38518104, y: -0.096446216, z: 0.4764621}
+      rotation: {x: 0.62430036, y: 0.40899095, z: -0.12940665, w: 0.6528624}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lThumbJ1CRotG
+      parentName: Max__lThumbJ1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lThumbJ1C
+      parentName: Max__lThumbJ1CRotG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lThumbJ2CG
+      parentName: Max__lWristJG1
+      position: {x: -0.8421321, y: -0.34351665, z: 0.9794338}
+      rotation: {x: 0.62430036, y: 0.40899095, z: -0.12940665, w: 0.6528624}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lThumbJ2CRotG
+      parentName: Max__lThumbJ2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lThumbJ2C
+      parentName: Max__lThumbJ2CRotG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lThumbJ3CG
+      parentName: Max__lWristJG1
+      position: {x: -1.3529189, y: -0.61969566, z: 1.541663}
+      rotation: {x: 0.62430036, y: 0.40899095, z: -0.12940665, w: 0.6528624}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lThumbJ3CRotG
+      parentName: Max__lThumbJ3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lThumbJ3C
+      parentName: Max__lThumbJ3CRotG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lWristJ
+      parentName: Max__lWristJG1
+      position: {x: 2.6645353e-15, y: 0, z: -4.6629367e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lPalmJ
+      parentName: Max__lWristJ
+      position: {x: -0.6739301, y: 0.031888857, z: 0.10751861}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lFinger1J1
+      parentName: Max__lPalmJ
+      position: {x: -1.1351281, y: 7.1054274e-15, z: 0.017580412}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lFinger1J2
+      parentName: Max__lFinger1J1
+      position: {x: -0.5253883, y: 1.0658141e-14, z: -2.220446e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lFinger1J3
+      parentName: Max__lFinger1J2
+      position: {x: -0.49112153, y: 2.4868996e-14, z: -6.661338e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lFinger1JTip
+      parentName: Max__lFinger1J3
+      position: {x: -0.5244498, y: -3.5527137e-15, z: 6.661338e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lThumbJ1
+      parentName: Max__lWristJ
+      position: {x: -0.38518104, y: -0.096446216, z: 0.4764621}
+      rotation: {x: 0.3499427, y: -0.17244318, z: -0.53295135, w: 0.75084364}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lThumbJ2
+      parentName: Max__lThumbJ1
+      position: {x: 3.5527137e-15, y: 1.7763568e-15, z: 0.7230689}
+      rotation: {x: 0, y: -1.7041923e-14, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lThumbJ3
+      parentName: Max__lThumbJ2
+      position: {x: 1.4210855e-14, y: 2.3980817e-14, z: 0.8082572}
+      rotation: {x: 0, y: -1.7041923e-14, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lThumbJTip
+      parentName: Max__lThumbJ3
+      position: {x: 1.0658141e-14, y: 1.687539e-14, z: 0.44869187}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lWristJIKProxyG2
+      parentName: Max__MainC
+      position: {x: -6.527269, y: 20.377571, z: -0.4714684}
+      rotation: {x: 0.000024579347, y: 0.000009474737, z: 0.000050560557, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lWristJIKProxyG1
+      parentName: Max__lWristJIKProxyG2
+      position: {x: -2.7551744, y: -1.5330592, z: 1.0766402}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lWristJIKProxy
+      parentName: Max__lWristJIKProxyG1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.03330829, y: 0.10701593, z: 0.29509333, w: 0.948872}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__MainHipCG
+      parentName: Max__MainC
+      position: {x: -0, y: 15.16196, z: -0.3199338}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__MainHipC
+      parentName: Max__MainHipCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineBtmTX_Lctr
+      parentName: Max__MainHipC
+      position: {x: -0, y: 3.9382398, z: -0.026422812}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineLengthCXlstr01G
+      parentName: Max__MainHipC
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineLengthCXlstr01
+      parentName: Max__SpineLengthCXlstr01G
+      position: {x: -0, y: 0.57915294, z: -0.0038857076}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineMidIKCG2_BtmLctrG
+      parentName: Max__MainHipCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineMidIKCG2_BtmLctr
+      parentName: Max__SpineMidIKCG2_BtmLctrG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck01CurveCG
+      parentName: Max__MainC
+      position: {x: -0, y: 23.479017, z: -0.33708945}
+      rotation: {x: 0.0404044, y: -0, z: -0, w: 0.9991834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck01CurveC
+      parentName: Max__Neck01CurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck01FKCG
+      parentName: Max__MainC
+      position: {x: -2.3876485e-16, y: 23.479017, z: -0.33708945}
+      rotation: {x: 0.0404044, y: -0, z: -0, w: 0.9991834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck01FKC
+      parentName: Max__Neck01FKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck01FKCG_OrientLctr
+      parentName: Max__MainC
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck01J
+      parentName: Max__MainC
+      position: {x: -0, y: 23.479017, z: -0.33708945}
+      rotation: {x: 0.0404044, y: -0, z: -0, w: 0.9991834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck02CurveCG
+      parentName: Max__MainC
+      position: {x: -0, y: 23.919594, z: -0.3013995}
+      rotation: {x: 0.0404044, y: -0, z: -0, w: 0.9991834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck02CurveC
+      parentName: Max__Neck02CurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck02FKCG
+      parentName: Max__MainC
+      position: {x: -1.8553284e-16, y: 23.919594, z: -0.3013995}
+      rotation: {x: 0.0404044, y: -0, z: -0, w: 0.9991834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck02FKC
+      parentName: Max__Neck02FKCG
+      position: {x: -0, y: 3.5527137e-15, z: -4.440892e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck02J
+      parentName: Max__MainC
+      position: {x: -0, y: 23.919594, z: -0.3013995}
+      rotation: {x: 0.0404044, y: -0, z: -0, w: 0.9991834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck03CurveCG
+      parentName: Max__MainC
+      position: {x: -0, y: 24.36017, z: -0.26570955}
+      rotation: {x: 0.0404044, y: -0, z: -0, w: 0.9991834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck03CurveC
+      parentName: Max__Neck03CurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck03FKCG
+      parentName: Max__MainC
+      position: {x: -1.3230082e-16, y: 24.36017, z: -0.26570955}
+      rotation: {x: 0.0404044, y: -0, z: -0, w: 0.9991834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck03FKC
+      parentName: Max__Neck03FKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck03J
+      parentName: Max__MainC
+      position: {x: -0, y: 24.36017, z: -0.26570955}
+      rotation: {x: 0.0404044, y: -0, z: -0, w: 0.9991834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck_ribbonSpineG
+      parentName: Max__MainC
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.44202024, y: 0.44202024, z: 0.44202024}
+    - name: Max__NeckBtm01JIK
+      parentName: Max__Neck_ribbonSpineG
+      position: {x: -4.9460647e-16, y: 52.120777, z: -0.8433537}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckMidJIK
+      parentName: Max__Neck_ribbonSpineG
+      position: {x: -4.197383e-16, y: 54.11425, z: -0.6818681}
+      rotation: {x: 0.0404044, y: -0, z: -0, w: 0.9991834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckTopJIK
+      parentName: Max__Neck_ribbonSpineG
+      position: {x: -1.7888047e-16, y: 56.10772, z: -0.52038246}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckMidIKCG
+      parentName: Max__MainC
+      position: {x: -1.8553284e-16, y: 23.919594, z: -0.3013995}
+      rotation: {x: 0.0404044, y: -0, z: -0, w: 0.9991834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckMidIKCG2
+      parentName: Max__NeckMidIKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckMidIKC
+      parentName: Max__NeckMidIKCG2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckLengthCXlstr02G
+      parentName: Max__NeckMidIKC
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckLengthCXlstr02
+      parentName: Max__NeckLengthCXlstr02G
+      position: {x: 1.009717e-17, y: 0.00486709, z: 0}
+      rotation: {x: -0.0404044, y: 0, z: -0, w: 0.9991834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckSplineBtm_ClusterG
+      parentName: Max__MainC
+      position: {x: 2.4651903e-32, y: 23.038439, z: -0.37277943}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckSplineBtm_BtmClstr
+      parentName: Max__NeckSplineBtm_ClusterG
+      position: {x: -0, y: 0.14685902, z: 0.011896653}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckSplineMid_ClusterG
+      parentName: Max__MainC
+      position: {x: -0, y: 23.919594, z: -0.3013995}
+      rotation: {x: 2.0816682e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckSplineBtm_TopClstr
+      parentName: Max__NeckSplineMid_ClusterG
+      position: {x: -0, y: -0.14685902, z: -0.011896653}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckSplineTop_BtmClstr
+      parentName: Max__NeckSplineMid_ClusterG
+      position: {x: -0, y: 0.14685902, z: 0.011896653}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckSplineTop_ClusterG
+      parentName: Max__MainC
+      position: {x: 1.2325952e-32, y: 24.800747, z: -0.23001958}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckSplineTop_TopClstr
+      parentName: Max__NeckSplineTop_ClusterG
+      position: {x: -0, y: -0.14685902, z: -0.011896653}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rAnkleFKCG
+      parentName: Max__MainC
+      position: {x: 3.0380025, y: 1.9713678, z: -0.34617546}
+      rotation: {x: -0.5628839, y: 0.5628839, z: -0.42797396, w: 0.42797396}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rAnkleFKC
+      parentName: Max__rAnkleFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rAnkleIKtoFKLctrTargetG
+      parentName: Max__rAnkleFKC
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rAnkleIKtoFKLctrTarget
+      parentName: Max__rAnkleIKtoFKLctrTargetG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rAnkleFKtoIKLctrG
+      parentName: Max__MainC
+      position: {x: 3.0380023, y: 1.971368, z: -0.346176}
+      rotation: {x: 0.9914449, y: -4.8226296e-18, z: -0.13052619, w: -2.7662053e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rAnkleFKtoIKLctr
+      parentName: Max__rAnkleFKtoIKLctrG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -2.213434e-16, y: -8.326673e-17, z: -1.763268e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rAnkleJFKG2
+      parentName: Max__MainC
+      position: {x: 2.3550603, y: 8.704863, z: 0.08677499}
+      rotation: {x: 5.551115e-17, y: -3.6082248e-16, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rAnkleJFKG1
+      parentName: Max__rAnkleJFKG2
+      position: {x: 0.68294215, y: -6.7334943, z: -0.43295047}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rAnkleJFK
+      parentName: Max__rAnkleJFKG1
+      position: {x: -0, y: 0, z: 1.2767565e-15}
+      rotation: {x: 0.74538237, y: -0.35731545, z: 0.507491, w: -0.24327698}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rBallJFK
+      parentName: Max__rAnkleJFK
+      position: {x: 2.5287075, y: -1.3322676e-15, z: 8.881784e-16}
+      rotation: {x: 0.018575743, y: 0.038750157, z: -0.4318715, w: 0.90091085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rToeJFK
+      parentName: Max__rBallJFK
+      position: {x: 2.0718577, y: 6.1191285e-16, z: 5.551115e-16}
+      rotation: {x: -8.569115e-17, y: 0.801653, z: 8.569115e-17, w: 0.59778965}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rArmIKFKG
+      parentName: Max__MainC
+      position: {x: 0.7986939, y: 23.132263, z: -0.37277943}
+      rotation: {x: 0.9796803, y: -0.19717708, z: -0.03599001, w: 0.0072435928}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rShoulderJFK
+      parentName: Max__rArmIKFKG
+      position: {x: 2.8278723, y: 3.5527137e-15, z: 6.217249e-15}
+      rotation: {x: 0.02205761, y: 0.046536908, z: 0.045314174, w: 0.9976444}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rShoulderJIK
+      parentName: Max__rArmIKFKG
+      position: {x: 2.8278723, y: 7.1054274e-15, z: 6.550316e-15}
+      rotation: {x: 0.022057123, y: 0.0465368, z: 0.045314897, w: 0.9976444}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowJIK
+      parentName: Max__rShoulderJIK
+      position: {x: 3.5426488, y: -3.5527137e-15, z: -1.2212453e-15}
+      rotation: {x: 0.02379201, y: 0.15113075, z: 0.0036373409, w: 0.98822075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rWristJIK
+      parentName: Max__rElbowJIK
+      position: {x: 3.331728, y: 3.5527137e-15, z: 8.881784e-16}
+      rotation: {x: -0.04569532, y: -0.050604448, z: 0.047532897, w: 0.9965399}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rArmIKHandle
+      parentName: Max__MainC
+      position: {x: 9.282268, y: 18.84418, z: 0.6051487}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rArmLengthOriginLctr
+      parentName: Max__MainC
+      position: {x: 3.3993518, y: 22.038267, z: -0.5641157}
+      rotation: {x: -2.2951552e-17, y: 0.33202094, z: 0.90698373, w: 0.2591191}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rArmLengthEndLctr
+      parentName: Max__rArmLengthOriginLctr
+      position: {x: -6.795445, y: 3.5527137e-15, z: -1.7763568e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rArmSwitchCG
+      parentName: Max__MainC
+      position: {x: 9.282268, y: 18.84418, z: 0.6051487}
+      rotation: {x: -0.03328758, y: -0.10701598, z: -0.29514426, w: 0.9488569}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rArmSwitchC
+      parentName: Max__rArmSwitchCG
+      position: {x: -1.3322676e-15, y: -3.5527137e-15, z: -1.5712861}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rArmUpLctrG
+      parentName: Max__MainC
+      position: {x: 7.7437363, y: 20.197983, z: -7.082459}
+      rotation: {x: 0.9557084, y: -0.24244647, z: 0.16656654, w: 0.009836475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rArmUpLctr
+      parentName: Max__rArmUpLctrG
+      position: {x: 2.6645353e-15, y: 3.5527137e-15, z: 8.881784e-16}
+      rotation: {x: 0, y: 9.628732e-17, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rBallFKCG
+      parentName: Max__MainC
+      position: {x: 3.6184855, y: -1.110223e-16, z: 1.1272935}
+      rotation: {x: 0.801653, y: -2.96939e-15, z: 0.59778965, w: -1.916674e-15}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rBallFKC
+      parentName: Max__rBallFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1.5661343, y: -1.5661343, z: -1.5661343}
+    - name: Max__rClavicleCG2
+      parentName: Max__MainC
+      position: {x: -2.1862607e-16, y: 23.038439, z: -0.37277943}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rClavicleCG
+      parentName: Max__rClavicleCG2
+      position: {x: 0.7986939, y: 0.093822375, z: 0.000629482}
+      rotation: {x: 0.9796991, y: -0.19705524, z: -0.036651257, w: 0.003957126}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rClavicleC
+      parentName: Max__rClavicleCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowFKCG
+      parentName: Max__MainC
+      position: {x: 6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: 0.9557084, y: -0.24244647, z: 0.16656654, w: 0.009836475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowFKC
+      parentName: Max__rElbowFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowIKC_TargetLctr
+      parentName: Max__MainC
+      position: {x: 6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowIKCG
+      parentName: Max__MainC
+      position: {x: 6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: 0.009139462, y: -0.09137382, z: -0.24247375, w: 0.96580213}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowIKC
+      parentName: Max__rElbowIKCG
+      position: {x: -8.881784e-16, y: 3.5527137e-15, z: -6.7243767}
+      rotation: {x: -0.0000000014694865, y: 2.3875527e-11, z: 0.24232258, w: 0.9701958}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowIKAimConnectorLctr
+      parentName: Max__rElbowIKC
+      position: {x: -3.5527137e-15, y: 7.1054274e-15, z: -1.7763568e-15}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowIKTargetConnectorLctr
+      parentName: Max__rElbowIKAimConnectorLctr
+      position: {x: 4.440892e-15, y: 3.5527137e-15, z: -6.7243767}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowIKConnectorCX
+      parentName: Max__rElbowIKC
+      position: {x: -1.7763568e-15, y: 3.5527137e-15, z: -8.881784e-16}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: -6.7243767}
+    - name: Max__rElbowIKtoFKAimLctr
+      parentName: Max__rElbowIKCG
+      position: {x: -2.6645353e-15, y: 7.1054274e-15, z: -6.7243767}
+      rotation: {x: -4.5378735e-17, y: 0, z: -2.2285683e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowJFKG2
+      parentName: Max__MainC
+      position: {x: 6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: 1.9081958e-16, y: -2.0816682e-17, z: 8.326673e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowJFKG1
+      parentName: Max__rElbowJFKG2
+      position: {x: 8.881784e-16, y: -3.5527137e-15, z: -1.0547119e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowJFK
+      parentName: Max__rElbowJFKG1
+      position: {x: -8.881784e-16, y: 0, z: -5.551115e-17}
+      rotation: {x: 0.9557084, y: -0.24244647, z: 0.16656654, w: 0.009836475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rFootIKCG
+      parentName: Max__MainC
+      position: {x: 3.0380025, y: 0, z: -0.34617546}
+      rotation: {x: 0, y: 0.1698198, z: -0, w: 0.9854751}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rAnkleIKtoFKLctr
+      parentName: Max__rFootIKCG
+      position: {x: -0, y: 1.9713678, z: -1.5543122e-15}
+      rotation: {x: 0, y: -1.6653345e-16, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rFootIKC
+      parentName: Max__rFootIKCG
+      position: {x: -0, y: 1.9713678, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rHipFKCG
+      parentName: Max__MainC
+      position: {x: 1.4265324, y: 14.361959, z: -0.3199338}
+      rotation: {x: 0.6534155, y: -0.5298177, z: 0.37217245, w: -0.39221045}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rHipFKC
+      parentName: Max__rHipFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rHipFKtoIKOrientLctr
+      parentName: Max__rHipFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.20865068, y: 0.01676563, z: 1.1916522e-11, w: 0.9778465}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rHipIKLockLctr
+      parentName: Max__MainC
+      position: {x: 1.4265324, y: 14.361959, z: -0.3199338}
+      rotation: {x: -8.187293e-17, y: 0.59857666, z: 0.42661494, w: 0.67801607}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeIKLockLctr
+      parentName: Max__rHipIKLockLctr
+      position: {x: -9.152797, y: 0, z: 0}
+      rotation: {x: 0, y: -0.38045073, z: 0.6678902, w: 0.63967174}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rAnkleIKLockLctr
+      parentName: Max__rKneeIKLockLctr
+      position: {x: -10.329381, y: 4.8849813e-15, z: 8.881784e-16}
+      rotation: {x: -0.14460768, y: -0.17045109, z: -0.21545857, w: 0.9505854}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeFKCG
+      parentName: Max__MainC
+      position: {x: 2.3550603, y: 8.704863, z: 0.08677499}
+      rotation: {x: 0.6109092, y: -0.5749535, z: 0.34478962, w: -0.4211158}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeFKC
+      parentName: Max__rKneeFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: -1.5661343, z: -1.5661343}
+    - name: Max__rKneeIKC_TargetLctr
+      parentName: Max__MainC
+      position: {x: 2.3550603, y: 8.704863, z: 0.08677472}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeIKCG
+      parentName: Max__MainC
+      position: {x: 2.3550603, y: 8.704863, z: 0.08677499}
+      rotation: {x: -0.012708632, y: 0.21213531, z: 0.06336657, w: 0.97510093}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeIKC
+      parentName: Max__rKneeIKCG
+      position: {x: -3.0459704, y: 0.39851782, z: 6.328239}
+      rotation: {x: 0.06931586, y: 0.9721108, z: -0.013191173, w: 0.22365606}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeIKAimConnectorLctr
+      parentName: Max__rKneeIKC
+      position: {x: -8.881784e-16, y: 0, z: 0}
+      rotation: {x: 0.14265803, y: 0.9896814, z: 3.637081e-17, w: -0.013396411}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeIKTargetConnectorLctr
+      parentName: Max__rKneeIKAimConnectorLctr
+      position: {x: 1.7763568e-15, y: 3.5527137e-15, z: -6.9916425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeIKConnectorCX
+      parentName: Max__rKneeIKC
+      position: {x: -4.440892e-16, y: 0, z: 0}
+      rotation: {x: 0.14265803, y: 0.9896814, z: 3.943823e-17, w: -0.013396411}
+      scale: {x: 1, y: 1, z: -6.9916425}
+    - name: Max__rKneeIKtoFKAimLctr
+      parentName: Max__rKneeIKCG
+      position: {x: -0, y: 0, z: 7.0094714}
+      rotation: {x: -2.872702e-15, y: 5.551115e-17, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeJFKG2
+      parentName: Max__MainC
+      position: {x: 1.4265324, y: 14.361959, z: -0.3199338}
+      rotation: {x: 8.326673e-17, y: 0, z: -5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeJFKG1
+      parentName: Max__rKneeJFKG2
+      position: {x: 0.928528, y: -5.6570973, z: 0.40670878}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeJFK
+      parentName: Max__rKneeJFKG1
+      position: {x: -0, y: 0, z: 4.718448e-16}
+      rotation: {x: 0.61242557, y: -0.5767093, z: 0.3421343, w: -0.41867107}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLegIKFKG
+      parentName: Max__MainC
+      position: {x: -0, y: 15.16196, z: -0.3199338}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rHipJFK
+      parentName: Max__rLegIKFKG
+      position: {x: 1.4265324, y: -0.8, z: -5.551115e-17}
+      rotation: {x: 0.6534155, y: -0.5298177, z: 0.37217245, w: -0.39221045}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rHipJIK
+      parentName: Max__rLegIKFKG
+      position: {x: 1.4265324, y: -0.8, z: 0}
+      rotation: {x: -0.5508655, y: 0.44700202, z: -0.4854293, w: 0.51097447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeJIK
+      parentName: Max__rHipJIK
+      position: {x: 5.7472014, y: -2.6645353e-15, z: -4.440892e-15}
+      rotation: {x: 9.28709e-13, y: -1.2519469e-11, z: 0.07398609, w: 0.9972593}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rAnkleJIK
+      parentName: Max__rKneeJIK
+      position: {x: 6.781873, y: -1.3322676e-15, z: -8.881784e-16}
+      rotation: {x: -0.1935544, y: 0.0058990745, z: -0.34643504, w: 0.9178696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rBallJIK
+      parentName: Max__rAnkleJIK
+      position: {x: 2.5287075, y: -1.6358442e-15, z: 7.2164497e-16}
+      rotation: {x: 0.018575732, y: 0.03875016, z: -0.4318715, w: 0.90091085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rToeJIK
+      parentName: Max__rBallJIK
+      position: {x: 2.0718577, y: 6.1191285e-16, z: 5.551115e-16}
+      rotation: {x: -8.569115e-17, y: 0.801653, z: 8.569115e-17, w: 0.59778965}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLegLengthOriginLctr
+      parentName: Max__MainC
+      position: {x: 1.4265324, y: 14.361959, z: -0.3199338}
+      rotation: {x: 0.016248109, y: 1.0866175e-19, z: 0.9977771, w: -0.064628415}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLegLengthEndLctr
+      parentName: Max__rLegLengthOriginLctr
+      position: {x: -2.220446e-15, y: 12.49497, z: -2.4980018e-16}
+      rotation: {x: 0.016248109, y: 3.585838e-18, z: 0.9977771, w: 0.064628415}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLegSwitchCG
+      parentName: Max__MainC
+      position: {x: 3.0380023, y: 1.971368, z: -0.346176}
+      rotation: {x: -0.000000024847488, y: 0.9933014, z: -0.00000008918997, w: -0.11555264}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLegSwitchC
+      parentName: Max__rLegSwitchCG
+      position: {x: -0, y: -2.220446e-16, z: 1.725212}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__ROOTCG
+      parentName: Max__MainC
+      position: {x: -0, y: 15.16196, z: -0.3199338}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__ROOTC
+      parentName: Max__ROOTCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck_MidAimLctr
+      parentName: Max__ROOTC
+      position: {x: -2.1862607e-16, y: 7.8764796, z: -0.052845623}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck_MidTargetLctrG
+      parentName: Max__ROOTC
+      position: {x: -7.9068785e-17, y: 9.638788, z: 0.08991421}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Neck_MidTargetLctr
+      parentName: Max__Neck_MidTargetLctrG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine_MidAimLctr
+      parentName: Max__ROOTC
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine_MidTargetLctrG
+      parentName: Max__ROOTC
+      position: {x: -2.1862607e-16, y: 7.8764796, z: -0.052845623}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine_MidTargetLctr
+      parentName: Max__Spine_MidTargetLctrG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__ROOTJ
+      parentName: Max__MainC
+      position: {x: -0, y: 15.16196, z: -0.3199338}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lHipJ
+      parentName: Max__ROOTJ
+      position: {x: -1.4265324, y: -0.8, z: 0}
+      rotation: {x: 0.5111943, y: 0.485639, z: 0.44681224, w: 0.55063057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lKneeJ
+      parentName: Max__lHipJ
+      position: {x: -5.7472014, y: 0, z: 4.440892e-16}
+      rotation: {x: 8.1486196e-14, y: -1.0983534e-12, z: 0.07398609, w: 0.9972593}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lAnkleJ
+      parentName: Max__lKneeJ
+      position: {x: -6.781873, y: 6.661338e-16, z: 0}
+      rotation: {x: -0.19395672, y: 0.005777717, z: -0.34643188, w: 0.91778666}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lBallJ
+      parentName: Max__lAnkleJ
+      position: {x: -2.5287075, y: 5.2041704e-16, z: -6.661338e-16}
+      rotation: {x: 0.018575732, y: 0.03875016, z: -0.4318715, w: 0.90091085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lToeJ
+      parentName: Max__lBallJ
+      position: {x: -2.0718577, y: 9.440659e-16, z: 1.110223e-16}
+      rotation: {x: 0, y: -0.59778965, z: -0, w: 0.801653}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lLegUpLctr
+      parentName: Max__lHipJ
+      position: {x: -5.7472014, y: 0, z: 4.440892e-16}
+      rotation: {x: 0, y: 0, z: 0.00000002173484, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rHipJ
+      parentName: Max__ROOTJ
+      position: {x: 1.4265324, y: -0.8, z: 0}
+      rotation: {x: -0.5508655, y: 0.44700202, z: -0.4854293, w: 0.51097447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeJ
+      parentName: Max__rHipJ
+      position: {x: 5.7472014, y: -2.6645353e-15, z: -4.440892e-15}
+      rotation: {x: 9.28709e-13, y: -1.251947e-11, z: 0.07398609, w: 0.9972593}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rAnkleJ
+      parentName: Max__rKneeJ
+      position: {x: 6.781873, y: -1.3322676e-15, z: -8.881784e-16}
+      rotation: {x: -0.19355442, y: 0.0058990726, z: -0.34643504, w: 0.9178696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rBallJ
+      parentName: Max__rAnkleJ
+      position: {x: 2.5287075, y: -1.6358442e-15, z: 7.2164497e-16}
+      rotation: {x: 0.018575732, y: 0.03875016, z: -0.4318715, w: 0.90091085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rToeJ
+      parentName: Max__rBallJ
+      position: {x: 2.0718577, y: 6.1191285e-16, z: 5.551115e-16}
+      rotation: {x: -8.569115e-17, y: 0.801653, z: 8.569115e-17, w: 0.59778965}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLegUpLctr
+      parentName: Max__rHipJ
+      position: {x: 5.7472014, y: -2.6645353e-15, z: -4.8849813e-15}
+      rotation: {x: 0, y: 0, z: 0.00000002173491, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rPalmCG
+      parentName: Max__MainC
+      position: {x: 9.821714, y: 18.51136, z: 0.8600741}
+      rotation: {x: 0.9488569, y: -0.29514426, z: 0.10701598, w: 0.03328758}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rPalmC
+      parentName: Max__rPalmCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rFinger1J1CG
+      parentName: Max__rPalmC
+      position: {x: 1.1351281, y: 1.4210855e-14, z: -0.017580412}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rFinger1J1CRotG
+      parentName: Max__rFinger1J1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rFinger1J1C
+      parentName: Max__rFinger1J1CRotG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rFinger1J2CG
+      parentName: Max__rPalmC
+      position: {x: 1.6605164, y: 3.1974423e-14, z: -0.017580412}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rFinger1J2CRotG
+      parentName: Max__rFinger1J2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rFinger1J2C
+      parentName: Max__rFinger1J2CRotG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rFinger1J3CG
+      parentName: Max__rPalmC
+      position: {x: 2.151638, y: 1.7763568e-14, z: -0.017580412}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rFinger1J3CRotG
+      parentName: Max__rFinger1J3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rFinger1J3C
+      parentName: Max__rFinger1J3CRotG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rShoulderFKCG2
+      parentName: Max__MainC
+      position: {x: 3.3993518, y: 22.038267, z: -0.5641157}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rShoulderFKCG
+      parentName: Max__rShoulderFKCG2
+      position: {x: 8.881784e-16, y: 0, z: -1.110223e-16}
+      rotation: {x: 0.9702723, y: -0.24156277, z: 0.0143635515, w: -0.0035760058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rShoulderFKC
+      parentName: Max__rShoulderFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rShoulderFKtoIKOrientLctr
+      parentName: Max__rShoulderFKCG
+      position: {x: 8.881784e-16, y: -7.1054274e-15, z: -1.110223e-16}
+      rotation: {x: -0.0000005233088, y: -0.000000071926394, z: 0.0000007025515, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rShoulderIKLockLctr
+      parentName: Max__MainC
+      position: {x: 3.3993518, y: 22.038267, z: -0.5641157}
+      rotation: {x: -2.4650943e-16, y: 0.84445786, z: -0.23841065, w: -0.47963658}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowIKLockLctr
+      parentName: Max__rShoulderIKLockLctr
+      position: {x: -8.046683, y: 0, z: 1.7763568e-15}
+      rotation: {x: 2.017655e-17, y: -0.58873785, z: 0.6878177, w: 0.4246111}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rWristIKLockLctr
+      parentName: Max__rElbowIKLockLctr
+      position: {x: -7.9560776, y: 5.3290705e-15, z: 3.5527137e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rToeIKCG
+      parentName: Max__MainC
+      position: {x: 3.0380025, y: 4.440892e-16, z: -0.34617546}
+      rotation: {x: 0, y: 0.1698198, z: -0, w: 0.9854751}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rToeIKC
+      parentName: Max__rToeIKCG
+      position: {x: -0.05382259, y: 1.3926144e-14, z: 3.6518335}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rBallSwivel
+      parentName: Max__rToeIKC
+      position: {x: 0.10764518, y: -1.4370232e-14, z: -2.0690594}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rFootInTilt
+      parentName: Max__rBallSwivel
+      position: {x: -0.7970407, y: 2.220446e-16, z: 0.015858842}
+      rotation: {x: 0, y: 0.009947102, z: -0, w: 0.9999505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rFootOutTilt
+      parentName: Max__rFootInTilt
+      position: {x: 1.6693491, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rFootHeelPivot
+      parentName: Max__rFootOutTilt
+      position: {x: -0.8944761, y: 0, z: -2.7270637}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rFootBallPivot
+      parentName: Max__rFootHeelPivot
+      position: {x: 0.022325465, y: -2.220446e-16, z: 2.7270637}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rBallIKHandle
+      parentName: Max__rFootBallPivot
+      position: {x: -8.881784e-16, y: 2.220446e-16, z: 4.440892e-16}
+      rotation: {x: 0.64210784, y: -0.30780852, z: 0.63311887, w: -0.30349946}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rKneeTargetLockLctr
+      parentName: Max__rFootBallPivot
+      position: {x: -0.022325465, y: 1.9713678, z: -1.5835316}
+      rotation: {x: 0, y: -0.17961402, z: -0, w: 0.9837372}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rLegIKHandle
+      parentName: Max__rFootBallPivot
+      position: {x: -0.022325465, y: 1.9713678, z: -1.5835316}
+      rotation: {x: 0, y: -0.17961402, z: -0, w: 0.9837372}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rFootToePivot
+      parentName: Max__rFootHeelPivot
+      position: {x: 0.022325465, y: -2.220446e-16, z: 2.7270637}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rToeIKHandle
+      parentName: Max__rFootToePivot
+      position: {x: -0.14878412, y: 1.4862374e-14, z: 2.0665085}
+      rotation: {x: 0.6812445, y: -4.1714192e-17, z: 0.73205596, w: 4.48255e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rWristFKCG
+      parentName: Max__MainC
+      position: {x: 9.282268, y: 18.84418, z: 0.6051487}
+      rotation: {x: 0.9488569, y: -0.29514426, z: 0.10701598, w: 0.03328758}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rWristFKC
+      parentName: Max__rWristFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rWristIKtoFKLctrTargetG
+      parentName: Max__rWristFKC
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rWristIKtoFKLctrTarget
+      parentName: Max__rWristIKtoFKLctrTargetG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rWristFKtoIKLctr
+      parentName: Max__rWristFKCG
+      position: {x: -1.7763568e-15, y: 7.1054274e-15, z: 1.3322676e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rWristIKCG
+      parentName: Max__MainC
+      position: {x: 9.282268, y: 18.84418, z: 0.6051487}
+      rotation: {x: -0.03328758, y: -0.10701598, z: -0.29514426, w: 0.9488569}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rWristIKC
+      parentName: Max__rWristIKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rWristIKtoFKLctr
+      parentName: Max__rWristIKCG
+      position: {x: -7.5495166e-15, y: -3.5527137e-15, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rWristJFKG2
+      parentName: Max__MainC
+      position: {x: 9.282268, y: 18.84418, z: 0.6051487}
+      rotation: {x: -4.1633363e-17, y: 0, z: 2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rWristJFKG1
+      parentName: Max__rWristJFKG2
+      position: {x: -0, y: 7.1054274e-15, z: 6.661338e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rWristJFK
+      parentName: Max__rWristJFKG1
+      position: {x: -0, y: 0, z: -7.771561e-16}
+      rotation: {x: 0.9488569, y: -0.29514426, z: 0.10701598, w: 0.03328758}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rWristJG2
+      parentName: Max__MainC
+      position: {x: 6.5270934, y: 20.37724, z: -0.47149155}
+      rotation: {x: 0.9488569, y: -0.29514426, z: 0.10701598, w: 0.03328758}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rWristJG1
+      parentName: Max__rWristJG2
+      position: {x: 3.2996087, y: -0.30022895, z: -0.35050696}
+      rotation: {x: -2.359224e-16, y: 4.57967e-16, z: -2.7755576e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rThumbJ1CG
+      parentName: Max__rWristJG1
+      position: {x: 0.38518104, y: 0.096446216, z: -0.4764621}
+      rotation: {x: 0.62430036, y: 0.40899095, z: -0.12940665, w: 0.6528624}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rThumbJ1CRotG
+      parentName: Max__rThumbJ1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rThumbJ1C
+      parentName: Max__rThumbJ1CRotG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rThumbJ2CG
+      parentName: Max__rWristJG1
+      position: {x: 0.8421321, y: 0.34351665, z: -0.9794338}
+      rotation: {x: 0.62430036, y: 0.40899095, z: -0.12940665, w: 0.6528624}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rThumbJ2CRotG
+      parentName: Max__rThumbJ2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rThumbJ2C
+      parentName: Max__rThumbJ2CRotG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rThumbJ3CG
+      parentName: Max__rWristJG1
+      position: {x: 1.3529189, y: 0.61969566, z: -1.541663}
+      rotation: {x: 0.62430036, y: 0.40899095, z: -0.12940665, w: 0.6528624}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rThumbJ3CRotG
+      parentName: Max__rThumbJ3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rThumbJ3C
+      parentName: Max__rThumbJ3CRotG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rWristJ
+      parentName: Max__rWristJG1
+      position: {x: -2.220446e-15, y: -3.5527137e-15, z: 2.6645353e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rPalmJ
+      parentName: Max__rWristJ
+      position: {x: 0.6739301, y: -0.031888857, z: -0.10751861}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rFinger1J1
+      parentName: Max__rPalmJ
+      position: {x: 1.1351281, y: -7.1054274e-15, z: -0.017580412}
+      rotation: {x: 1, y: 0, z: -0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rFinger1J2
+      parentName: Max__rFinger1J1
+      position: {x: 0.5253883, y: -5.3290705e-14, z: -1.110223e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rFinger1J3
+      parentName: Max__rFinger1J2
+      position: {x: 0.49112153, y: 2.1316282e-14, z: -1.3322676e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rFinger1JTip
+      parentName: Max__rFinger1J3
+      position: {x: 0.5244498, y: 7.1054274e-15, z: 4.440892e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rThumbJ1
+      parentName: Max__rWristJ
+      position: {x: 0.38518104, y: 0.096446216, z: -0.4764621}
+      rotation: {x: 0.42809257, y: -0.34546924, z: 0.8346445, w: -0.027503537}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rThumbJ2
+      parentName: Max__rThumbJ1
+      position: {x: -0.7230689, y: -7.1054274e-15, z: 7.1054274e-15}
+      rotation: {x: -1.6653345e-16, y: -2.4400235e-15, z: 2.5023829e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rThumbJ3
+      parentName: Max__rThumbJ2
+      position: {x: -0.8082572, y: 1.0658141e-14, z: 1.7763568e-15}
+      rotation: {x: -1.6653345e-16, y: -2.4400235e-15, z: 2.5023829e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rThumbJTip
+      parentName: Max__rThumbJ3
+      position: {x: -0.44869187, y: 1.20650196e-14, z: 4.2188475e-15}
+      rotation: {x: -0.25609407, y: -0.6591023, z: 0.25609407, w: 0.6591023}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rWristJIKProxyG2
+      parentName: Max__MainC
+      position: {x: 6.527091, y: 20.377234, z: -0.4714921}
+      rotation: {x: -0.00000084138935, y: 0.00000036570938, z: 0.00000047628217, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rWristJIKProxyG1
+      parentName: Max__rWristJIKProxyG2
+      position: {x: 2.7551744, y: -1.5330592, z: 1.0766402}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rWristJIKProxy
+      parentName: Max__rWristJIKProxyG1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.9488568, y: -0.29514483, z: 0.10701607, w: 0.03328673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_ROOTJ
+      parentName: Max__MainC
+      position: {x: -0, y: 15.16196, z: -0.3199338}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lHipCurveJ
+      parentName: Max__SH_ROOTJ
+      position: {x: -1.4265324, y: -0.8, z: 0}
+      rotation: {x: 0.5111943, y: 0.485639, z: 0.44681224, w: 0.55063057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lUpperLegCurveJ1
+      parentName: Max__SH_lHipCurveJ
+      position: {x: -1.4363526, y: 1.110223e-16, z: 0}
+      rotation: {x: -2.220446e-16, y: -3.638756e-14, z: -2.4313884e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lUpperLegCurveJ2
+      parentName: Max__SH_lUpperLegCurveJ1
+      position: {x: -1.4372482, y: 7.993606e-14, z: -1.2256862e-13}
+      rotation: {x: -1.3877788e-16, y: -4.585221e-14, z: -2.9198866e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lUpperLegCurveJ3
+      parentName: Max__SH_lUpperLegCurveJ2
+      position: {x: -1.4372482, y: 8.770762e-14, z: -1.3633539e-13}
+      rotation: {x: -3.6082248e-16, y: -4.8849813e-14, z: -3.0947467e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lKneeCurveJ
+      parentName: Max__SH_lUpperLegCurveJ3
+      position: {x: -1.4363526, y: 1.02917674e-13, z: -1.4432899e-13}
+      rotation: {x: -3.3306768e-16, y: -3.5332848e-14, z: -5.6926686e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lLowerLegCurveJ1
+      parentName: Max__SH_lKneeCurveJ
+      position: {x: -1.6763839, y: -0.25011647, z: -1.6830981e-13}
+      rotation: {x: -0.033019084, y: -0.002449666, z: 0.0739455, w: 0.9967125}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lLowerLegCurveJ2
+      parentName: Max__SH_lLowerLegCurveJ1
+      position: {x: -1.6959966, y: 4.052314e-13, z: -1.3233858e-13}
+      rotation: {x: -0.033109833, y: -3.3861806e-14, z: -1.1748937e-13, w: 0.99945176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lLowerLegCurveJ3
+      parentName: Max__SH_lLowerLegCurveJ2
+      position: {x: -1.6959966, y: 4.018449e-13, z: -9.103829e-14}
+      rotation: {x: -0.033109833, y: -1.7652548e-14, z: -1.1957103e-13, w: 0.99945176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lAnkleJ
+      parentName: Max__SH_lLowerLegCurveJ3
+      position: {x: -1.6949399, y: 4.4539372e-13, z: 9.015011e-14}
+      rotation: {x: -0.101970315, y: 0.040109836, z: -0.34415063, w: 0.93249863}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lBallJ
+      parentName: Max__SH_lAnkleJ
+      position: {x: -2.5287075, y: 6.7634787e-13, z: 1.1723955e-13}
+      rotation: {x: 0.018575732, y: 0.03875016, z: -0.4318715, w: 0.90091085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lToeJ
+      parentName: Max__SH_lBallJ
+      position: {x: -2.0718577, y: 5.5836905e-13, z: 8.0824236e-14}
+      rotation: {x: 0, y: -0.59778965, z: -0, w: 0.801653}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rHipCurveJ
+      parentName: Max__SH_ROOTJ
+      position: {x: 1.4265324, y: -0.8, z: 0}
+      rotation: {x: -0.4854293, y: -0.5109745, z: 0.5508655, w: 0.44700205}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rUpperLegCurveJ1
+      parentName: Max__SH_rHipCurveJ
+      position: {x: -1.4363526, y: 2.220446e-16, z: -8.881784e-16}
+      rotation: {x: -2.0045246e-14, y: 1, z: 2.8327693e-16, w: 3.5083048e-14}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rUpperLegCurveJ2
+      parentName: Max__SH_rUpperLegCurveJ1
+      position: {x: 1.4372482, y: -6.927792e-14, z: 1.1812773e-13}
+      rotation: {x: -2.7755576e-17, y: -4.4630966e-14, z: -2.5895952e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rUpperLegCurveJ3
+      parentName: Max__SH_rUpperLegCurveJ2
+      position: {x: 1.4372482, y: -7.871481e-14, z: 1.3233858e-13}
+      rotation: {x: -1.9428903e-16, y: -4.773959e-14, z: -2.8088643e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rKneeCurveJ
+      parentName: Max__SH_rUpperLegCurveJ3
+      position: {x: 1.4363526, y: -7.682743e-14, z: 1.4210855e-13}
+      rotation: {x: -8.326748e-17, y: -3.4583447e-14, z: -2.1038726e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rLowerLegCurveJ1
+      parentName: Max__SH_rKneeCurveJ
+      position: {x: 1.6763839, y: 0.25011647, z: 1.6520119e-13}
+      rotation: {x: -0.032911453, y: -0.002441681, z: 0.07394576, w: 0.9967161}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rLowerLegCurveJ2
+      parentName: Max__SH_rLowerLegCurveJ1
+      position: {x: 1.6959966, y: -4.6213033e-14, z: 1.5587531e-13}
+      rotation: {x: -0.033001907, y: -4.443668e-14, z: -1.1934898e-14, w: 0.99945533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rLowerLegCurveJ3
+      parentName: Max__SH_rLowerLegCurveJ2
+      position: {x: 1.6959966, y: -4.460321e-14, z: 1.3722357e-13}
+      rotation: {x: -0.033001903, y: -3.4916518e-14, z: -1.487699e-14, w: 0.99945533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rAnkleJ
+      parentName: Max__SH_rLowerLegCurveJ3
+      position: {x: 1.6949399, y: -8.840151e-14, z: -1.9539925e-14}
+      rotation: {x: -0.10186386, y: 0.04011941, z: -0.34415472, w: 0.9325083}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rBallJ
+      parentName: Max__SH_rAnkleJ
+      position: {x: 2.5287075, y: -1.8385293e-13, z: 7.283063e-14}
+      rotation: {x: 0.018575732, y: 0.03875016, z: -0.4318715, w: 0.90091085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rToeJ
+      parentName: Max__SH_rBallJ
+      position: {x: 2.0718577, y: -1.3838893e-13, z: -2.3536728e-14}
+      rotation: {x: -8.569115e-17, y: 0.801653, z: 8.569115e-17, w: 0.59778965}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_Spine01J
+      parentName: Max__SH_ROOTJ
+      position: {x: -0, y: 1.9691199, z: -0.013211406}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_Spine02J
+      parentName: Max__SH_Spine01J
+      position: {x: -0, y: 1.9691643, z: -1.5210055e-14}
+      rotation: {x: -3.426079e-17, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_Spine03J
+      parentName: Max__SH_Spine02J
+      position: {x: 1.2325952e-32, y: 1.9691643, z: -1.5099033e-14}
+      rotation: {x: -3.426079e-17, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_SpineTopJ
+      parentName: Max__SH_Spine03J
+      position: {x: -2.1862607e-16, y: 1.9691643, z: -1.5654145e-14}
+      rotation: {x: 0.5, y: -0.5, z: 0.5, w: -0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lClavicleJ
+      parentName: Max__SH_SpineTopJ
+      position: {x: -0.093822375, y: -0.000629482, z: -0.7986939}
+      rotation: {x: -0.40766898, y: 0.6086813, z: -0.568073, w: -0.37497485}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lShoulderCurveJ
+      parentName: Max__SH_lClavicleJ
+      position: {x: -2.8278723, y: 1.7763568e-14, z: 9.3813846e-15}
+      rotation: {x: 0.02205761, y: 0.046536908, z: 0.045314174, w: 0.9976444}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lUpperArmCurveJ1
+      parentName: Max__SH_lShoulderCurveJ
+      position: {x: -0.88538617, y: 0, z: 1.4432899e-15}
+      rotation: {x: 3.233698e-14, y: 3.3090284e-14, z: 1.8460331e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lUpperArmCurveJ2
+      parentName: Max__SH_lUpperArmCurveJ1
+      position: {x: -0.88593817, y: -3.907985e-14, z: 1.00475184e-13}
+      rotation: {x: 3.232744e-14, y: 4.5815023e-14, z: 2.6672613e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lUpperArmCurveJ3
+      parentName: Max__SH_lUpperArmCurveJ2
+      position: {x: -0.88593817, y: -4.6185278e-14, z: 1.2656542e-13}
+      rotation: {x: 3.233568e-14, y: 6.799032e-14, z: 2.9766906e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lElbowCurveJ
+      parentName: Max__SH_lUpperArmCurveJ3
+      position: {x: -0.88538617, y: -6.039613e-14, z: 3.355094e-13}
+      rotation: {x: 0.023792202, y: 0.15113063, z: 0.0036385907, w: 0.98822075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lLowerArmCurveJ1
+      parentName: Max__SH_lElbowCurveJ
+      position: {x: -0.8326724, y: 2.842171e-14, z: 4.5186077e-14}
+      rotation: {x: -0.012060274, y: 2.8055683e-14, z: -2.02993e-14, w: 0.9999273}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lLowerArmCurveJ2
+      parentName: Max__SH_lLowerArmCurveJ1
+      position: {x: -0.8331916, y: 3.5527137e-14, z: 4.491546e-14}
+      rotation: {x: -0.012060274, y: 2.6053812e-14, z: -1.79275e-14, w: 0.9999273}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lLowerArmCurveJ3
+      parentName: Max__SH_lLowerArmCurveJ2
+      position: {x: -0.8331916, y: 2.1316282e-14, z: 3.8968828e-14}
+      rotation: {x: -0.012060276, y: 1.9120122e-14, z: -1.0057927e-14, w: 0.9999273}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lWristJ
+      parentName: Max__SH_lLowerArmCurveJ3
+      position: {x: -0.8326724, y: -2.842171e-14, z: -1.731948e-14}
+      rotation: {x: -0.009616771, y: -0.05229077, z: 0.045671232, w: 0.99754065}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lPalmJ
+      parentName: Max__SH_lWristJ
+      position: {x: -0.6739301, y: 0.031888857, z: 0.10751861}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lFinger1J1
+      parentName: Max__SH_lPalmJ
+      position: {x: -1.1351281, y: 1.0658141e-14, z: 0.017580412}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lFinger1J2
+      parentName: Max__SH_lFinger1J1
+      position: {x: -0.5253883, y: 3.5527137e-15, z: -1.3322676e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lFinger1J3
+      parentName: Max__SH_lFinger1J2
+      position: {x: -0.49112153, y: 2.1316282e-14, z: -2.220446e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lFinger1JTip
+      parentName: Max__SH_lFinger1J3
+      position: {x: -0.5244498, y: -3.5527137e-15, z: 6.661338e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lThumbJ1
+      parentName: Max__SH_lWristJ
+      position: {x: -0.38518104, y: -0.096446216, z: 0.4764621}
+      rotation: {x: 0.62430036, y: 0.40899095, z: -0.12940665, w: 0.6528624}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lThumbJ2
+      parentName: Max__SH_lThumbJ1
+      position: {x: -0.7230689, y: 4.440892e-15, z: 3.5527137e-15}
+      rotation: {x: 0, y: 3.8857806e-16, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lThumbJ3
+      parentName: Max__SH_lThumbJ2
+      position: {x: -0.8082572, y: 2.5757174e-14, z: 1.7763568e-14}
+      rotation: {x: 0, y: 5.551115e-16, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_lThumbJTip
+      parentName: Max__SH_lThumbJ3
+      position: {x: -0.44869187, y: 1.5987212e-14, z: 1.4210855e-14}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_Neck01J
+      parentName: Max__SH_SpineTopJ
+      position: {x: -0.44032767, y: -0.03864505, z: 4.3133268e-16}
+      rotation: {x: 0.5213992, y: -0.47764313, z: 0.5213992, w: 0.47764313}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_Neck02J
+      parentName: Max__SH_Neck01J
+      position: {x: 9.002135e-17, y: 0.44202024, z: -4.440892e-16}
+      rotation: {x: 1.3183898e-16, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_Neck03J
+      parentName: Max__SH_Neck02J
+      position: {x: 9.002135e-17, y: 0.44202024, z: 4.440892e-16}
+      rotation: {x: -2.5673907e-16, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_HeadJ
+      parentName: Max__SH_Neck03J
+      position: {x: 1.0952567e-17, y: 0.44202024, z: -2.220446e-15}
+      rotation: {x: 0.5197939, y: -0.47938952, z: 0.5197939, w: -0.47938952}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_HeadTipJ
+      parentName: Max__SH_HeadJ
+      position: {x: -2.7359452, y: 2.1094237e-15, z: -1.4127178e-16}
+      rotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rClavicleJ
+      parentName: Max__SH_SpineTopJ
+      position: {x: -0.093822375, y: -0.000629482, z: 0.7986939}
+      rotation: {x: -0.6086813, y: -0.40766898, z: -0.37497485, w: 0.568073}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rShoulderCurveJ
+      parentName: Max__SH_rClavicleJ
+      position: {x: 2.8278723, y: -3.5527137e-15, z: -7.2164497e-16}
+      rotation: {x: -0.045314174, y: 0.9976444, z: 0.02205761, w: -0.046536908}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rUpperArmCurveJ1
+      parentName: Max__SH_rShoulderCurveJ
+      position: {x: -0.88538617, y: 3.5527137e-15, z: -1.110223e-16}
+      rotation: {x: 3.647655e-14, y: 1, z: -2.404205e-14, w: -1.5234992e-14}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rUpperArmCurveJ2
+      parentName: Max__SH_rUpperArmCurveJ1
+      position: {x: 0.88593817, y: 5.684342e-14, z: -6.1506356e-14}
+      rotation: {x: 7.8799814e-16, y: 4.065151e-14, z: 3.8496983e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rUpperArmCurveJ3
+      parentName: Max__SH_rUpperArmCurveJ2
+      position: {x: 0.88593817, y: 6.750156e-14, z: -8.7929664e-14}
+      rotation: {x: 7.0169565e-16, y: 6.3265365e-14, z: 3.3029135e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rElbowCurveJ
+      parentName: Max__SH_rUpperArmCurveJ3
+      position: {x: 0.88538617, y: 1.2079227e-13, z: -2.6323388e-13}
+      rotation: {x: 0.023792202, y: 0.15113063, z: 0.0036385907, w: 0.98822075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rLowerArmCurveJ1
+      parentName: Max__SH_rElbowCurveJ
+      position: {x: 0.8326724, y: 4.6185278e-14, z: -1.5210055e-14}
+      rotation: {x: -0.012060274, y: 1.110223e-14, z: 3.0947467e-14, w: 0.9999273}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rLowerArmCurveJ2
+      parentName: Max__SH_rLowerArmCurveJ1
+      position: {x: 0.8331916, y: 5.3290705e-14, z: -1.7263968e-14}
+      rotation: {x: -0.012060274, y: 8.520962e-15, z: 3.1197267e-14, w: 0.9999273}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rLowerArmCurveJ3
+      parentName: Max__SH_rLowerArmCurveJ2
+      position: {x: 0.8331916, y: 5.684342e-14, z: -8.326673e-15}
+      rotation: {x: -0.012060276, y: 1.3877788e-15, z: 3.7997383e-14, w: 0.9999273}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rWristJ
+      parentName: Max__SH_rLowerArmCurveJ3
+      position: {x: 0.8326724, y: 1.2789769e-13, z: 4.6629367e-14}
+      rotation: {x: -0.009616771, y: -0.05229077, z: 0.045671232, w: 0.99754065}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rPalmJ
+      parentName: Max__SH_rWristJ
+      position: {x: 0.6739301, y: -0.031888857, z: -0.10751861}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rFinger1J1
+      parentName: Max__SH_rPalmJ
+      position: {x: 1.1351281, y: 8.526513e-14, z: -0.017580412}
+      rotation: {x: 1, y: 0, z: -0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rFinger1J2
+      parentName: Max__SH_rFinger1J1
+      position: {x: 0.5253883, y: -9.2370556e-14, z: -3.996803e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rFinger1J3
+      parentName: Max__SH_rFinger1J2
+      position: {x: 0.49112153, y: -2.842171e-14, z: -4.8849813e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rFinger1JTip
+      parentName: Max__SH_rFinger1J3
+      position: {x: 0.5244498, y: -2.842171e-14, z: -3.5527137e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rThumbJ1
+      parentName: Max__SH_rWristJ
+      position: {x: 0.38518104, y: 0.096446216, z: -0.4764621}
+      rotation: {x: 0.42809257, y: -0.34546924, z: 0.8346445, w: -0.027503537}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rThumbJ2
+      parentName: Max__SH_rThumbJ1
+      position: {x: -0.7230689, y: -6.039613e-14, z: -3.5527137e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rThumbJ3
+      parentName: Max__SH_rThumbJ2
+      position: {x: -0.8082572, y: -3.1974423e-14, z: -3.7303494e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SH_rThumbJTip
+      parentName: Max__SH_rThumbJ3
+      position: {x: -0.44869187, y: -1.7763568e-14, z: -1.9539925e-14}
+      rotation: {x: -0.25609407, y: -0.6591023, z: 0.25609407, w: 0.6591023}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine01CurveCG
+      parentName: Max__MainC
+      position: {x: -0, y: 17.131079, z: -0.3331452}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine01CurveC
+      parentName: Max__Spine01CurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine01FKCG
+      parentName: Max__MainC
+      position: {x: -0, y: 17.131079, z: -0.3331452}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine01FKC
+      parentName: Max__Spine01FKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine01J
+      parentName: Max__MainC
+      position: {x: -0, y: 17.131079, z: -0.3331452}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine02CurveCG
+      parentName: Max__MainC
+      position: {x: -0, y: 19.100199, z: -0.3463566}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine02CurveC
+      parentName: Max__Spine02CurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine02FKCG
+      parentName: Max__MainC
+      position: {x: -0, y: 19.100199, z: -0.3463566}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine02FKC
+      parentName: Max__Spine02FKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine02J
+      parentName: Max__MainC
+      position: {x: -0, y: 19.100199, z: -0.3463566}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine03CurveCG
+      parentName: Max__MainC
+      position: {x: 1.2325952e-32, y: 21.069319, z: -0.359568}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine03CurveC
+      parentName: Max__Spine03CurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine03FKCG
+      parentName: Max__MainC
+      position: {x: -1.09313036e-16, y: 21.069319, z: -0.359568}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine03FKC
+      parentName: Max__Spine03FKCG
+      position: {x: -0, y: 0, z: 2.7755576e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine03J
+      parentName: Max__MainC
+      position: {x: 1.2325952e-32, y: 21.069319, z: -0.359568}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__Spine_ribbonSpineG
+      parentName: Max__MainC
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.9691643, y: 1.9691643, z: 1.9691643}
+    - name: Max__SpineBtm01JIK
+      parentName: Max__Spine_ribbonSpineG
+      position: {x: -0, y: 7.6996927, z: -0.16247186}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineMidJIK
+      parentName: Max__Spine_ribbonSpineG
+      position: {x: -0, y: 9.699648, z: -0.17589015}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineTopJIK
+      parentName: Max__Spine_ribbonSpineG
+      position: {x: -1.110248e-16, y: 11.699603, z: -0.18930845}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineMidIKCG
+      parentName: Max__MainC
+      position: {x: -0, y: 19.100199, z: -0.3463566}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineMidIKCG2
+      parentName: Max__SpineMidIKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineMidIKC
+      parentName: Max__SpineMidIKCG2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineLengthCXlstr02G
+      parentName: Max__SpineMidIKC
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineLengthCXlstr02
+      parentName: Max__SpineLengthCXlstr02G
+      position: {x: -2.9544063e-17, y: 0.02168249, z: -2.220446e-16}
+      rotation: {x: 0.0033545906, y: -0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineSplineBtm_ClusterG
+      parentName: Max__MainC
+      position: {x: -0, y: 15.16196, z: -0.3199338}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineSplineBtm_BtmClstr
+      parentName: Max__SpineSplineBtm_ClusterG
+      position: {x: -0, y: 0.6563733, z: -0.004403802}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineSplineMid_ClusterG
+      parentName: Max__MainC
+      position: {x: -0, y: 19.100199, z: -0.3463566}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineSplineBtm_TopClstr
+      parentName: Max__SpineSplineMid_ClusterG
+      position: {x: -0, y: -0.6563733, z: 0.004403802}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineSplineTop_BtmClstr
+      parentName: Max__SpineSplineMid_ClusterG
+      position: {x: -0, y: 0.6563733, z: -0.004403802}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineSplineTop_ClusterG
+      parentName: Max__MainC
+      position: {x: 2.4651903e-32, y: 23.038439, z: -0.37277943}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineSplineTop_TopClstr
+      parentName: Max__SpineSplineTop_ClusterG
+      position: {x: -0, y: -0.6563733, z: 0.004403802}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineTopFKCG
+      parentName: Max__MainC
+      position: {x: -2.1862607e-16, y: 23.038439, z: -0.37277943}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineTopFKC
+      parentName: Max__SpineTopFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineTopIKC_OrientLctr
+      parentName: Max__MainC
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineTopIKCG2
+      parentName: Max__MainC
+      position: {x: -1.4432899e-15, y: 23.038439, z: -0.37277943}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineTopIKCG
+      parentName: Max__SpineTopIKCG2
+      position: {x: 1.2246638e-15, y: 7.1054274e-15, z: -3.4972025e-15}
+      rotation: {x: -0.0033545906, y: 0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckMidIKCG2_BtmLctrG
+      parentName: Max__SpineTopIKCG
+      position: {x: -0, y: 3.5527137e-15, z: -6.661338e-16}
+      rotation: {x: 0.043756023, y: -0, z: -0, w: 0.9990423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckMidIKCG2_BtmLctr
+      parentName: Max__NeckMidIKCG2_BtmLctrG
+      position: {x: -0, y: 0, z: 4.440892e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineMidIKCG2_TopLctrG
+      parentName: Max__SpineTopIKCG
+      position: {x: -0, y: 0, z: 1.110223e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineMidIKCG2_TopLctr
+      parentName: Max__SpineMidIKCG2_TopLctrG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineTopIKC
+      parentName: Max__SpineTopIKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckBtmTX_Lctr
+      parentName: Max__SpineTopIKC
+      position: {x: 3.3093233e-17, y: 0.88065535, z: 0.0772901}
+      rotation: {x: 0.0033545906, y: -0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckLengthCXlstr01G
+      parentName: Max__SpineTopIKC
+      position: {x: -0, y: 0, z: 1.110223e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__NeckLengthCXlstr01
+      parentName: Max__NeckLengthCXlstr01G
+      position: {x: 4.8666518e-18, y: 0.12950814, z: 0.011366191}
+      rotation: {x: 0.0033545906, y: -0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineLengthCXlstr03G
+      parentName: Max__SpineTopIKC
+      position: {x: -0, y: 0, z: 1.110223e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineLengthCXlstr03
+      parentName: Max__SpineLengthCXlstr03G
+      position: {x: 3.1232295e-17, y: -0.5626184, z: 4.4686477e-15}
+      rotation: {x: 0.0033545906, y: -0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineTopTX_Lctr
+      parentName: Max__SpineTopIKC
+      position: {x: 2.1862607e-16, y: -3.9383285, z: 3.08642e-14}
+      rotation: {x: 0.0033545906, y: -0, z: -0, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__SpineTopJ
+      parentName: Max__MainC
+      position: {x: -2.1862607e-16, y: 23.038439, z: -0.37277943}
+      rotation: {x: 0.5016745, y: -0.4983199, z: 0.5016745, w: -0.4983199}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lClavicleJ
+      parentName: Max__SpineTopJ
+      position: {x: -0.093822375, y: -0.000629482, z: -0.7986939}
+      rotation: {x: -0.40766898, y: 0.6086813, z: -0.568073, w: -0.37497485}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lShoulderJ
+      parentName: Max__lClavicleJ
+      position: {x: -2.8278723, y: 1.4210855e-14, z: 3.330669e-16}
+      rotation: {x: 0.02205761, y: 0.046536908, z: 0.045314174, w: 0.9976444}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lElbowJ
+      parentName: Max__lShoulderJ
+      position: {x: -3.5426488, y: 7.1054274e-15, z: 7.771561e-16}
+      rotation: {x: 0.023792202, y: 0.15113063, z: 0.0036385907, w: 0.98822075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lForearmJ
+      parentName: Max__lElbowJ
+      position: {x: -1.665864, y: 0, z: 8.3266727e-16}
+      rotation: {x: 1.3877788e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__lWristJProxy
+      parentName: Max__lElbowJ
+      position: {x: -3.331728, y: -7.1054274e-15, z: 1.7763568e-15}
+      rotation: {x: -0.04569532, y: -0.050604448, z: 0.047532897, w: 0.9965399}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rClavicleJ
+      parentName: Max__SpineTopJ
+      position: {x: -0.093822375, y: -0.000629482, z: 0.7986939}
+      rotation: {x: -0.6086813, y: -0.40766898, z: -0.37497485, w: 0.568073}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rShoulderJ
+      parentName: Max__rClavicleJ
+      position: {x: 2.8278723, y: -7.1054274e-15, z: 6.3282712e-15}
+      rotation: {x: 0.02205761, y: 0.046536908, z: 0.045314174, w: 0.9976444}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rElbowJ
+      parentName: Max__rShoulderJ
+      position: {x: 3.5426488, y: -3.5527137e-15, z: -1.2212453e-15}
+      rotation: {x: 0.023792202, y: 0.15113063, z: 0.0036385907, w: 0.98822075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rForearmJ
+      parentName: Max__rElbowJ
+      position: {x: 1.665864, y: 0, z: 9.436896e-16}
+      rotation: {x: -2.359224e-16, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max__rWristJProxy
+      parentName: Max__rElbowJ
+      position: {x: 3.331728, y: 3.5527137e-15, z: 8.881784e-16}
+      rotation: {x: -0.04569532, y: -0.050604448, z: 0.047532897, w: 0.9965399}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Body
+      parentName: Max_Rig_Test1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: transform2
+      parentName: Max_Body
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Max_Body1
+      parentName: Max_Rig_Test1(Clone)
+      position: {x: -0, y: -13.597395, z: -0.42026722}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Max_Hair
+      parentName: Max_Rig_Test1(Clone)
+      position: {x: -0.0001440232, y: 0.26369566, z: 0.0008187571}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: transform1
+      parentName: Max_Hair
+      position: {x: 0.01440232, y: -26.369566, z: -0.08187571}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
