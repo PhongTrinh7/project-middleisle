@@ -182,7 +182,7 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
     public void SavePlayer()
     {
         SaveSystem.SavePlayer(this);
-        GameManage.gamemanager.loadable = true;
+        SaveSystem.SaveInventory();
     }
 
     public void LoadPlayer()
@@ -194,6 +194,15 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
         position.y = data.position[1];
         position.z = data.position[2];
         transform.position = position;
+
+        //Inventory load.
+        Inventory.instance.items.Clear();
+
+        foreach (string i in SaveSystem.LoadInventory().itemNames)
+        {
+            Debug.Log(i);
+            Inventory.instance.Add((Item)Instantiate(Resources.Load("Items/" + i))); // Make sure to name your scriptable objects accordingly. Found in Resources/Items directory.
+        }
     }
     
 }

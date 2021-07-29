@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
 using UnityEngine.EventSystems;
+using System.IO;
 
 public class GameManage : MonoBehaviour
 {
@@ -19,11 +20,10 @@ public class GameManage : MonoBehaviour
     public GameObject mainMenu;
     public GameObject ingameUI;
     public GameObject transition;
-
-    public bool loadable;
     public GameObject loadButton;
 
     public GameObject player;
+    public List<string> pickedupObjects = new List<string>();
 
     //UI
     public Text notification;
@@ -39,9 +39,14 @@ public class GameManage : MonoBehaviour
     {
         state = GameState.SPLASH;
 
-        if (loadable)
+        string path = Application.persistentDataPath + "/gamedata.fun";
+        if (File.Exists(path))
         {
             loadButton.SetActive(true);
+        }
+        else
+        {
+            Debug.Log(path + " cannot be found.");
         }
     }
 
@@ -74,11 +79,38 @@ public class GameManage : MonoBehaviour
         yield return null;
     }
 
+    public void SaveGame()
+    {
+        SaveSystem.SaveGame(player.transform);
+    }
+
     public void LoadGame()
     {
         StartCoroutine(StateTransition(GameState.INGAME, mainMenu, ingameUI));
         player.SetActive(true);
-        player.GetComponent<PlayerMove>().LoadPlayer();
+
+        GameData data = SaveSystem.LoadGame();
+
+        Vector3 position;
+        position.x = data.position[0];
+        position.y = data.position[1];
+        position.z = data.position[2];
+        player.transform.position = position;
+
+        //Inventory load.
+        Inventory.instance.items.Clear();
+
+        foreach (string i in data.itemNames)
+        {
+            Debug.Log(i);
+            Inventory.instance.Add((Item)Instantiate(Resources.Load("Items/" + i))); // Make sure to name your scriptable objects accordingly. Found in Resources/Items directory.
+        }
+
+        foreach (string j in data.inactiveItems)
+        {
+            GameObject.Find(j).SetActive(false);
+            pickedupObjects.Add(j);
+        }
     }
 
     public void Options()
@@ -137,6 +169,6 @@ public class GameManage : MonoBehaviour
     //TESTING LOAD
     public void LoadPlayerTest()
     {
-        if (loadable) player.GetComponent<PlayerMove>().LoadPlayer();
+        player.GetComponent<PlayerMove>().LoadPlayer();
     }
 }

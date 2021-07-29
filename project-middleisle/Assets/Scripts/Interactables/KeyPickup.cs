@@ -22,6 +22,9 @@ public class KeyPickup : Interactable
         bool wasPickedUp = Inventory.instance.Add(item);
 
         if (wasPickedUp)
+        {
             Destroy(gameObject);
+            GameManage.gamemanager.pickedupObjects.Add(name);
+        }
     }
 }
