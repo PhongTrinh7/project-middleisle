@@ -1,4 +1,6 @@
-﻿using System.IO;
+﻿using System.Collections;
+using System.Collections.Generic;
+using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System;
 using UnityEngine;
@@ -53,7 +55,7 @@ public class SaveInventory
 }//class
 
 [Serializable]
-class Inventory
+class Inventorysave
 {
     //save a list of *item* type. this can be string, int and all type of data, See List<T> documentations C# or (Java if it helps). 
     public List<Item> inventory;
