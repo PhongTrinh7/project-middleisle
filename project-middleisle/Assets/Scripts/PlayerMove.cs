@@ -182,7 +182,7 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
     public void SavePlayer()
     {
         SaveSystem.SavePlayer(this);
-
+        GameManage.gamemanager.loadable = true;
     }
 
     public void LoadPlayer()
