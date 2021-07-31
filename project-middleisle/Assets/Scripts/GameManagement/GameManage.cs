@@ -20,6 +20,9 @@ public class GameManage : MonoBehaviour
     public GameObject ingameUI;
     public GameObject transition;
 
+    public bool loadable;
+    public GameObject loadButton;
+
     public GameObject player;
 
     //UI
@@ -35,6 +38,11 @@ public class GameManage : MonoBehaviour
     private void Start()
     {
         state = GameState.SPLASH;
+
+        if (loadable)
+        {
+            loadButton.SetActive(true);
+        }
     }
 
     private void Update()
@@ -64,6 +72,13 @@ public class GameManage : MonoBehaviour
         StartCoroutine(StateTransition(GameState.INGAME, mainMenu, ingameUI));
         player.SetActive(true);
         yield return null;
+    }
+
+    public void LoadGame()
+    {
+        StartCoroutine(StateTransition(GameState.INGAME, mainMenu, ingameUI));
+        player.SetActive(true);
+        player.GetComponent<PlayerMove>().LoadPlayer();
     }
 
     public void Options()
@@ -117,5 +132,11 @@ public class GameManage : MonoBehaviour
         notification.text = "";
         alertBacking.gameObject.SetActive(false);
 
+    }
+
+    //TESTING LOAD
+    public void LoadPlayerTest()
+    {
+        if (loadable) player.GetComponent<PlayerMove>().LoadPlayer();
     }
 }
