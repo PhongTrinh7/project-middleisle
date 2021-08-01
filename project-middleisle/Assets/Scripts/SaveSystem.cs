@@ -116,6 +116,7 @@ public class GameData
     public float[] position;
     public List<string> itemNames;
     public List<string> inactiveItems;
+    public List<int> doors;
 
 
     public GameData(List<string> inactiveItems, Transform playerTransform, Inventory playerInventory)

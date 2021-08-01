@@ -24,6 +24,7 @@ public class GameManage : MonoBehaviour
 
     public GameObject player;
     public List<string> pickedupObjects = new List<string>();
+    public List<DoorController> doors = new List<DoorController>();
 
     //UI
     public Text notification;
@@ -81,6 +82,11 @@ public class GameManage : MonoBehaviour
 
     public void SaveGame()
     {
+        foreach (GameObject go in GameObject.FindGameObjectsWithTag("Door"))
+        {
+            doors.Add(go.GetComponent<DoorController>());
+        }
+
         SaveSystem.SaveGame(player.transform);
     }
 
