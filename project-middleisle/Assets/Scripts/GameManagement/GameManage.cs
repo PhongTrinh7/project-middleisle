@@ -129,8 +129,7 @@ public class GameManage : MonoBehaviour
 
     public void OpenMenu()
     {
-        Debug.Log("Open Menu");
-        ingameUI.SetActive(true);
+        ingameUI.SetActive(!ingameUI.activeSelf);
     }
 
     // For the screen transitions. Be sure to change the timings in the future if using different transition animations.
