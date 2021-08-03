@@ -204,5 +204,13 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
             Inventory.instance.Add((Item)Instantiate(Resources.Load("Items/" + i))); // Make sure to name your scriptable objects accordingly. Found in Resources/Items directory.
         }
     }
-    
+
+    public void OnInGameMenu(InputAction.CallbackContext context)
+    {
+        Debug.Log("Esc");
+        if (context.performed)
+        {
+            GameManage.gamemanager.OpenMenu();
+        }
+    }
 }

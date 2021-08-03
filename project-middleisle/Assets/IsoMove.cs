@@ -73,6 +73,14 @@ public class @IsoMove : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""InGameMenu"",
+                    ""type"": ""Button"",
+                    ""id"": ""b1a2c505-05c1-4fff-92f7-9dedf16e3d3f"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -240,6 +248,17 @@ public class @IsoMove : IInputActionCollection, IDisposable
                     ""action"": ""SkipFinish"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""dc10684a-f0db-4926-b17a-85181540c4f0"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""InGameMenu"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -343,6 +362,7 @@ public class @IsoMove : IInputActionCollection, IDisposable
         m_Player_SprintFinish = m_Player.FindAction("SprintFinish", throwIfNotFound: true);
         m_Player_Skip = m_Player.FindAction("Skip", throwIfNotFound: true);
         m_Player_SkipFinish = m_Player.FindAction("SkipFinish", throwIfNotFound: true);
+        m_Player_InGameMenu = m_Player.FindAction("InGameMenu", throwIfNotFound: true);
         // GameManager
         m_GameManager = asset.FindActionMap("GameManager", throwIfNotFound: true);
         m_GameManager_AnyKey = m_GameManager.FindAction("AnyKey", throwIfNotFound: true);
@@ -402,6 +422,7 @@ public class @IsoMove : IInputActionCollection, IDisposable
     private readonly InputAction m_Player_SprintFinish;
     private readonly InputAction m_Player_Skip;
     private readonly InputAction m_Player_SkipFinish;
+    private readonly InputAction m_Player_InGameMenu;
     public struct PlayerActions
     {
         private @IsoMove m_Wrapper;
@@ -413,6 +434,7 @@ public class @IsoMove : IInputActionCollection, IDisposable
         public InputAction @SprintFinish => m_Wrapper.m_Player_SprintFinish;
         public InputAction @Skip => m_Wrapper.m_Player_Skip;
         public InputAction @SkipFinish => m_Wrapper.m_Player_SkipFinish;
+        public InputAction @InGameMenu => m_Wrapper.m_Player_InGameMenu;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -443,6 +465,9 @@ public class @IsoMove : IInputActionCollection, IDisposable
                 @SkipFinish.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSkipFinish;
                 @SkipFinish.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSkipFinish;
                 @SkipFinish.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSkipFinish;
+                @InGameMenu.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnInGameMenu;
+                @InGameMenu.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnInGameMenu;
+                @InGameMenu.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnInGameMenu;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -468,6 +493,9 @@ public class @IsoMove : IInputActionCollection, IDisposable
                 @SkipFinish.started += instance.OnSkipFinish;
                 @SkipFinish.performed += instance.OnSkipFinish;
                 @SkipFinish.canceled += instance.OnSkipFinish;
+                @InGameMenu.started += instance.OnInGameMenu;
+                @InGameMenu.performed += instance.OnInGameMenu;
+                @InGameMenu.canceled += instance.OnInGameMenu;
             }
         }
     }
@@ -559,6 +587,7 @@ public class @IsoMove : IInputActionCollection, IDisposable
         void OnSprintFinish(InputAction.CallbackContext context);
         void OnSkip(InputAction.CallbackContext context);
         void OnSkipFinish(InputAction.CallbackContext context);
+        void OnInGameMenu(InputAction.CallbackContext context);
     }
     public interface IGameManagerActions
     {

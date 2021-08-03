@@ -24,7 +24,7 @@ public class GameManage : MonoBehaviour
 
     public GameObject player;
     public List<string> pickedupObjects = new List<string>();
-    public List<DoorController> doors = new List<DoorController>();
+    public List<string> unlockedDoors = new List<string>(); // Tag the doors with the Door Tag. Found in the Inspector top left.
 
     //UI
     public Text notification;
@@ -75,7 +75,7 @@ public class GameManage : MonoBehaviour
 
     private IEnumerator StartGameCoroutine()
     {
-        StartCoroutine(StateTransition(GameState.INGAME, mainMenu, ingameUI));
+        StartCoroutine(StateTransition(GameState.INGAME, mainMenu, null));
         player.SetActive(true);
         yield return null;
     }
@@ -84,7 +84,10 @@ public class GameManage : MonoBehaviour
     {
         foreach (GameObject go in GameObject.FindGameObjectsWithTag("Door"))
         {
-            doors.Add(go.GetComponent<DoorController>());
+            if (!go.GetComponent<DoorController>().locked)
+            {
+                unlockedDoors.Add(go.name);
+            }
         }
 
         SaveSystem.SaveGame(player.transform);
@@ -92,7 +95,7 @@ public class GameManage : MonoBehaviour
 
     public void LoadGame()
     {
-        StartCoroutine(StateTransition(GameState.INGAME, mainMenu, ingameUI));
+        StartCoroutine(StateTransition(GameState.INGAME, mainMenu, null));
         player.SetActive(true);
 
         GameData data = SaveSystem.LoadGame();
@@ -117,12 +120,17 @@ public class GameManage : MonoBehaviour
             GameObject.Find(j).SetActive(false);
             pickedupObjects.Add(j);
         }
+
+        foreach (string k in data.unlockedDoors)
+        {
+            GameObject.Find(k).GetComponent<DoorController>().locked = false;
+        }
     }
 
-    public void Options()
+    public void OpenMenu()
     {
-        //TODO
-        Debug.Log("Options");
+        Debug.Log("Open Menu");
+        ingameUI.SetActive(true);
     }
 
     // For the screen transitions. Be sure to change the timings in the future if using different transition animations.
@@ -131,7 +139,7 @@ public class GameManage : MonoBehaviour
         transition.SetActive(true);
         yield return new WaitForSecondsRealtime(.5f);
         from.SetActive(false);
-        to.SetActive(true);
+        if (to != null) to.SetActive(true);
         yield return new WaitForSecondsRealtime(.5f);
         transition.SetActive(false);
         state = s;

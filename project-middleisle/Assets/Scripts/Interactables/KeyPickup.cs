@@ -15,7 +15,7 @@ public class KeyPickup : Interactable
         AudioManager.Audio.Play("Pickup");
         if (item.IsKey == true)
         {
-            door.unlocked = true;
+            door.locked = false;
         }
         Debug.Log("Picked Up " + item.name);
         GameManage.gamemanager.pickup(item.name);

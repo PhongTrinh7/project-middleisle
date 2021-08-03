@@ -14,7 +14,7 @@ public static class SaveSystem
         BinaryFormatter formatter = new BinaryFormatter();
         string path = Application.persistentDataPath + "/gamedata.fun";
         FileStream stream = new FileStream(path, FileMode.Create);
-        GameData data = new GameData(GameManage.gamemanager.pickedupObjects, playerTransform, Inventory.instance);
+        GameData data = new GameData(GameManage.gamemanager.unlockedDoors, GameManage.gamemanager.pickedupObjects, playerTransform, Inventory.instance);
         formatter.Serialize(stream, data);
         stream.Close();
 
@@ -116,10 +116,10 @@ public class GameData
     public float[] position;
     public List<string> itemNames;
     public List<string> inactiveItems;
-    public List<int> doors;
+    public List<string> unlockedDoors;
 
 
-    public GameData(List<string> inactiveItems, Transform playerTransform, Inventory playerInventory)
+    public GameData(List<string> unlockedDoors, List<string> inactiveItems, Transform playerTransform, Inventory playerInventory)
     {
         loadable = true;
 
@@ -137,6 +137,8 @@ public class GameData
         }
 
         this.inactiveItems = inactiveItems; // List of objects to set inactive in-game.
+
+        this.unlockedDoors = unlockedDoors; // List of objects to set inactive in-game.
     }
 }
 

@@ -84,4 +84,9 @@ public class PlayerMovement : MonoBehaviour, IsoMove.IPlayerActions
     {
         throw new System.NotImplementedException();
     }
+
+    public void OnInGameMenu(InputAction.CallbackContext context)
+    {
+        throw new System.NotImplementedException();
+    }
 }
