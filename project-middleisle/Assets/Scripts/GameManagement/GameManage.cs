@@ -139,4 +139,9 @@ public class GameManage : MonoBehaviour
     {
         if (loadable) player.GetComponent<PlayerMove>().LoadPlayer();
     }
+
+    public void GMQuitGame()
+    {
+        Application.Quit();
+    }
 }
