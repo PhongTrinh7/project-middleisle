@@ -5,37 +5,27 @@ using UnityEngine;
 public class DoorController : Interactable
 {
     public Animator animator;
-    public bool unlocked = false;
-    public bool locked = false;
+    public bool locked = true;
 
     public override void Interact()
     {
-        if (unlocked == true)
+        if (!locked)
         {
             animator.SetBool("doorOpen", true);
-            if (animator.GetBool("doorClose") == true)
-            {
-                GameManage.gamemanager.Locked();
-                AudioManager.Audio.Play("Doorlocked");
-            }
+            AudioManager.Audio.Play("Dooropen");
         }
         else
         {
             GameManage.gamemanager.Locked();
             AudioManager.Audio.Play("Doorlocked");
         }
-        if (unlocked == true && locked == false)
-            AudioManager.Audio.Play("Dooropen");
     }
 
     public void CloseDoor()
     {
         animator.SetBool("doorClose", true);
         animator.SetBool("doorOpen", false);
-        if (locked == false)
-        {
-            AudioManager.Audio.Play("Doorclose");
-            locked = true;
-        }
+        AudioManager.Audio.Play("Doorclose");
+        locked = true;
     }
 }
