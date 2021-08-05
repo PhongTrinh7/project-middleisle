@@ -16,6 +16,7 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
     public Interactable focus;
     public InventoryUI inventory;
     public GameObject dialoguePopUp;
+    public GameObject ingameUI;
 
     public static PlayerMove character;
 
@@ -87,7 +88,7 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
 
     public void OnInventory(InputAction.CallbackContext context)
     {
-        if (dialoguePopUp.activeSelf == false)
+        if (dialoguePopUp.activeSelf == false && ingameUI.activeSelf == false)
         {
             if (context.performed)
             {

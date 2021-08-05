@@ -21,6 +21,7 @@ public class GameManage : MonoBehaviour
     public GameObject ingameUI;
     public GameObject transition;
     public GameObject loadButton;
+    public GameObject dialoguePopUp;
 
     public GameObject player;
     public List<string> pickedupObjects = new List<string>();
@@ -129,7 +130,19 @@ public class GameManage : MonoBehaviour
 
     public void OpenMenu()
     {
-        ingameUI.SetActive(!ingameUI.activeSelf);
+        if (dialoguePopUp.activeSelf == false)
+        {
+            ingameUI.SetActive(!ingameUI.activeSelf);
+            PlayerMove.character._direction = Vector3.zero;
+//            if (ingameUI.activeSelf == true)
+//            {
+//                Pause.PauseInstance.PauseGame();
+//            }
+//            else
+//            {
+//                Pause.PauseInstance.Resume();
+//            }
+        }
     }
 
     // For the screen transitions. Be sure to change the timings in the future if using different transition animations.
