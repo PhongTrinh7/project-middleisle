@@ -8,8 +8,11 @@ public class DoorCloser : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        door.CloseDoor();
-        door.InteractCoolDown = 0f;
-        Destroy(gameObject);
+        if (door.animator.GetBool("doorOpen"))
+        {
+            door.CloseDoor();
+            door.InteractCoolDown = 0f;
+            Destroy(gameObject);
+        }
     }
 }

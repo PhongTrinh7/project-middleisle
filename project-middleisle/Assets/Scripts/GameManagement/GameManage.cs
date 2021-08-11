@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
 using UnityEngine.EventSystems;
+using System.IO;
 
 public class GameManage : MonoBehaviour
 {
@@ -19,8 +20,12 @@ public class GameManage : MonoBehaviour
     public GameObject mainMenu;
     public GameObject ingameUI;
     public GameObject transition;
+    public GameObject loadButton;
+    public GameObject dialoguePopUp;
 
     public GameObject player;
+    public List<string> pickedupObjects = new List<string>();
+    public List<string> unlockedDoors = new List<string>(); // Tag the doors with the Door Tag. Found in the Inspector top left.
 
     //UI
     public Text notification;
@@ -35,6 +40,16 @@ public class GameManage : MonoBehaviour
     private void Start()
     {
         state = GameState.SPLASH;
+
+        string path = Application.persistentDataPath + "/gamedata.fun";
+        if (File.Exists(path))
+        {
+            loadButton.SetActive(true);
+        }
+        else
+        {
+            Debug.Log(path + " cannot be found.");
+        }
     }
 
     private void Update()
@@ -61,15 +76,73 @@ public class GameManage : MonoBehaviour
 
     private IEnumerator StartGameCoroutine()
     {
-        StartCoroutine(StateTransition(GameState.INGAME, mainMenu, ingameUI));
+        StartCoroutine(StateTransition(GameState.INGAME, mainMenu, null));
         player.SetActive(true);
         yield return null;
     }
 
-    public void Options()
+    public void SaveGame()
     {
-        //TODO
-        Debug.Log("Options");
+        foreach (GameObject go in GameObject.FindGameObjectsWithTag("Door"))
+        {
+            if (!go.GetComponent<DoorController>().locked)
+            {
+                unlockedDoors.Add(go.name);
+            }
+        }
+
+        SaveSystem.SaveGame(player.transform);
+    }
+
+    public void LoadGame()
+    {
+        StartCoroutine(StateTransition(GameState.INGAME, mainMenu, null));
+        player.SetActive(true);
+
+        GameData data = SaveSystem.LoadGame();
+
+        Vector3 position;
+        position.x = data.position[0];
+        position.y = data.position[1];
+        position.z = data.position[2];
+        player.transform.position = position;
+
+        //Inventory load.
+        Inventory.instance.items.Clear();
+
+        foreach (string i in data.itemNames)
+        {
+            Debug.Log(i);
+            Inventory.instance.Add((Item)Instantiate(Resources.Load("Items/" + i))); // Make sure to name your scriptable objects accordingly. Found in Resources/Items directory.
+        }
+
+        foreach (string j in data.inactiveItems)
+        {
+            GameObject.Find(j).SetActive(false);
+            pickedupObjects.Add(j);
+        }
+
+        foreach (string k in data.unlockedDoors)
+        {
+            GameObject.Find(k).GetComponent<DoorController>().locked = false;
+        }
+    }
+
+    public void OpenMenu()
+    {
+        if (dialoguePopUp.activeSelf == false)
+        {
+            ingameUI.SetActive(!ingameUI.activeSelf);
+            PlayerMove.character._direction = Vector3.zero;
+//            if (ingameUI.activeSelf == true)
+//            {
+//                Pause.PauseInstance.PauseGame();
+//            }
+//            else
+//            {
+//                Pause.PauseInstance.Resume();
+//            }
+        }
     }
 
     // For the screen transitions. Be sure to change the timings in the future if using different transition animations.
@@ -78,7 +151,7 @@ public class GameManage : MonoBehaviour
         transition.SetActive(true);
         yield return new WaitForSecondsRealtime(.5f);
         from.SetActive(false);
-        to.SetActive(true);
+        if (to != null) to.SetActive(true);
         yield return new WaitForSecondsRealtime(.5f);
         transition.SetActive(false);
         state = s;
@@ -117,5 +190,16 @@ public class GameManage : MonoBehaviour
         notification.text = "";
         alertBacking.gameObject.SetActive(false);
 
+    }
+
+    //TESTING LOAD
+    public void LoadPlayerTest()
+    {
+        player.GetComponent<PlayerMove>().LoadPlayer();
+    }
+
+    public void GMQuitGame()
+    {
+        Application.Quit();
     }
 }

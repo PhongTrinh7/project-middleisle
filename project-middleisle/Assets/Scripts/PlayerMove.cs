@@ -16,6 +16,7 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
     public Interactable focus;
     public InventoryUI inventory;
     public GameObject dialoguePopUp;
+    public GameObject ingameUI;
 
     public static PlayerMove character;
 
@@ -87,7 +88,7 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
 
     public void OnInventory(InputAction.CallbackContext context)
     {
-        if (dialoguePopUp.activeSelf == false)
+        if (dialoguePopUp.activeSelf == false && ingameUI.activeSelf == false)
         {
             if (context.performed)
             {
@@ -182,7 +183,7 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
     public void SavePlayer()
     {
         SaveSystem.SavePlayer(this);
-
+        SaveSystem.SaveInventory();
     }
 
     public void LoadPlayer()
@@ -194,6 +195,23 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
         position.y = data.position[1];
         position.z = data.position[2];
         transform.position = position;
+
+        //Inventory load.
+        Inventory.instance.items.Clear();
+
+        foreach (string i in SaveSystem.LoadInventory().itemNames)
+        {
+            Debug.Log(i);
+            Inventory.instance.Add((Item)Instantiate(Resources.Load("Items/" + i))); // Make sure to name your scriptable objects accordingly. Found in Resources/Items directory.
+        }
     }
-    
+
+    public void OnInGameMenu(InputAction.CallbackContext context)
+    {
+        Debug.Log("Esc");
+        if (context.performed)
+        {
+            GameManage.gamemanager.OpenMenu();
+        }
+    }
 }

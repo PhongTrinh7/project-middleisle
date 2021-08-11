@@ -60,6 +60,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "InGameMenu",
+                    "type": "Button",
+                    "id": "b1a2c505-05c1-4fff-92f7-9dedf16e3d3f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -225,6 +233,17 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "SkipFinish",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dc10684a-f0db-4926-b17a-85181540c4f0",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "InGameMenu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
