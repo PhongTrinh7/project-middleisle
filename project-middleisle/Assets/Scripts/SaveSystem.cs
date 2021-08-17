@@ -9,20 +9,20 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public static class SaveSystem 
 {
-    public static void SaveGame(Transform playerTransform)
+    public static GameData SaveGame(Transform playerTransform, int slot)
     {
         BinaryFormatter formatter = new BinaryFormatter();
-        string path = Application.persistentDataPath + "/gamedata.fun";
+        string path = Application.persistentDataPath + "/gamedata" + slot + ".fun";
         FileStream stream = new FileStream(path, FileMode.Create);
         GameData data = new GameData(GameManage.gamemanager.unlockedDoors, GameManage.gamemanager.pickedupObjects, playerTransform, Inventory.instance);
         formatter.Serialize(stream, data);
         stream.Close();
 
-
+        return data;
     }
-    public static GameData LoadGame()
+    public static GameData LoadGame(int slot)
     {
-        string path = Application.persistentDataPath + "/gamedata.fun";
+        string path = Application.persistentDataPath + "/gamedata" + slot + ".fun";
         if (File.Exists(path))
         {
             BinaryFormatter formatter = new BinaryFormatter();
@@ -113,6 +113,8 @@ public class GameData
 {
     public bool loadable;
 
+    public string dateTime;
+
     public float[] position;
     public List<string> itemNames;
     public List<string> inactiveItems;
@@ -122,6 +124,9 @@ public class GameData
     public GameData(List<string> unlockedDoors, List<string> inactiveItems, Transform playerTransform, Inventory playerInventory)
     {
         loadable = true;
+
+        //Change the format by changing the parameter in ToString()
+        dateTime = System.DateTime.UtcNow.ToLocalTime().ToString("dd-MM-yyyy   HH:mm");
 
         // Player position.
         position = new float[3];

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using System.IO;
 
 public class GameManage : MonoBehaviour
@@ -32,6 +33,12 @@ public class GameManage : MonoBehaviour
     public AlertBacking alertBacking;
     public static GameManage gamemanager;
 
+    public GameObject saveMenu;
+    public Button[] saveSlots;
+    public Button[] loadSlots;
+    public int fileToSave = 0;
+    public int fileToLoad = 0;
+
     void Awake()
     {
         gamemanager = this;
@@ -41,20 +48,25 @@ public class GameManage : MonoBehaviour
     {
         state = GameState.SPLASH;
 
-        string path = Application.persistentDataPath + "/gamedata.fun";
-        if (File.Exists(path))
-        {
-            loadButton.SetActive(true);
-        }
-        else
-        {
-            Debug.Log(path + " cannot be found.");
-        }
-    }
+        int i = 0;
 
-    private void Update()
-    {
-        
+        foreach(Button save in loadSlots)
+        {
+            i++;
+            string path = Application.persistentDataPath + "/gamedata" + i + ".fun";
+            if (File.Exists(path))
+            {
+                save.gameObject.SetActive(true);
+                GameData data = SaveSystem.LoadGame(i);
+                save.GetComponentInChildren<Text>().text = data.dateTime;
+                loadButton.SetActive(true);
+                saveSlots[i-1].GetComponentInChildren<Text>().text = data.dateTime;
+            }
+            else
+            {
+                Debug.Log(path + " cannot be found.");
+            }
+        }
     }
 
     public void OnAnyKey(InputAction.CallbackContext context)
@@ -81,8 +93,23 @@ public class GameManage : MonoBehaviour
         yield return null;
     }
 
+    public void OpenSaveMenu()
+    {
+        saveMenu.SetActive(true);
+    }
+
+    public void ChangeSaveSlot(int i)
+    {
+        fileToSave = i;
+    }
+
     public void SaveGame()
     {
+        if (fileToSave == 0)
+        {
+            return;
+        }
+
         foreach (GameObject go in GameObject.FindGameObjectsWithTag("Door"))
         {
             if (!go.GetComponent<DoorController>().locked)
@@ -91,15 +118,25 @@ public class GameManage : MonoBehaviour
             }
         }
 
-        SaveSystem.SaveGame(player.transform);
+        saveSlots[fileToSave-1].GetComponentInChildren<Text>().text = SaveSystem.SaveGame(player.transform, fileToSave).dateTime;
+    }
+
+    public void ChangeLoadSlot(int i)
+    {
+        fileToLoad = i;
     }
 
     public void LoadGame()
     {
+        if (fileToLoad == 0)
+        {
+            return;
+        }
+
         StartCoroutine(StateTransition(GameState.INGAME, mainMenu, null));
         player.SetActive(true);
 
-        GameData data = SaveSystem.LoadGame();
+        GameData data = SaveSystem.LoadGame(fileToLoad);
 
         Vector3 position;
         position.x = data.position[0];
@@ -192,10 +229,9 @@ public class GameManage : MonoBehaviour
 
     }
 
-    //TESTING LOAD
-    public void LoadPlayerTest()
+    public void MainMenu()
     {
-        player.GetComponent<PlayerMove>().LoadPlayer();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void GMQuitGame()
