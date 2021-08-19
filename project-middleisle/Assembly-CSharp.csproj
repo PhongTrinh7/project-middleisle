@@ -77,10 +77,18 @@
      <Compile Include="Assets\Scripts\Interactables\Item.cs" />
      <Compile Include="Assets\Scripts\Interactables\ItemPickup.cs" />
      <Compile Include="Assets\Scripts\Interactables\KeyPickup.cs" />
+<<<<<<< Updated upstream
+=======
+     <Compile Include="Assets\Scripts\OptionsData.cs" />
+>>>>>>> Stashed changes
      <Compile Include="Assets\Scripts\PlayerData.cs" />
      <Compile Include="Assets\Scripts\PlayerFollow.cs" />
      <Compile Include="Assets\Scripts\PlayerMove.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+<<<<<<< Updated upstream
+=======
+     <Compile Include="Assets\Scripts\SaveSettings.cs" />
+>>>>>>> Stashed changes
      <Compile Include="Assets\Scripts\SaveSystem.cs" />
      <Compile Include="Assets\Scripts\Sounds.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

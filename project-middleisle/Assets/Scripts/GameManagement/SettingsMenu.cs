@@ -10,6 +10,9 @@ public class SettingsMenu : MonoBehaviour
     public GameObject settingsmenu;
     public Dropdown resolutionDropdown;
     Resolution[] resolutions;
+    public bool Fullscreen;
+    public int ResolutionVert;
+    public int ResolutionHoriz;
 
     void Start()
     {
@@ -39,6 +42,9 @@ public class SettingsMenu : MonoBehaviour
     {
         Resolution resolution = resolutions[resolutionIndex];
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
+        ResolutionVert = resolution.height;
+        ResolutionHoriz = resolution.width;
+        SaveSettings.SaveOptions(this);
     }
     
     public void SetVolume(float volume)
@@ -54,6 +60,8 @@ public class SettingsMenu : MonoBehaviour
     public void SetFullscreen (bool isFullscreen)
     {
         Screen.fullScreen = isFullscreen;
+        Fullscreen = isFullscreen;
+        SaveSettings.SaveOptions(this);
     }
 
     public void ToggleSettings()

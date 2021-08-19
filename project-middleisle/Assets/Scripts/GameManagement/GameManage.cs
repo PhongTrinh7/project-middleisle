@@ -42,6 +42,11 @@ public class GameManage : MonoBehaviour
     void Awake()
     {
         gamemanager = this;
+
+        OptionsData data = SaveSettings.LoadSettings();
+
+        Screen.SetResolution(data.ResolutionVertical, data.ResolutionHorizontal, Screen.fullScreen);
+        Screen.fullScreen = data.FullScreenPersist;
     }
 
     private void Start()
@@ -232,6 +237,10 @@ public class GameManage : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        OptionsData data = SaveSettings.LoadSettings();
+
+        Screen.SetResolution(data.ResolutionVertical, data.ResolutionHorizontal, Screen.fullScreen);
+        Screen.fullScreen = data.FullScreenPersist;
     }
 
     public void GMQuitGame()
