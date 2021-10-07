@@ -17,9 +17,17 @@ public class DialogueManager : MonoBehaviour
     public bool dialogueskip = false;
     public bool advanceDialoguekey = false;
 
+    public Image rightPortrait;
+    public Image leftPortrait;
+
     private void Awake()
     {
         Instance = this;
+    }
+
+    public void SetRightSidePortrait(Sprite sprite)
+    {
+        rightPortrait.sprite = sprite;
     }
 
     public IEnumerator StartDialogue(Queue<string> dialogue)

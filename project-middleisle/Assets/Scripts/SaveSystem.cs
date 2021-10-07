@@ -120,7 +120,6 @@ public class GameData
     public List<string> inactiveItems;
     public List<string> unlockedDoors;
 
-
     public GameData(List<string> unlockedDoors, List<string> inactiveItems, Transform playerTransform, Inventory playerInventory)
     {
         loadable = true;
