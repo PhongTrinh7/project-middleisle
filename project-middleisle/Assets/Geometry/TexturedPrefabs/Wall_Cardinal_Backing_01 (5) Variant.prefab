@@ -71,12 +71,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 3446888796575484674, guid: 78fa57af4a3d8ef4a90d0a787a672a9b,
+      objectReference: {fileID: 3446888796575484674, guid: 579a8c195ee62504780c3ddefef85352,
         type: 3}
     - target: {fileID: 919132149155446097, guid: fe74a4e4ee01b5e4eb675684f87801a2,
         type: 3}
       propertyPath: m_Name
-      value: Wall_Cardinal_Backing_01 (5)
+      value: Wall_Cardinal_Backing_01 (5) Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe74a4e4ee01b5e4eb675684f87801a2, type: 3}
