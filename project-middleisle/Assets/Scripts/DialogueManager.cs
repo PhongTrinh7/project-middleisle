@@ -6,27 +6,44 @@ using UnityEngine.UI;
 public class DialogueManager : MonoBehaviour
 {
     public static DialogueManager Instance; //Makes it accessible from anywhere. So we don't need a reference to this object for every curio in the scene.
+
+    //Canvas Object References
     public GameObject dialoguePopUp;
-    public Text dialogueText;
-    private bool inDialogue; //Potentially for future use.
-    private bool textScrolling;
     public Button advanceDialogueButton;
-    private Queue<string> dialogue;
+
+    //Text
+    public Text dialogueText;
+    public Text nameTagText;
+    private Queue<Dialogue> dialogues;
+    private bool inDialogue; //Potentially for future use.
+
+    //Scrolling
+    private bool textScrolling;
     public float dialogueDelay = 0.5f;
     public float textScrollDelay = 0.1f;
     public bool dialogueskip = false;
     public bool advanceDialoguekey = false;
+
+    //Portraits
+    public Image rightPortrait;
+    public Image leftPortrait;
+    public Color32 speakingColor;
+    public Color32 fadeColor;
 
     private void Awake()
     {
         Instance = this;
     }
 
-    public IEnumerator StartDialogue(Queue<string> dialogue)
+    public IEnumerator StartDialogue(Queue<Dialogue> dialogues)
     {
+        this.dialogues = dialogues;
+        Dialogue currentDialogue = this.dialogues.Dequeue();
+
+        SetDialogueScene(currentDialogue);
+
         inDialogue = true;
         dialoguePopUp.SetActive(true);
-        this.dialogue = dialogue;
         advanceDialogueButton.interactable = false;
         advanceDialoguekey = false;
         PlayerMove.character._direction = Vector3.zero;
@@ -35,19 +52,23 @@ public class DialogueManager : MonoBehaviour
         // This is to delay the text scrolling before pop up animation finishes.
         yield return new WaitForSecondsRealtime(dialogueDelay);
 
-        StartCoroutine(ScrollText(dialogue.Dequeue()));
+        dialogueText.gameObject.SetActive(true);
+        StartCoroutine(ScrollText(currentDialogue.words));
     }
 
     public void AdvanceDialogue()
     {
-        if (dialogue.Count == 0)
+        if (dialogues.Count == 0)
         {
             EndDialogue();
             return;
         }
 
         StopAllCoroutines();
-        StartCoroutine(ScrollText(dialogue.Dequeue()));
+
+        Dialogue currentDialogue = dialogues.Dequeue();
+        SetDialogueScene(currentDialogue);
+        StartCoroutine(ScrollText(currentDialogue.words));
     }
 
     IEnumerator ScrollText(string line)
@@ -77,11 +98,65 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue()
     {
-        dialogue.Clear();
+        dialogues.Clear();
         dialogueText.text = "";
         inDialogue = false;
         dialoguePopUp.SetActive(false);
-        
 
+        leftPortrait.gameObject.SetActive(false);
+        rightPortrait.gameObject.SetActive(false);
+        dialogueText.gameObject.SetActive(false);
+    }
+
+    private void SetDialogueScene(Dialogue dialogue)
+    {
+        if (dialogue.leftSpeaker != null)
+        {
+            SetLeftPortrait(dialogue.leftSpeaker);
+        }
+
+        if (dialogue.rightSpeaker != null)
+        {
+            SetRightPortrait(dialogue.rightSpeaker);
+        }
+
+        if (dialogue.left)
+        {
+            LeftSpeaking(dialogue.words, dialogue.speakerName);
+        }
+        else
+        {
+            RightSpeaking(dialogue.words, dialogue.speakerName);
+        }
+    }
+
+    public void SetRightPortrait(Sprite sprite)
+    {
+        rightPortrait.GetComponent<Animator>().enabled = true;
+        rightPortrait.gameObject.SetActive(true);
+        rightPortrait.sprite = sprite;
+    }
+
+    public void SetLeftPortrait(Sprite sprite)
+    {
+        leftPortrait.GetComponent<Animator>().enabled = true;
+        leftPortrait.gameObject.SetActive(true);
+        leftPortrait.sprite = sprite;
+    }
+
+    public void LeftSpeaking(string text, string name)
+    {
+        nameTagText.text = name;
+        leftPortrait.color = speakingColor;
+        rightPortrait.color = fadeColor;
+        dialogueText.text = text;
+    }
+
+    public void RightSpeaking(string text, string name)
+    {
+        nameTagText.text = name;
+        rightPortrait.color = speakingColor;
+        leftPortrait.color = fadeColor;
+        dialogueText.text = text;
     }
 }

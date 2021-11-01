@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_floor
+  m_Shader: {fileID: -6465566751694194690, guid: 8189305f5e1bd4f48bee36be70f62f2a,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_1B6469A5:
+        m_Texture: {fileID: -3885293089735576360, guid: 63257ed5ce6f4634f96125a3798cfbb7,
+          type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_4429189C:
+        m_Texture: {fileID: 2800000, guid: ffce880ddaaee2941975669920d15743, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_4B1D9E93:
+        m_Texture: {fileID: 2800000, guid: 0cc0777f7d4a3444380eb084d74396b5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_6120B540:
+        m_Texture: {fileID: 2800000, guid: 52f2b70b42682a145b20ea5f04fd6af1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_91F5EBDA:
+        m_Texture: {fileID: -7167035644031261735, guid: c9efe8ff1e9c42345948532c23305d9a,
+          type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_CFB694FE:
+        m_Texture: {fileID: 6151036364959682444, guid: 63257ed5ce6f4634f96125a3798cfbb7,
+          type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_F329DA6E:
+        m_Texture: {fileID: 2800000, guid: 52f2b70b42682a145b20ea5f04fd6af1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_224CA6BD: 1
+    - Vector1_4A21E63B: 0.16
+    - Vector1_8C5D201E: 0.16
+    - Vector1_D2193A3: 4.8
+    m_Colors: []

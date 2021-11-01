@@ -59,6 +59,7 @@
      <Compile Include="Assets\IsoMove.cs" />
      <Compile Include="Assets\Scripts\AlertBacking.cs" />
      <Compile Include="Assets\Scripts\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\Dialogue.cs" />
      <Compile Include="Assets\Scripts\DialogueManager.cs" />
      <Compile Include="Assets\Scripts\GameManagement\CursorController.cs" />
      <Compile Include="Assets\Scripts\GameManagement\GameManage.cs" />
@@ -83,6 +84,8 @@
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\SaveSystem.cs" />
      <Compile Include="Assets\Scripts\Sounds.cs" />
+     <Compile Include="Assets\StopAnimatorWhenFinished.cs" />
+     <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -668,9 +671,17 @@
       <Project>{998BB1B8-55E5-7784-0990-E541B9033F8E}</Project>
       <Name>Unity.ProBuilder</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Polybrush.csproj">
+      <Project>{6494D31E-D336-7E9B-6098-6A2DF8BE5D2F}</Project>
+      <Name>Unity.Polybrush</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Formats.Fbx.Editor.csproj">
       <Project>{4FFA5C20-B0C1-3188-5CA7-2875D9AEF0B4}</Project>
       <Name>Unity.Formats.Fbx.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Polybrush.Editor.csproj">
+      <Project>{44C31B44-974A-8E8B-FF4B-3A5EE7FDB756}</Project>
+      <Name>Unity.Polybrush.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
       <Project>{221A0231-F6EE-0152-FFFF-4AB8ED8621DE}</Project>

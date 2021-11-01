@@ -19,6 +19,7 @@ public class GameManage : MonoBehaviour
 
     public GameObject splashScreen;
     public GameObject mainMenu;
+    public GameObject loadMenu;
     public GameObject ingameUI;
     public GameObject transition;
     public GameObject loadButton;
@@ -38,6 +39,9 @@ public class GameManage : MonoBehaviour
     public Button[] loadSlots;
     public int fileToSave = 0;
     public int fileToLoad = 0;
+
+    //Settings
+    public SettingsMenu settingsMenu;
 
     void Awake()
     {
@@ -124,6 +128,12 @@ public class GameManage : MonoBehaviour
     public void ChangeLoadSlot(int i)
     {
         fileToLoad = i;
+        LoadGame();
+    }
+
+    public void ToggleLoadMenu()
+    {
+        loadMenu.SetActive(!loadMenu.activeInHierarchy);
     }
 
     public void LoadGame()

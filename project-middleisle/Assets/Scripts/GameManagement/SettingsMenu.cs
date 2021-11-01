@@ -8,7 +8,12 @@ public class SettingsMenu : MonoBehaviour
 {
     public AudioMixer audiomixer;
     public GameObject settingsmenu;
+
     public Dropdown resolutionDropdown;
+    public Slider volumeSlider;
+    public Dropdown qualityDropDown;
+    public Toggle fullscreenCheckbox;
+
     Resolution[] resolutions;
 
     void Start()
@@ -31,29 +36,54 @@ public class SettingsMenu : MonoBehaviour
         }
 
         resolutionDropdown.AddOptions(options);
-        resolutionDropdown.value = currentResolutionIndex;
+
+        int resolutionIndex = PlayerPrefs.GetInt("resolutionIndex");
+        float volume = PlayerPrefs.GetFloat("volume");
+        int qualityIndex = PlayerPrefs.GetInt("qualityIndex");
+        bool fullscreen = PlayerPrefs.GetInt("PropName") == 1 ? true : false;
+
+        SetResolution(resolutionIndex);
+        resolutionDropdown.value = resolutionIndex;
         resolutionDropdown.RefreshShownValue();
+
+        SetVolume(volume);
+        volumeSlider.value = volume;
+
+        SetQuality(qualityIndex);
+        qualityDropDown.value = qualityIndex;
+        qualityDropDown.RefreshShownValue();
+
+        SetFullscreen(fullscreen);
+        fullscreenCheckbox.isOn = fullscreen;
     }
 
     public void SetResolution(int resolutionIndex)
     {
         Resolution resolution = resolutions[resolutionIndex];
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
+        PlayerPrefs.SetInt("resolutionIndex", resolutionIndex);
+        PlayerPrefs.Save();
     }
     
     public void SetVolume(float volume)
     {
         audiomixer.SetFloat("volume", volume);
+        PlayerPrefs.SetFloat("volume", volume);
+        PlayerPrefs.Save();
     }
 
     public void SetQuality (int qualityIndex)
     {
         QualitySettings.SetQualityLevel(qualityIndex);
+        PlayerPrefs.SetInt("qualityIndex", qualityIndex);
+        PlayerPrefs.Save();
     }
 
     public void SetFullscreen (bool isFullscreen)
     {
         Screen.fullScreen = isFullscreen;
+        PlayerPrefs.SetInt("PropName", isFullscreen ? 1 : 0);
+        PlayerPrefs.Save();
     }
 
     public void ToggleSettings()
