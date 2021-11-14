@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Concrete detail
+  m_Name: Concrete detail non dither
   m_Shader: {fileID: -6465566751694194690, guid: 9d3249b12e8cbce4fae92045c3a98266,
     type: 3}
   m_ShaderKeywords: _NORMALMAP_TANGENT_SPACE
