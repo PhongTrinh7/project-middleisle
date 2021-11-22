@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\Scripts\Dialogue.cs" />
      <Compile Include="Assets\Scripts\DialogueManager.cs" />
+     <Compile Include="Assets\Scripts\FlickerControl.cs" />
      <Compile Include="Assets\Scripts\GameManagement\CursorController.cs" />
      <Compile Include="Assets\Scripts\GameManagement\GameManage.cs" />
      <Compile Include="Assets\Scripts\GameManagement\Inspector.cs" />
