@@ -27,7 +27,7 @@ RectTransform:
   m_GameObject: {fileID: 4558788087845323959}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.585, y: 1.585, z: 1.585}
   m_Children: []
   m_Father: {fileID: 4558788088165725510}
   m_RootOrder: 0
@@ -86,7 +86,6 @@ GameObject:
   - component: {fileID: 4558788088165725507}
   - component: {fileID: 4558788088165725504}
   - component: {fileID: 4558788088165725505}
-  - component: {fileID: 8520925025114384243}
   m_Layer: 5
   m_Name: slot
   m_TagString: Untagged
@@ -112,7 +111,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -201, y: 201}
-  m_SizeDelta: {x: 60, y: 60}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4558788088165725507
 CanvasRenderer:
@@ -135,14 +134,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.7764706}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 076971ccc2b5eac4b8ea5053cc363418, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -194,7 +193,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8520925025114384243}
+      - m_Target: {fileID: 0}
         m_MethodName: UseItem
         m_Mode: 1
         m_Arguments:
@@ -205,17 +204,3 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &8520925025114384243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4558788088165725511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7629b3b840706184e8e5e9a6c791bf1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  icon: {fileID: 4558788087845323953}
-  inspector: {fileID: 0}
