@@ -15,7 +15,7 @@ MonoBehaviour:
   speakerName: Lisse
   words: Lind's Northern Citizens' Party symbol is everywhere...
   leftSpeaker: {fileID: 0}
-  rightSpeaker: {fileID: 21300000, guid: 3d81eccd665ed9f46acf20957bb03768, type: 3}
+  rightSpeaker: {fileID: 21300000, guid: 46b4f199f55da1a4993a6642807e66a4, type: 3}
   left: 0
   voice: {fileID: 0}
   intermission: 0

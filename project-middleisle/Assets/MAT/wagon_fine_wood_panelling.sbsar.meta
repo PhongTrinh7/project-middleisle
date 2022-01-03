@@ -37,8 +37,8 @@ ScriptedImporter:
       - name: _BaseColorMap
         texture: {fileID: -8375109780688032226, guid: cbbecd9549e7f684c90e3489631db0b7,
           type: 3}
-        scale: {x: 2.25, y: 2.53}
-        offset: {x: 0.223, y: 2.13}
+        scale: {x: 2, y: 2}
+        offset: {x: 1.64, y: 2.52}
       - name: _BentNormalMap
         texture: {instanceID: 0}
         scale: {x: 1, y: 1}
@@ -244,7 +244,7 @@ ScriptedImporter:
       - name: _HeightTessCenter
         float: 0.5
       - name: _InvTilingScale
-        float: 0.41841003
+        float: 0.5
       - name: _Ior
         float: 1
       - name: _IridescenceMask
