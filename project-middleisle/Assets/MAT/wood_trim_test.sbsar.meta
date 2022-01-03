@@ -23,7 +23,8 @@ ScriptedImporter:
     materialProperties:
       shader: {fileID: 4800000, guid: 756bac9090102564582875f4c7e30202, type: 3}
       shaderKeywords: _BASECOLORMAP _DISPLACEMENT_LOCK_TILING_SCALE _HEIGHTMAP _MASKMAP
-        _NORMALMAP _NORMALMAP_TANGENT_SPACE _TESSELLATION_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+        _NORMALMAP _NORMALMAP_TANGENT_SPACE _TESSELLATION_DISPLACEMENT _TESSELLATION_PHONG
+        _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
       lightmapFlags: 4
       enableInstancingVariants: 0
       doubleSidedGI: 0
@@ -326,7 +327,7 @@ ScriptedImporter:
       - name: _TessellationFactorTriangleSize
         float: 100
       - name: _TessellationMode
-        float: 0
+        float: 1
       - name: _TessellationShapeFactor
         float: 0.75
       - name: _TexWorldScale

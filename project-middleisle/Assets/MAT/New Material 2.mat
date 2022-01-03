@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: New Material 2
-  m_Shader: {fileID: -6465566751694194690, guid: 9d3249b12e8cbce4fae92045c3a98266,
+  m_Shader: {fileID: -6465566751694194690, guid: f073f1739194d154595b079bdfce8316,
     type: 3}
   m_ShaderKeywords: _NORMALMAP_TANGENT_SPACE
   m_LightmapFlags: 4
@@ -157,6 +157,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_22417704: 1
+    - Vector1_23340DAA: 1
+    - Vector1_79BEBB25: 1
+    - Vector1_D36D099C: 1
     - _AORemapMax: 1
     - _AORemapMin: 0
     - _ATDistance: 1
