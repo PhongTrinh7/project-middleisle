@@ -1,0 +1,1055 @@
+fileFormatVersion: 2
+guid: 05c1bf9aab6793c4bb7b33761621aeea
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Lisse_Idle_02
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Lisse_Idle_02
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 73
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Lisse_Rig:BaseSkeleton_grp
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Hip_L_IK_jnt
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Hip_R_IK_jnt
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Knee_L_IK_jnt
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Knee_R_IK_jnt
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Ankle_ik_L_jnt
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Ankle_ik_R_jnt
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Shoulder_L_jnt
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Shoulder_R_jnt
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:UpperArm_L_Base_jnt
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:UpperArm_R_Base_jnt
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:LowerArm_L_Base_jnt
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:LowerArm_R_Base_jnt
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Hand_L_Base_jnt
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Hand_R_Base_jnt
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Toes__L_jnt
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Toes__R_jnt
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Thumb_L_jnt
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Thumb2_L_jnt
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Thumb3_L_jnt
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Index_L_jnt
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Index2_L_jnt
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Index3_L_jnt
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:MiddleF_L_jnt
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:MiddleF2_L_jnt
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:MiddleF3_L_jnt
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Ring_L_jnt
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Ring2_L_jnt
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Ring3_L_jnt
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Pinky_L_jnt
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Pinky2_L_jnt
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Pinky3_L_jnt
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Thumb_R_jnt
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Thumb2_R_jnt
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Thumb3_R_jnt
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Index_R_jnt
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Index2_R_jnt
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Index3_R_jnt
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:MiddleF_R_jnt
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:MiddleF2_R_jnt
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:MiddleF3_R_jnt
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Ring_R_jnt
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Ring2_R_jnt
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Ring3_R_jnt
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Pinky_R_jnt
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Pinky2_R_jnt
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Pinky3_R_jnt
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lisse_Rig:Spine3
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Lisse_Idle_Blocking02(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:World_grp
+      parentName: Lisse_Idle_Blocking02(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Lisse_Rig:World_ctrl
+      parentName: Lisse_Rig:World_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.3122376, y: 1.3122376, z: 1.3122376}
+    - name: Lisse_Rig:BaseSkeleton_grp
+      parentName: Lisse_Rig:World_ctrl
+      position: {x: -0.04910327, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Core
+      parentName: Lisse_Rig:BaseSkeleton_grp
+      position: {x: 0.044601183, y: 3.6301963, z: -0.30715796}
+      rotation: {x: -0.70404667, y: 0, z: -0, w: 0.7101537}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Spine1
+      parentName: Lisse_Rig:Core
+      position: {x: 9.78384e-16, y: -2.220446e-16, z: 0.29966384}
+      rotation: {x: 0.0032313978, y: -0, z: -0, w: 0.9999948}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Spine2
+      parentName: Lisse_Rig:Spine1
+      position: {x: -0, y: 5.551115e-17, z: 0.29075205}
+      rotation: {x: 0.024809627, y: -0, z: -0, w: 0.9996922}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Spine3
+      parentName: Lisse_Rig:Spine2
+      position: {x: 6.938894e-18, y: 0.000000019299097, z: 0.2907523}
+      rotation: {x: -0.024899632, y: 0, z: -0, w: 0.99968994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Neck
+      parentName: Lisse_Rig:Spine3
+      position: {x: -1.4918622e-15, y: 4.440892e-16, z: 0.87511873}
+      rotation: {x: 0.049944423, y: -0, z: -0, w: 0.998752}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Head
+      parentName: Lisse_Rig:Neck
+      position: {x: 3.8788417e-15, y: 2.220446e-16, z: 0.2347417}
+      rotation: {x: 0.00029099867, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Shoulder_L_jnt
+      parentName: Lisse_Rig:Spine3
+      position: {x: -0.22185707, y: 0.026312439, z: 0.5828408}
+      rotation: {x: 0.043246675, y: -0.650305, z: -0.034908284, w: 0.7576375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:UpperArm_L_fk_jnt
+      parentName: Lisse_Rig:Shoulder_L_jnt
+      position: {x: 8.881784e-16, y: 2.220446e-16, z: 0.29466444}
+      rotation: {x: -0.0042728675, y: -0.7040602, z: -0.009920925, w: 0.71005815}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:LowerArm_L_fk_jnt
+      parentName: Lisse_Rig:UpperArm_L_fk_jnt
+      position: {x: -1.7763568e-15, y: -2.7755576e-14, z: 0.80812454}
+      rotation: {x: 0.13655546, y: -0.000013378288, z: 0.0000014076754, w: 0.9906325}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Hand_L_fk_jnt
+      parentName: Lisse_Rig:LowerArm_L_fk_jnt
+      position: {x: 2.4424907e-15, y: 1.110223e-16, z: 0.89679265}
+      rotation: {x: -0.00087227236, y: 0.054956738, z: -0.0030400741, w: 0.9984837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:UpperArm_L_ik_jnt
+      parentName: Lisse_Rig:Shoulder_L_jnt
+      position: {x: -0, y: 0, z: 0.29466444}
+      rotation: {x: 0.04502446, y: -0.40870577, z: 0.16740768, w: 0.8960508}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:LowerArm_L_ik_jnt
+      parentName: Lisse_Rig:UpperArm_L_ik_jnt
+      position: {x: -0, y: 0, z: 0.80812454}
+      rotation: {x: 0.010192507, y: -0.0000042734046, z: 0.00000020158521, w: 0.9999481}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Hand_L_ik_jnt
+      parentName: Lisse_Rig:LowerArm_L_ik_jnt
+      position: {x: 8.881784e-16, y: 5.481726e-16, z: 0.89679265}
+      rotation: {x: -0.05584305, y: -0.020916581, z: -0.11374768, w: 0.9917185}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:UpperArm_L_Base_jnt
+      parentName: Lisse_Rig:Shoulder_L_jnt
+      position: {x: 8.881784e-16, y: 1.9428903e-16, z: 0.29466444}
+      rotation: {x: 0.011750541, y: -0.08263124, z: -0.0017746502, w: 0.9965094}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:LowerArm_L_Base_jnt
+      parentName: Lisse_Rig:UpperArm_L_Base_jnt
+      position: {x: -1.7763568e-15, y: -2.6589841e-14, z: 0.80812454}
+      rotation: {x: 0.036830727, y: 0.0060703238, z: 0.0008386684, w: 0.99930274}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Hand_L_Base_jnt
+      parentName: Lisse_Rig:LowerArm_L_Base_jnt
+      position: {x: 8.881784e-16, y: 5.481726e-16, z: 0.89679265}
+      rotation: {x: -0.00037766615, y: 0.05123018, z: -0.003016702, w: 0.9986823}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Thumb_L_jnt
+      parentName: Lisse_Rig:Hand_L_Base_jnt
+      position: {x: -0.081657864, y: -0.072443284, z: 0.07899618}
+      rotation: {x: 0.15965512, y: 0.24087149, z: -0.665757, w: 0.68793815}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Thumb2_L_jnt
+      parentName: Lisse_Rig:Thumb_L_jnt
+      position: {x: -7.1054274e-15, y: 1.9984014e-15, z: 0.17167522}
+      rotation: {x: 0.018389713, y: -0.031391617, z: 0.008886004, w: 0.9992985}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Thumb3_L_jnt
+      parentName: Lisse_Rig:Thumb2_L_jnt
+      position: {x: -6.8833828e-15, y: 6.661338e-16, z: 0.17715135}
+      rotation: {x: 0, y: -0.11969637, z: -0, w: 0.99281055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Index_L_jnt
+      parentName: Lisse_Rig:Hand_L_Base_jnt
+      position: {x: -0.011142965, y: -0.05354652, z: 0.4193014}
+      rotation: {x: -0.04602012, y: -0.05020735, z: -0.0047862125, w: 0.99766654}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Index2_L_jnt
+      parentName: Lisse_Rig:Index_L_jnt
+      position: {x: -5.107026e-15, y: 2.7755576e-17, z: 0.1055057}
+      rotation: {x: -0.00000016763802, y: -0.039208062, z: 0.00000003213062, w: 0.9992311}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Index3_L_jnt
+      parentName: Lisse_Rig:Index2_L_jnt
+      position: {x: 1.7541524e-14, y: -5.551115e-17, z: 0.11153959}
+      rotation: {x: 0, y: -0.08816697, z: -0, w: 0.99610573}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:MiddleF_L_jnt
+      parentName: Lisse_Rig:Hand_L_Base_jnt
+      position: {x: 0.024565436, y: 0.022064773, z: 0.42476255}
+      rotation: {x: -0.04113081, y: -0.04449559, z: 0.008305764, w: 0.998128}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:MiddleF2_L_jnt
+      parentName: Lisse_Rig:MiddleF_L_jnt
+      position: {x: 5.939693e-15, y: -1.110223e-16, z: 0.11544676}
+      rotation: {x: -0.00000046566123, y: -0.036071684, z: 0.00000011059454, w: 0.9993493}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:MiddleF3_L_jnt
+      parentName: Lisse_Rig:MiddleF2_L_jnt
+      position: {x: 4.440892e-16, y: 0, z: 0.12204918}
+      rotation: {x: 0, y: -0.1494554, z: -0, w: 0.9887685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Ring_L_jnt
+      parentName: Lisse_Rig:Hand_L_Base_jnt
+      position: {x: 0.016995335, y: 0.10800159, z: 0.40795258}
+      rotation: {x: -0.031205563, y: -0.042427063, z: 0.029264893, w: 0.99818325}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Ring2_L_jnt
+      parentName: Lisse_Rig:Ring_L_jnt
+      position: {x: -3.1710745e-15, y: 2.220446e-16, z: 0.11076897}
+      rotation: {x: -0.00000048428757, y: -0.033756234, z: 0.000000038649873, w: 0.9994301}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Ring3_L_jnt
+      parentName: Lisse_Rig:Ring2_L_jnt
+      position: {x: 3.5527137e-15, y: -1.110223e-16, z: 0.11710386}
+      rotation: {x: 0, y: -0.19383472, z: -0, w: 0.9810342}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Pinky_L_jnt
+      parentName: Lisse_Rig:Hand_L_Base_jnt
+      position: {x: -0.014984376, y: 0.17600663, z: 0.35164464}
+      rotation: {x: -0.03913474, y: -0.03781785, z: 0.12144967, w: 0.99110454}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Pinky2_L_jnt
+      parentName: Lisse_Rig:Pinky_L_jnt
+      position: {x: 8.024831e-15, y: -1.110223e-16, z: 0.08657666}
+      rotation: {x: 0.00000059977174, y: -0.032524537, z: 0.000000084750354, w: 0.999471}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Pinky3_L_jnt
+      parentName: Lisse_Rig:Pinky2_L_jnt
+      position: {x: 9.547918e-15, y: 3.8857806e-16, z: 0.09152799}
+      rotation: {x: 0, y: -0.21713425, z: -0, w: 0.97614175}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Shoulder_R_jnt
+      parentName: Lisse_Rig:Spine3
+      position: {x: 0.22185752, y: 0.026312117, z: 0.58284354}
+      rotation: {x: 0.043103393, y: 0.650319, z: 0.034680754, w: 0.7576441}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:UpperArm_R_fk_jnt
+      parentName: Lisse_Rig:Shoulder_R_jnt
+      position: {x: -8.881784e-16, y: -4.440892e-16, z: 0.29466426}
+      rotation: {x: 0.7071867, y: -0.007167837, z: -0.706858, w: -0.013689371}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:LowerArm_R_fk_jnt
+      parentName: Lisse_Rig:UpperArm_R_fk_jnt
+      position: {x: 0.0000048268766, y: -0.000000087150184, z: -0.808122}
+      rotation: {x: 0.09321308, y: -0.000013426956, z: 0.0000008227612, w: 0.9956462}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Hand_R_fk_jnt
+      parentName: Lisse_Rig:LowerArm_R_fk_jnt
+      position: {x: -0.000007246018, y: -0.00000006752221, z: -0.89679396}
+      rotation: {x: -0.0010814741, y: 0.039469607, z: -0.0021751723, w: 0.99921787}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:UpperArm_R_ik_jnt
+      parentName: Lisse_Rig:Shoulder_R_jnt
+      position: {x: -0, y: 0, z: 0.29466426}
+      rotation: {x: 0.88820714, y: -0.0976814, z: -0.44241184, w: 0.07627709}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:LowerArm_R_ik_jnt
+      parentName: Lisse_Rig:UpperArm_R_ik_jnt
+      position: {x: 0.0000048268766, y: -0.000000087150184, z: -0.808122}
+      rotation: {x: 0.27810615, y: -0.00001222764, z: -0.0000023469756, w: 0.96055037}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Hand_R_ik_jnt
+      parentName: Lisse_Rig:LowerArm_R_ik_jnt
+      position: {x: -0.000007246018, y: -0.00000006994701, z: -0.89679396}
+      rotation: {x: -0.18369523, y: -0.017346494, z: -0.10608487, w: 0.97708815}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:UpperArm_R_Base_jnt
+      parentName: Lisse_Rig:Shoulder_R_jnt
+      position: {x: -0, y: -1.5265567e-16, z: 0.29466426}
+      rotation: {x: 0.9961669, y: 0.006007968, z: -0.08606284, w: 0.014445175}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:LowerArm_R_Base_jnt
+      parentName: Lisse_Rig:UpperArm_R_Base_jnt
+      position: {x: 0.0000048268766, y: -0.000000087150184, z: -0.808122}
+      rotation: {x: 0.038403243, y: 0.0048201494, z: 0.0004530886, w: 0.9992506}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Hand_R_Base_jnt
+      parentName: Lisse_Rig:LowerArm_R_Base_jnt
+      position: {x: -0.000007246018, y: -0.00000006994701, z: -0.89679396}
+      rotation: {x: -0.0010814741, y: 0.039469607, z: -0.0021751723, w: 0.99921787}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Thumb_R_jnt
+      parentName: Lisse_Rig:Hand_R_Base_jnt
+      position: {x: 0.023178767, y: 0.10911163, z: -0.1248619}
+      rotation: {x: 0.1742084, y: 0.2396368, z: -0.6620438, w: 0.6884212}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Thumb2_R_jnt
+      parentName: Lisse_Rig:Thumb_R_jnt
+      position: {x: 0.00000035580106, y: -0.00000024748752, z: -0.14695764}
+      rotation: {x: 0.03780406, y: -0.0073950123, z: 0.17209941, w: 0.98432624}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Thumb3_R_jnt
+      parentName: Lisse_Rig:Thumb2_R_jnt
+      position: {x: -0.000006082102, y: 0.0000007994984, z: -0.15215659}
+      rotation: {x: -0.000000017957582, y: -0.17833097, z: 0.000000003254562, w: 0.9839706}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Index_R_jnt
+      parentName: Lisse_Rig:Hand_R_Base_jnt
+      position: {x: -0.020247709, y: 0.06697018, z: -0.469448}
+      rotation: {x: -0.034272518, y: -0.039249696, z: -0.0052844407, w: 0.99862754}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Index2_R_jnt
+      parentName: Lisse_Rig:Index_R_jnt
+      position: {x: 0.00000057120735, y: 0.000000001835997, z: -0.10391392}
+      rotation: {x: 0.00000030919907, y: -0.036790725, z: 0.000000005820765, w: 0.999323}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Index3_R_jnt
+      parentName: Lisse_Rig:Index2_R_jnt
+      position: {x: -0.0000016444549, y: 0.000000028316054, z: -0.10985436}
+      rotation: {x: -0.000000016505838, y: -0.13572653, z: 0.0000000022612046, w: 0.9907463}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:MiddleF_R_jnt
+      parentName: Lisse_Rig:Hand_R_Base_jnt
+      position: {x: -0.034806762, y: -0.023444021, z: -0.45940328}
+      rotation: {x: -0.034385826, y: -0.035249863, z: 0.0062651164, w: 0.9987672}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:MiddleF2_R_jnt
+      parentName: Lisse_Rig:MiddleF_R_jnt
+      position: {x: 0.0000006555771, y: -1.8728413e-10, z: -0.11707038}
+      rotation: {x: -0.0000010654327, y: -0.034238275, z: -0.00000011245716, w: 0.99941367}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:MiddleF3_R_jnt
+      parentName: Lisse_Rig:MiddleF2_R_jnt
+      position: {x: -0.000001852823, y: 4.419844e-10, z: -0.123773955}
+      rotation: {x: -0.000000016372969, y: -0.18482757, z: 0.000000003079228, w: 0.982771}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Ring_R_jnt
+      parentName: Lisse_Rig:Hand_R_Base_jnt
+      position: {x: -0.023223998, y: -0.108880796, z: -0.4270501}
+      rotation: {x: -0.03375902, y: -0.030667447, z: 0.051553033, w: 0.9976283}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Ring2_R_jnt
+      parentName: Lisse_Rig:Ring_R_jnt
+      position: {x: 0.00000067726614, y: 0.0000000020894866, z: -0.12094353}
+      rotation: {x: 0.000000953674, y: -0.031255215, z: -0.00000010314394, w: 0.9995114}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Ring3_R_jnt
+      parentName: Lisse_Rig:Ring2_R_jnt
+      position: {x: -0.0000019141216, y: -0.00000004271903, z: -0.12786889}
+      rotation: {x: -0.00000001771139, y: -0.24117891, z: 0.0000000044015445, w: 0.9704807}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Pinky_R_jnt
+      parentName: Lisse_Rig:Hand_R_Base_jnt
+      position: {x: 0.003403632, y: -0.17852604, z: -0.40057635}
+      rotation: {x: -0.0345763, y: -0.02982968, z: 0.0370581, w: 0.99826926}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Pinky2_R_jnt
+      parentName: Lisse_Rig:Pinky_R_jnt
+      position: {x: 0.00000044409683, y: 0.00000035066697, z: -0.07930507}
+      rotation: {x: 0.0000031590446, y: -0.030969871, z: 0.00000029033967, w: 0.99952036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Pinky3_R_jnt
+      parentName: Lisse_Rig:Pinky2_R_jnt
+      position: {x: -0.0000012551275, y: -0.00000012759907, z: -0.08384616}
+      rotation: {x: -0.000000019103602, y: -0.2466021, z: 0.000000004861115, w: 0.9691168}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Hip_L_IK_jnt
+      parentName: Lisse_Rig:Core
+      position: {x: -0.3464966, y: -0.07502959, z: -0.06853241}
+      rotation: {x: 0.3779522, y: -0.47881025, z: 0.47866884, w: 0.63148165}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Knee_L_IK_jnt
+      parentName: Lisse_Rig:Hip_L_IK_jnt
+      position: {x: -1.5066446, y: 0, z: 0}
+      rotation: {x: -0.00081652123, y: -0.2005175, z: -0.0011965812, w: 0.97968906}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Ankle_ik_L_jnt
+      parentName: Lisse_Rig:Knee_L_IK_jnt
+      position: {x: -1.6380339, y: 4.954804e-17, z: -6.661338e-16}
+      rotation: {x: 0.023404984, y: 0.39113775, z: 0.021548951, w: 0.91978216}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Toes__L_jnt
+      parentName: Lisse_Rig:Ankle_ik_L_jnt
+      position: {x: -0.40909272, y: 0.00000012905818, z: 0.0000025012791}
+      rotation: {x: 0.50168645, y: 0.49830785, z: -0.50168645, w: -0.49830785}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Hip_R_IK_jnt
+      parentName: Lisse_Rig:Core
+      position: {x: 0.35550082, y: -0.036779698, z: -0.051510505}
+      rotation: {x: 0.5514459, y: -0.49596617, z: -0.5209683, w: -0.42251277}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Knee_R_IK_jnt
+      parentName: Lisse_Rig:Hip_R_IK_jnt
+      position: {x: 1.506637, y: 0.0000008894186, z: 0.00000078342356}
+      rotation: {x: -0.00072484865, y: -0.15547562, z: -0.00093405513, w: 0.98783904}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Ankle_ik_R_jnt
+      parentName: Lisse_Rig:Knee_R_IK_jnt
+      position: {x: 1.6380374, y: -0.000000010866057, z: -0.00000047433755}
+      rotation: {x: 0.002374016, y: 0.4216832, z: -0.020350875, w: 0.9065117}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:Toes__R_jnt
+      parentName: Lisse_Rig:Ankle_ik_R_jnt
+      position: {x: 0.4090956, y: 0.00000005332089, z: -0.00000011898893}
+      rotation: {x: 0.50168645, y: 0.49830785, z: -0.50168645, w: -0.49830785}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:LowPoly_grp
+      parentName: Lisse_Idle_Blocking02(Clone)
+      position: {x: -0, y: 0.040031448, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Lisse_Rig:shoes_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:shirt_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:collar_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:buttons_shirt_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:buttons_sweater_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:strand1_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:pants_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:sweater_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:eyes_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:face_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:bunstrand3_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:bunstrand2_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:haircap_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:strand10_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:strand9_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:strand8_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:strand7_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:strand6_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:bunstrand1_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:strand5_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:strand4_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:strand3_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:strand2_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:gloves_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: 0.6694536, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:arms_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:backstraps_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:buttons_back_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:earings_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:hoops_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:partofthebuckle_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:metalbuckle_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:buckle_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lisse_Rig:belt_low
+      parentName: Lisse_Rig:LowPoly_grp
+      position: {x: -0, y: -8.881784e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
