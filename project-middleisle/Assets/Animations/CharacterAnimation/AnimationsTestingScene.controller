@@ -8,7 +8,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Run To Stop
-  m_Speed: 1.4
+  m_Speed: 1.2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -2389199605473511497}
@@ -23,7 +23,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 1827226128182048838, guid: e73a88a0bea44624889039156b22a1b2,
+  m_Motion: {fileID: 1827226128182048838, guid: 0d883e102e7447140ad2378546174833,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -295,9 +295,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.1727499
+  m_TransitionDuration: 0.1980085
   m_TransitionOffset: 0
-  m_ExitTime: 0.83089346
+  m_ExitTime: 0.80563486
   m_HasExitTime: 1
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
@@ -601,7 +601,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 1827226128182048838, guid: 5afe864b24cde1842bd058e1e05ad974,
+  m_Motion: {fileID: 1827226128182048838, guid: dcf966987a8a1034387a239668abf06e,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
