@@ -16,9 +16,7 @@ ScriptedImporter:
     graphDescIndex: 0
     generateAllOutputs: 0
     generateMipMaps: 1
-    preset: " <sbspreset pkgurl=\"pkg://wood_trim_test\" label=\"\" >\n  <presetinput
-      identifier=\"$outputsize\" uid=\"2380995246\" type=\"8\" value=\"9,9\" />\n
-      </sbspreset>\n"
+    preset: " <sbspreset pkgurl=\"pkg://wood_trim_test\" label=\"\" >\n </sbspreset>\n"
     shaderName: HDRP/LitTessellation
     materialProperties:
       shader: {fileID: 4800000, guid: 756bac9090102564582875f4c7e30202, type: 3}
@@ -123,7 +121,7 @@ ScriptedImporter:
       - name: _AORemapMax
         float: 1
       - name: _AORemapMin
-        float: 0
+        float: 1
       - name: _ATDistance
         float: 1
       - name: _AddPrecomputedVelocity
@@ -255,7 +253,7 @@ ScriptedImporter:
       - name: _MaterialID
         float: 1
       - name: _Metallic
-        float: 1
+        float: 0
       - name: _NormalMapSpace
         float: 0
       - name: _NormalScale
