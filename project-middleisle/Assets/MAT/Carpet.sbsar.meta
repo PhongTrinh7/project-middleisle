@@ -16,7 +16,8 @@ ScriptedImporter:
     graphDescIndex: 0
     generateAllOutputs: 1
     generateMipMaps: 1
-    preset: " <sbspreset pkgurl=\"pkg://Carpet\" label=\"\" >\n </sbspreset>\n"
+    preset: " <sbspreset pkgurl=\"pkg://Carpet\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"1887539027\" type=\"8\" value=\"11,11\" />\n </sbspreset>\n"
     shaderName: HDRP/LitTessellation
     materialProperties:
       shader: {fileID: 4800000, guid: 756bac9090102564582875f4c7e30202, type: 3}
@@ -34,7 +35,7 @@ ScriptedImporter:
       - name: _BaseColorMap
         texture: {fileID: 8820539725198098447, guid: c2f7ba9e51c0deb44bf52971aff0ecc0,
           type: 3}
-        scale: {x: 2, y: 2}
+        scale: {x: 5, y: 5}
         offset: {x: 0, y: 0}
       - name: _BentNormalMap
         texture: {instanceID: 0}
@@ -240,7 +241,7 @@ ScriptedImporter:
       - name: _HeightTessCenter
         float: 0.5
       - name: _InvTilingScale
-        float: 0.5
+        float: 0.2
       - name: _Ior
         float: 1
       - name: _IridescenceMask
@@ -373,11 +374,11 @@ ScriptedImporter:
         float: 1
       colors:
       - name: _BaseColor
-        color: {r: 1, g: 1, b: 1, a: 1}
+        color: {r: 0.9245283, g: 0.78041697, b: 0.745728, a: 1}
       - name: _BaseColorMap_MipInfo
         color: {r: 0, g: 0, b: 0, a: 0}
       - name: _Color
-        color: {r: 1, g: 1, b: 1, a: 1}
+        color: {r: 0.9245283, g: 0.78041697, b: 0.74572796, a: 1}
       - name: _DiffusionProfileAsset
         color: {r: 0, g: 0, b: 0, a: 0}
       - name: _DoubleSidedConstants
@@ -548,8 +549,8 @@ ScriptedImporter:
     - label: Default
       bOverride: 0
       bLockRatio: 1
-      textureWidth: 256
-      textureHeight: 256
+      textureWidth: 2048
+      textureHeight: 2048
       textureFormatMode: 0
       normalCompressed: 1
       bGenerateOnLoad: 1
