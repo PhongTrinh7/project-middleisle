@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 460065239813497420}
   - component: {fileID: 3810563839077781237}
   - component: {fileID: 4868078416703237496}
+  - component: {fileID: 5755389694346556562}
   m_Layer: 0
   m_Name: UnityNativePrefab_SquarePanter_Medium
   m_TagString: Untagged
@@ -80,3 +81,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &5755389694346556562
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4770388438681211524}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 1.42, z: 3.000001}
+  m_Center: {x: -1.5, y: 0.3, z: 1.5000005}
