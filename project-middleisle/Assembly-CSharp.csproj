@@ -57,6 +57,7 @@
   <ItemGroup>
      <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
      <Compile Include="Assets\IsoMove.cs" />
+     <Compile Include="Assets\MAT\ShaderGraph\Dithering.cs" />
      <Compile Include="Assets\Scripts\AlertBacking.cs" />
      <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\Scripts\Dialogue.cs" />
