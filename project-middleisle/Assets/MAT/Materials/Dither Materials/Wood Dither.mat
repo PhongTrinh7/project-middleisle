@@ -31,11 +31,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_A1C1EB04:
-        m_Texture: {fileID: 2800000, guid: ffce880ddaaee2941975669920d15743, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _AlbedoTexture:
-        m_Texture: {fileID: 2800000, guid: 1aa7eaa34b1a78e4290d020cc0946565, type: 3}
+        m_Texture: {fileID: 2112483833927762853, guid: 07a8f5f10b39a0a429e484bd33cf1259,
+          type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _AnisotropyMap:
@@ -133,7 +134,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_22417704: 1
-    - Vector1_23340DAA: 4
+    - Vector1_23340DAA: 2
     - Vector1_79BEBB25: 1
     - Vector1_D36D099C: 1
     - _AORemapMax: 1
@@ -258,9 +259,9 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - Color_69258ADD: {r: 0, g: 0, b: 0, a: 0}
+    - Color_69258ADD: {r: 1, g: 1, b: 1, a: 0}
     - Vector2_64A3218B: {r: 2, g: 2, b: 0, a: 0}
-    - _AlbedoColor: {r: 1, g: 1, b: 1, a: 1}
+    - _AlbedoColor: {r: 0.7176471, g: 0.7176471, b: 0.7176471, a: 1}
     - _BaseColor: {r: 1, g: 0.7760033, b: 0, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 0.7760033, b: 0, a: 1}
