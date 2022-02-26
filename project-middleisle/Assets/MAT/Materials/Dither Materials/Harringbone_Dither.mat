@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Harringbone
+  m_Name: Harringbone_Dither
   m_Shader: {fileID: -6465566751694194690, guid: f073f1739194d154595b079bdfce8316,
     type: 3}
   m_ShaderKeywords: _NORMALMAP_TANGENT_SPACE
@@ -283,6 +283,7 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
+    - Color_69258ADD: {r: 0, g: 0, b: 0, a: 0}
     - Vector2_64A3218B: {r: 2, g: 2, b: 0, a: 0}
     - _AlbedoColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
