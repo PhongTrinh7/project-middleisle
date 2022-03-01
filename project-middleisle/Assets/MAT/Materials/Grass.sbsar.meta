@@ -257,7 +257,7 @@ ScriptedImporter:
       - name: _NormalMapSpace
         float: 0
       - name: _NormalScale
-        float: 1
+        float: 4.05
       - name: _PPDLodThreshold
         float: 5
       - name: _PPDMaxSamples
@@ -374,11 +374,11 @@ ScriptedImporter:
         float: 1
       colors:
       - name: _BaseColor
-        color: {r: 0.741545, g: 0.754717, b: 0.6229975, a: 1}
+        color: {r: 0.56535405, g: 0.5754717, b: 0.46417764, a: 1}
       - name: _BaseColorMap_MipInfo
         color: {r: 0, g: 0, b: 0, a: 0}
       - name: _Color
-        color: {r: 0.741545, g: 0.75471693, b: 0.62299746, a: 1}
+        color: {r: 0.56535405, g: 0.57547164, b: 0.46417755, a: 1}
       - name: _DiffusionProfileAsset
         color: {r: 0, g: 0, b: 0, a: 0}
       - name: _DoubleSidedConstants
@@ -1363,7 +1363,7 @@ ScriptedImporter:
       - name: _NormalMapSpace
         float: 0
       - name: _NormalScale
-        float: 1
+        float: 4.24
       - name: _PPDLodThreshold
         float: 5
       - name: _PPDMaxSamples
@@ -1480,11 +1480,11 @@ ScriptedImporter:
         float: 1
       colors:
       - name: _BaseColor
-        color: {r: 0.741545, g: 0.754717, b: 0.6229975, a: 1}
+        color: {r: 0.57060903, g: 0.5849056, b: 0.42764327, a: 1}
       - name: _BaseColorMap_MipInfo
         color: {r: 0, g: 0, b: 0, a: 0}
       - name: _Color
-        color: {r: 0.741545, g: 0.75471693, b: 0.62299746, a: 1}
+        color: {r: 0.57060903, g: 0.5849056, b: 0.42764324, a: 1}
       - name: _DiffusionProfileAsset
         color: {r: 0, g: 0, b: 0, a: 0}
       - name: _DoubleSidedConstants

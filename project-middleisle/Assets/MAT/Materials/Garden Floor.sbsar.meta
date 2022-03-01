@@ -258,7 +258,7 @@ ScriptedImporter:
       - name: _NormalMapSpace
         float: 0
       - name: _NormalScale
-        float: 1.92
+        float: 3.32
       - name: _PPDLodThreshold
         float: 5
       - name: _PPDMaxSamples
