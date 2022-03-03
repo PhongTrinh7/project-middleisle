@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!65 &2296875169401761582
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1378464452455868182}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.49999985, y: 2.198255, z: 0.5011111}
-  m_Center: {x: 0.24999999, y: 1.6557574, z: 0.24930711}
 --- !u!65 &2296875169752989559
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26,6 +13,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.49999985, y: 3.0021808, z: 0.5011111}
   m_Center: {x: 0.2487516, y: 1.5010904, z: 0.25055555}
+--- !u!65 &2296875169401761582
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378464452455868182}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.49999985, y: 2.198255, z: 0.5011111}
+  m_Center: {x: 0.24999999, y: 1.6557574, z: 0.24930711}
 --- !u!65 &2296875171110537977
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -229,7 +229,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 225537b3153fbef418c093a42b8d93a8, type: 2}
+      objectReference: {fileID: 2100000, guid: 04325089d1771684dbc4d80e475b0381, type: 2}
     - target: {fileID: -7511558181221131132, guid: 3f1652ee5d6117548accf27e75a4dc2b,
         type: 3}
       propertyPath: m_Materials.Array.data[1]

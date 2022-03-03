@@ -8,11 +8,17 @@ public class Dithering : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        other.GetComponent<Renderer>().material.SetFloat("_Opacity", ditherOpacity);
+        if (other.GetComponent<Renderer>() != null)
+        {
+            other.GetComponent<Renderer>().material.SetFloat("_Opacity", ditherOpacity);
+        }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        other.GetComponent<Renderer>().material.SetFloat("_Opacity", 1);
+        if (other.GetComponent<Renderer>() != null)
+        {
+            other.GetComponent<Renderer>().material.SetFloat("_Opacity", 1);
+        }
     }
 }
