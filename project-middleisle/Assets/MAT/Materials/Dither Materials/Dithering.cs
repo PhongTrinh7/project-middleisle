@@ -5,8 +5,10 @@ using UnityEngine;
 public class Dithering : MonoBehaviour
 {
     public float ditherOpacity = 0.75f;
+    public float opacityAdjust = 5f;
+    
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if (other.GetComponent<Renderer>() != null)
         {
@@ -18,7 +20,8 @@ public class Dithering : MonoBehaviour
     {
         if (other.GetComponent<Renderer>() != null)
         {
-            other.GetComponent<Renderer>().material.SetFloat("_Opacity", 1);
+            other.GetComponent<Renderer>().material.SetFloat("_Opacity", 1f);
         }
     }
 }
+

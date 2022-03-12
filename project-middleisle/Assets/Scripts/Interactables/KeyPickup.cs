@@ -23,7 +23,7 @@ public class KeyPickup : Interactable
 
         if (wasPickedUp)
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
             GameManage.gamemanager.pickedupObjects.Add(name);
         }
     }

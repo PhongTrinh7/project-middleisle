@@ -3,6 +3,7 @@
 public class ItemPickup : Interactable
 {
     public Item item;
+    public DoorController door;
 
     public override void Interact()
     {
@@ -12,6 +13,10 @@ public class ItemPickup : Interactable
     void ItemPickUp ()
     {
         AudioManager.Audio.Play("Pickup");
+        if (item.IsKey == true)
+        {
+            door.locked = false;
+        }
         Debug.Log("Picked Up " + item.name);
         GameManage.gamemanager.pickup(item.name);
         bool wasPickedUp = Inventory.instance.Add(item);
