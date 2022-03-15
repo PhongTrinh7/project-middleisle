@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: b907659aa0f2b9e41872464a885f443a
+guid: 2151534a869752c4a9bb390f4c0c6025
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
   - first:
-      74: -6237727538395571687
-    second: Book rig|Book Action
+      74: -4483682338611390454
+    second: Book rig|Book only Action
   - first:
       74: -8169419343759815219
     second: Book rig|Book Poses
@@ -38,8 +38,8 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Book rig|Book Action
-      takeName: Book rig|Book Action
+      name: Book rig|Book only Action
+      takeName: Book rig|Book only Action
       internalID: 0
       firstFrame: 0
       lastFrame: 206
@@ -50,35 +50,6 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Book rig|Book Poses
-      takeName: Book rig|Book Poses
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 2
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
