@@ -19,6 +19,7 @@ public class DoorController : Interactable
             GameManage.gamemanager.Locked();
             AudioManager.Audio.Play("Doorlocked");
         }
+        PlayerMove.character.animator.SetTrigger("Pickup");
     }
 
     public void CloseDoor()

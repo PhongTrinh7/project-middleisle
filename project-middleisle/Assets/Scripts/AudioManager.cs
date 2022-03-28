@@ -10,6 +10,7 @@ public class AudioManager : MonoBehaviour
 
     public static AudioManager Audio;
     public AudioMixerGroup AudioMixer;
+    public bool Ambiance;
 
     void Awake()
     {

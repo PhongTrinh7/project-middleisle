@@ -25,6 +25,9 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
         character = this;
         animator = GetComponent<Animator>();
         controller = GetComponent<CharacterController>();
+        AudioManager.Audio.Play("InteriorAmbiance");
+        AudioManager.Audio.Ambiance = true;
+        Debug.Log("PLAYInterior");
     }
 
     #region Movement

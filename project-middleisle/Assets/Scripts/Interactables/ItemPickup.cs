@@ -25,6 +25,7 @@ public class ItemPickup : Interactable
         {
             gameObject.SetActive(false);
             GameManage.gamemanager.pickedupObjects.Add(name);
+            PlayerMove.character.animator.SetTrigger("Pickup");
         }
     }
 }
