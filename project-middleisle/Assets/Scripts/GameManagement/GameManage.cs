@@ -13,6 +13,7 @@ public class GameManage : MonoBehaviour
     {
         SPLASH,
         MAINMENU,
+        INTROCUTSCENE,
         INGAME
     }
     public GameState state;
@@ -24,6 +25,7 @@ public class GameManage : MonoBehaviour
     public GameObject transition;
     public GameObject loadButton;
     public GameObject dialoguePopUp;
+    public GameObject IntroCutscene;
 
     public GameObject player;
     public List<string> pickedupObjects = new List<string>();
@@ -83,16 +85,27 @@ public class GameManage : MonoBehaviour
                 GetComponent<PlayerInput>().enabled = false;
             }
         }
+
+        if (state == GameState.INTROCUTSCENE)
+        {
+            if (context.performed)
+            {
+                GetComponent<PlayerInput>().enabled = false;
+                StartCoroutine(StartGameCoroutine());
+                Debug.Log("Starting Game");
+            }
+        }
     }
 
     public void StartGame()
     {
-        StartCoroutine(StartGameCoroutine());
+        StartCoroutine(StateTransition(GameState.INTROCUTSCENE, mainMenu, IntroCutscene));
+        GetComponent<PlayerInput>().enabled = true;
     }
 
     private IEnumerator StartGameCoroutine()
     {
-        StartCoroutine(StateTransition(GameState.INGAME, mainMenu, null));
+        StartCoroutine(StateTransition(GameState.INGAME, IntroCutscene, null));
         player.SetActive(true);
         yield return null;
     }
