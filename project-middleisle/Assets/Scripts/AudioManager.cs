@@ -59,4 +59,10 @@ public class AudioManager : MonoBehaviour
         Sound s = sounds[UnityEngine.Random.Range(0, 5)];
         s.source.Play();
     }
+
+    public void WalkingSoft()
+    {
+        Sound s = sounds[UnityEngine.Random.Range(18, 22)];
+        s.source.Play();
+    }
 }

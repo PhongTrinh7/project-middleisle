@@ -17,6 +17,7 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
     public InventoryUI inventory;
     public GameObject dialoguePopUp;
     public GameObject ingameUI;
+    public bool SoftHard = true;
 
     public static PlayerMove character;
 
@@ -181,7 +182,14 @@ public class PlayerMove : MonoBehaviour, IsoMove.IPlayerActions
 
     private void Step()
     {
-        AudioManager.Audio.Walking();
+        if (SoftHard == false)
+        {
+            AudioManager.Audio.WalkingSoft();
+        }
+        else
+        {
+            AudioManager.Audio.Walking();
+        }
     }
     public void SavePlayer()
     {

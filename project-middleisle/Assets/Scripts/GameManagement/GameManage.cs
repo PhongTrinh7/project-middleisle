@@ -193,6 +193,7 @@ public class GameManage : MonoBehaviour
         if (dialoguePopUp.activeSelf == false)
         {
             ingameUI.SetActive(!ingameUI.activeSelf);
+            AudioManager.Audio.Play("PauseGame");
             PlayerMove.character._direction = Vector3.zero;
 //            if (ingameUI.activeSelf == true)
 //            {
@@ -255,6 +256,7 @@ public class GameManage : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        AudioManager.Audio.Play("ExitGame");
     }
 
     public void GMQuitGame()

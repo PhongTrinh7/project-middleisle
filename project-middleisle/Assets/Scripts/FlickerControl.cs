@@ -7,6 +7,7 @@ public class FlickerControl : MonoBehaviour
     public bool isFlickering = false;
     public float timeDelay;
     public float flickerFrequency = 0.03f;
+    public GameObject FlickerSound;
 
     void Update()
     {
@@ -20,9 +21,11 @@ public class FlickerControl : MonoBehaviour
     {
         isFlickering = true;
         this.gameObject.GetComponent<Light>().enabled = false;
+        FlickerSound.SetActive(!FlickerSound.activeSelf);
         timeDelay = Random.Range(0.01f, flickerFrequency);
         yield return new WaitForSeconds(timeDelay);
         this.gameObject.GetComponent<Light>().enabled = true;
+        FlickerSound.SetActive(!FlickerSound.activeSelf);
         timeDelay = Random.Range(0.01f, flickerFrequency);
         yield return new WaitForSeconds(timeDelay);
         isFlickering = false;

@@ -44,6 +44,7 @@ public class DialogueManager : MonoBehaviour
 
         inDialogue = true;
         dialoguePopUp.SetActive(true);
+        AudioManager.Audio.Play("DialogueOpen");
         advanceDialogueButton.interactable = false;
         advanceDialoguekey = false;
         PlayerMove.character._direction = Vector3.zero;
@@ -102,6 +103,7 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = "";
         inDialogue = false;
         dialoguePopUp.SetActive(false);
+        AudioManager.Audio.Play("DialogueClose");
 
         leftPortrait.gameObject.SetActive(false);
         rightPortrait.gameObject.SetActive(false);
