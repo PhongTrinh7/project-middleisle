@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Grand Assembly Hall Key
   m_EditorClassIdentifier: 
   name: Grand Assembly Hall Key
-  icon: {fileID: 21300000, guid: 368227fce8a2ee347849f00e7a8aec99, type: 3}
+  icon: {fileID: 21300000, guid: e01218fc432fb1d46bd77daa719e2b54, type: 3}
   description1: Key 1
   description2: 'Found In: Committee Room'
   description3: 'Unlocks: Assembly Hall Grand'
-  description4: Empty Description
+  description4: 
   IsKey: 1

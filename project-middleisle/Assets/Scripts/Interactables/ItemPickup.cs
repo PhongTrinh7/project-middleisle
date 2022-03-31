@@ -4,6 +4,8 @@ public class ItemPickup : Interactable
 {
     public Item item;
     public DoorController door;
+    public bool IsHybrid;
+    public Curio TargetCurio;
 
     public override void Interact()
     {
@@ -26,6 +28,11 @@ public class ItemPickup : Interactable
             gameObject.SetActive(false);
             GameManage.gamemanager.pickedupObjects.Add(name);
             PlayerMove.character.animator.SetTrigger("Pickup");
+
+            if(IsHybrid == true)
+            {
+                TargetCurio.Interact();
+            }
         }
     }
 }
