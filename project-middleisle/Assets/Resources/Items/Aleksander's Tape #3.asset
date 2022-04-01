@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4fa9566289e22e4a82d2dad48178112, type: 3}
+  m_Name: Aleksander's Tape #3
+  m_EditorClassIdentifier: 
+  name: Aleksander's Tape #3
+  icon: {fileID: 21300000, guid: bc6538f6fc12a9641a7c4812c322ca9f, type: 3}
+  description1: "\u201CShit! Lind\u2019s office records are locked behind a code\u2026
+    probably commissioned special. Nordic Runes\u2026 of course. The man is as predictable
+    as he is paranoid. I think I might know\u2026 but there\u2019s no way I can get
+    to it now\u2026 Okay, to anyone who finds this, My name is Aleksander Ekdahl.
+    I\u2019m a journalist and a publisher, and I know that Mikael Lind is hiding
+    something important behind this door. The solution will be in the Gallery. It
+    has to be. Find it. If you know me, then you know where I\u2019ll be when you
+    have it.\u201D "
+  description2: 
+  description3: 
+  description4: 
+  IsKey: 0

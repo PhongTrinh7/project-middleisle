@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87c8ee5f0e2a9ec41bf107d7d2333771, type: 3}
+  m_Name: End1
+  m_EditorClassIdentifier: 
+  speakerName: LISSE
+  words: "It\u2019s here\u2026 it\u2019s all right here\u2026 "
+  leftSpeaker: {fileID: 0}
+  rightSpeaker: {fileID: 21300000, guid: 46b4f199f55da1a4993a6642807e66a4, type: 3}
+  left: 0
+  voice: {fileID: 0}
+  intermission: 0

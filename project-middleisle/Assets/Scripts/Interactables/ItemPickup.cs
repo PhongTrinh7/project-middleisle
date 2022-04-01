@@ -4,7 +4,7 @@ public class ItemPickup : Interactable
 {
     public Item item;
     public DoorController door;
-    public bool IsHybrid;
+    public bool IsHybrid = false;
     public Curio TargetCurio;
 
     public override void Interact()

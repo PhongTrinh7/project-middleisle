@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87c8ee5f0e2a9ec41bf107d7d2333771, type: 3}
+  m_Name: Tape3Dialogue6
+  m_EditorClassIdentifier: 
+  speakerName: ALEKSANDER
+  words: "My name is Aleksander Ekdahl. I\u2019m a journalist and a publisher, and
+    I know that Mikael Lind is hiding something important behind this door.  "
+  leftSpeaker: {fileID: 0}
+  rightSpeaker: {fileID: 0}
+  left: 0
+  voice: {fileID: 0}
+  intermission: 0
