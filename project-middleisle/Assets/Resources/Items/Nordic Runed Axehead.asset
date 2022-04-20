@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Nordic Runed Axehead
   m_EditorClassIdentifier: 
   name: Nordic Runed Axehead
-  icon: {fileID: 21300000, guid: 368227fce8a2ee347849f00e7a8aec99, type: 3}
+  icon: {fileID: 21300000, guid: 705c886bea5497340946d58aa3152b3f, type: 3}
   description1: "From Aleksander\u2019s Notes:"
   description2: 'An ancient Axehead inscribed with Nordic Runes, likely left on Brinnestadt
     by a raiding party in the fourteenth century. '

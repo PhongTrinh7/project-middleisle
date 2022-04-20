@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Assembly Hall South Key
   m_EditorClassIdentifier: 
   name: Assembly Hall South Key
-  icon: {fileID: 21300000, guid: e01218fc432fb1d46bd77daa719e2b54, type: 3}
+  icon: {fileID: 21300000, guid: 049f0ceb7bf28a645b5e54ccac310ea6, type: 3}
   description1: Key 3
   description2: 'Found In: Locked Office'
   description3: 'Unlocks: Assembly Hall Side'

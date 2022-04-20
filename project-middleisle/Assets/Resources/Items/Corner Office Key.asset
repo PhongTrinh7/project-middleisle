@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Corner Office Key
   m_EditorClassIdentifier: 
   name: Corner Office Key
-  icon: {fileID: 21300000, guid: e01218fc432fb1d46bd77daa719e2b54, type: 3}
+  icon: {fileID: 21300000, guid: 7385360510d38534698ed8ce8976f129, type: 3}
   description1: Key 2
   description2: 'Found In: Assembly Hall'
   description3: 'Unlocks: Locked Office'
