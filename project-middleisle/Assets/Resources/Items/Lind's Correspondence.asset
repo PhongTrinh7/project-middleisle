@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lind's Correspondence
   m_EditorClassIdentifier: 
   name: Lind's Correspondence
-  icon: {fileID: 21300000, guid: 368227fce8a2ee347849f00e7a8aec99, type: 3}
+  icon: {fileID: 21300000, guid: 3a40a433a402ed54e9ec469268b3c421, type: 3}
   description1: "Lind\u2019s Communications with the CIA "
   description2: "It\u2019s all right here: Dozens of pages of documents officially
     acknowledging Lind\u2019s coup as proxy for American interests. "
